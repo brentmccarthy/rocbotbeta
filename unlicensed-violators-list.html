@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<!-- Mirrored from roc.az.gov/unlicensed-violators-list by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Nov 2018 00:42:31 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="apple-touch-icon-precomposed" href="sites/default/files/apple-touch-icon-120x120-precomposed.png" type="image/png" />
+<link rel="apple-touch-icon" href="sites/default/files/apple-touch-icon.png" type="image/png" />
+<link rel="shortlink" href="node/3587.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="unlicensed-violators-list.html" />
+<link rel="shortcut icon" href="sites/default/files/roc.ico" type="image/vnd.microsoft.icon" />
+<!-- barracuda domain verification --> <meta name="barracuda-site-verification" content="b89bdb2bfb4710e23dc39c3f13205099" />
+  <title>Unlicensed Violators List | Arizona Registrar of Contractors</title>
+  <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_vfcc4mhqcxp3ETjX6MxFrJzWxE1M1gQ7TOXV4Gls__E.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_XyELJoL1qsdMTQdFrViNSLevfcrzPM23hhX_NrpUCh0.css" media="all" />
+<style>.media-list-thumbnails .form-type-checkbox{top:0;}
+.view-media-default iframe{width:200px;height:140px;}
+</style>
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_Ijii_GD5j5AGAMxG616MLU99fkje6JiAaTFvhF5xBFw.css" media="all" />
+<style>.system-themes-list-disabled,#system-themes-admin-form{display:none;}
+</style>
+<link type="text/css" rel="stylesheet" href="../cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_6Ex8VzEujhzxDT2kJMBgRV4vgbICW_VB08y0C_M9lWY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_0M9OMAIvIrYnoZmSUPWoSe7fORCUHLS06uV0Wdin2YU.css" media="(min-width:600px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_5sgSMoi_cQ9RggDu0_wpq60CnzL7GR-FdJQo_MUSvsQ.css" media="(min-width:768px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_GclIRYO9mLEEA2Qzh1vwOcQ8crXFJdXzW9nffKwPrD0.css" media="(min-width:920px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_-PlYobE30WJJQRJ9ZP8YW3SYGAB6sq0yluSR74yE1Po.css" media="(min-width:1240px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css_injector/css_injector_221d4b.css?pixf2w" media="print" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css_injector/css_injector_341d4b.css?pixf2w" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='sites/all/modules/contrib/jquery_update/replace/jquery/1.9/jquery.min.js'>\x3C/script>")</script>
+<script src="sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="sites/default/files/js/js_BLxotNs2yt7YGlf9QRI9L9AMfdnkQfnN-_ADBTW3SiE.js"></script>
+<script src="../cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="sites/default/files/js/js_2tPYVYNuRH41x_ro37hwNKEIWlfMQ5O_mAH5OZXY3vU.js"></script>
+<script src="sites/default/files/js/js_guwUcY6e6nFt2IHol5E8nfWL8ELF_a4vFjX0UT-ggIk.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","../www.google-analytics.com/analytics.js","ga");ga("create", "UA-50050513-30", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="sites/default/files/js/js_L-4zh0rdRrw4X24hGi2r-aXx00ANntaIzvnKRahcVuI.js"></script>
+<script src="sites/default/files/js/js_p459evxXxPUX-E8tD80FggANdcWyn8NzT2Q_g2IJ4oI.js"></script>
+<script src="sites/default/files/js/js_v89jUZ_l2LR8NzEXW2kWQ6me12tC-jCbLw8O3mpuQ2A.js"></script>
+<script src="sites/default/files/js_injector/js_injector_181d4b.js?pixf2w"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"az_branded","theme_token":"HtQyCcT6rHG2WGfz9exqBjYpFb8Pvv2gRKZjrx9JbuQ","jquery_version":"1.9","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/default\/files\/js_injector\/js_injector_14.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.9.1\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.2.0\/js\/bootstrap.min.js":1,"sites\/all\/modules\/contrib\/roc_salesforce\/cSearch.js":1,"sites\/all\/modules\/custom\/wysiwyg_accordion\/wysiwyg_accordion.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/custom\/menu_block_placement\/modules\/mbp_defaults\/mbp_defaults.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"https:\/\/static.az.gov\/sliver\/sliver.js":1,"sites\/all\/themes\/az_gov\/js\/global.js":1,"sites\/all\/themes\/az_gov\/js\/accessibility.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/default\/files\/js_injector\/js_injector_18.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/roc_salesforce\/animate.css":1,"sites\/all\/modules\/custom\/wysiwyg_accordion\/wysiwyg_accordion.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"0":1,"1":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"2":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.2.0\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/3.2.0\/overrides.min.css":1,"sites\/all\/themes\/az_gov\/css\/contextual.css":1,"sites\/all\/themes\/az_branded\/css\/colors.css":1,"sites\/all\/themes\/az_gov\/css\/reset.css":1,"sites\/all\/themes\/az_gov\/css\/global.css":1,"sites\/all\/themes\/az_gov\/css\/nodes.css":1,"sites\/all\/themes\/az_branded\/css\/branded-global.css":1,"sites\/all\/themes\/az_branded\/css\/branded-nodes.css":1,"sites\/all\/themes\/az_gov\/css\/min-600.css":1,"sites\/all\/themes\/az_gov\/css\/min-768.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-768.css":1,"sites\/all\/themes\/az_gov\/css\/min-920.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-720.css":1,"sites\/all\/themes\/az_gov\/css\/min-1240.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-1240.css":1,"sites\/default\/files\/css_injector\/css_injector_22.css":1,"sites\/default\/files\/css_injector\/css_injector_34.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"(azroc\\.gov)|(roc\\.az\\.gov)","extInclude":"\\.pdf","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"urlIsAjaxTrusted":{"\/unlicensed-violators-list":true},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-3587 node-type-basic-page">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page">
+    <div id="zone-users" class="zone">
+
+            <div class="region region-user-first">
+    
+
+<div id="block-feature-sliver-sliver"  class="block block-feature-sliver" aria-label="block-feature-sliver-sliver">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    
+  </div>
+</div>
+</div>
+  </div>
+    
+    
+  </div>
+<div id="zone-branding" class="zone" role="navigation" aria-labelledby="zone-branding">
+    <div id="region-branding" class="clearfix">
+              <div class="site-details clearfix">
+                      <a class="logo" href="index.html">
+              <img src="sites/default/files/rocseal.png"
+                   alt="Arizona Registrar of Contractors Logo">
+            </a>
+          
+                      <div class="site-info">
+                              <div class="site-name">
+                    <a  href="index.html">
+                      Arizona Registrar of Contractors                    </a>
+                </div>
+                                            <div class="site-slogan">
+                  Protect the health, safety and welfare of the public through a regulatory system designed to promote quality construction by Arizona contractors.                </div>
+                          </div>
+                  </div>
+                      <div class="region region-branding">
+    
+
+<div id="block-search-form"  class="block block-search" aria-label="block-search-form">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <form class="form-search content-search" action="https://roc.az.gov/unlicensed-violators-list" method="post" id="search-block-form" accept-charset="UTF-8"><div><div title = "Search">
+        <div class="input-group"><input title="Search" placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary" aria-label="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="false" aria-label="Click to search"></span></button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-V4uAh5k_er2rxhVT80hLY8IToyIgYj9jshmjh1kuc1U" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+  </div>
+</div>
+</div>
+  </div>
+          </div>
+    <a href="#" id="mobile-menu">
+    </a>
+            <div class="region region-menu">
+    
+
+<section id="block-system-main-menu"  class="block block-system block-menu" aria-label="Main menu">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Main menu</h2>
+    
+  <div class="content" >
+    <ul class="menu nav"><li class="first leaf menu-li-home" aria-label="Home"><a href="index.html" title="Home">Home</a></li>
+<li class="expanded menu-li-contractor-resources" aria-label="Contractor Resources"><a href="contractor-resources.html" title="">Contractor Resources</a><ul class="menu nav"><li class="first expanded menu-li-licensing" aria-label="Licensing"><a href="licensing.html" title="">Licensing</a><ul class="menu nav"><li class="first leaf menu-li-applying-for-a-license?" aria-label="Applying for a License?"><a href="applying-license.html" title="">Applying for a License?</a></li>
+<li class="leaf menu-li-service-members-and-veterans" aria-label="Service Members and Veterans"><a href="contractor-resources/licensing/service-members-and-veterans.html">Service Members and Veterans</a></li>
+<li class="leaf menu-li-license-classifications" aria-label="License Classifications"><a href="license-classifications.html" title="">License Classifications</a></li>
+<li class="leaf menu-li-maintenance-of-account" aria-label="Maintenance of Account"><a href="https://rocrenewal.az.gov/" title="">Maintenance of Account</a></li>
+<li class="leaf menu-li-name-availability" aria-label="Name Availability"><a href="name-availability.html" title="">Name Availability</a></li>
+<li class="leaf menu-li-contractor-background-checks" aria-label="Contractor Background Checks"><a href="background-checks.html" title="">Contractor Background Checks</a></li>
+<li class="leaf menu-li-posting-list" aria-label="Posting List"><a href="posting-list.html" title="">Posting List</a></li>
+<li class="leaf menu-li-bond-information" aria-label="Bond Information"><a href="bond-information.html" title="">Bond Information</a></li>
+<li class="leaf menu-li-timeframes" aria-label="Timeframes"><a href="timeframes.html" title="">Timeframes</a></li>
+<li class="leaf menu-li-license-fees" aria-label="License Fees"><a href="node/license-fees.html" title="">License Fees</a></li>
+<li class="last leaf menu-li-testing-information" aria-label="Testing Information"><a href="applying-license46c0.html?targetclass=answer-question-examinations#question-examinations" title="">Testing Information</a></li>
+</ul></li>
+<li class="leaf menu-li-renew-license-online" aria-label="Renew License Online"><a href="https://rocrenewal.az.gov/" title="">Renew License Online</a></li>
+<li class="expanded menu-li-complaints-and-investigations" aria-label="Complaints and Investigations"><a href="complaints-and-investigations.html" title="">Complaints and Investigations</a><ul class="menu nav"><li class="first leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-considering-filing?" aria-label="Considering Filing?"><a href="considering-filing.html" title="">Considering Filing?</a></li>
+<li class="leaf menu-li-file-a-complaint" aria-label="File a Complaint"><a href="file-complaint.html" title="">File a Complaint</a></li>
+<li class="leaf menu-li-complaint-process" aria-label="Complaint Process"><a href="node/complaint-process-investigation.html" title="">Complaint Process</a></li>
+<li class="leaf menu-li-legal" aria-label="Legal"><a href="legal.html" title="">Legal</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="">Recovery Fund</a></li>
+<li class="last leaf menu-li-unlicensed-contracting-tips-hotline" aria-label="Unlicensed Contracting Tips Hotline"><a href="unlicensed-contracting-tips-hotline.html" title="">Unlicensed Contracting Tips Hotline</a></li>
+</ul></li>
+<li class="leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+<li class="leaf menu-li-forms" aria-label="Forms"><a href="forms.html">Forms</a></li>
+<li class="leaf menu-li-contracts-and-miscellaneous-info" aria-label="Contracts and Miscellaneous Info"><a href="node/contracts.html" title="">Contracts and Miscellaneous Info</a></li>
+<li class="leaf menu-li-bond-information" aria-label="Bond Information"><a href="bond-information.html" title="">Bond Information</a></li>
+<li class="leaf menu-li-most-wanted-and-unlicensed-violations" aria-label="Most Wanted and Unlicensed Violations"><a href="roc-wanted.html" title="">Most Wanted and Unlicensed Violations</a></li>
+<li class="last leaf menu-li-rules-and-policies" aria-label="Rules and Policies"><a href="rules.html" title="">Rules and Policies</a></li>
+</ul></li>
+<li class="expanded menu-li-consumer-resources" aria-label="Consumer Resources"><a href="consumer-resources.html" title="">Consumer Resources</a><ul class="menu nav"><li class="first expanded menu-li-complaints-and-investigations" aria-label="Complaints and Investigations"><a href="complaints-and-investigations.html" title="">Complaints and Investigations</a><ul class="menu nav"><li class="first leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-considering-filing?" aria-label="Considering Filing?"><a href="considering-filing.html" title="">Considering Filing?</a></li>
+<li class="leaf menu-li-file-a-complaint" aria-label="File a Complaint"><a href="file-complaint.html" title="">File a Complaint</a></li>
+<li class="leaf menu-li-complaint-process" aria-label="Complaint Process"><a href="node/complaint-process-investigation.html" title="">Complaint Process</a></li>
+<li class="leaf menu-li-legal" aria-label="Legal"><a href="legal.html" title="">Legal</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="">Recovery Fund</a></li>
+<li class="last leaf menu-li-unlicensed-contracting-tips-hotline" aria-label="Unlicensed Contracting Tips Hotline"><a href="unlicensed-contracting-tips-hotline.html" title="">Unlicensed Contracting Tips Hotline</a></li>
+</ul></li>
+<li class="leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+<li class="leaf menu-li-most-wanted-and-unlicensed-violations" aria-label="Most Wanted and Unlicensed Violations"><a href="roc-wanted.html" title="">Most Wanted and Unlicensed Violations</a></li>
+<li class="leaf menu-li-forms" aria-label="Forms"><a href="forms.html" title="">Forms</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="">Recovery Fund</a></li>
+<li class="leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-minimum-elements-of-a-contract" aria-label="Minimum Elements of a Contract"><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01158.htm" title="">Minimum Elements of a Contract</a></li>
+<li class="last leaf menu-li-before-you-hire-a-contractor" aria-label="Before You Hire A Contractor"><a href="before-hire.html" title="">Before You Hire A Contractor</a></li>
+</ul></li>
+<li class="expanded menu-li-agency" aria-label="Agency"><a href="agency.html" title="">Agency</a><ul class="menu nav"><li class="first leaf menu-li-about-az-roc" aria-label="About AZ ROC"><a href="about-roc.html" title="">About AZ ROC</a></li>
+<li class="leaf menu-li-administrative-team" aria-label="Administrative Team"><a href="administrative-team.html" title="">Administrative Team</a></li>
+<li class="leaf menu-li-news-&amp;-media" aria-label="News &amp; Media"><a href="news.html" title="">News &amp; Media</a></li>
+<li class="leaf menu-li-strategic-plan-/-budget-request" aria-label="Strategic Plan / Budget Request"><a href="strategic-plan.html" title="">Strategic Plan / Budget Request</a></li>
+<li class="leaf menu-li-rules-and-policies" aria-label="Rules and Policies"><a href="rules.html" title="">Rules and Policies</a></li>
+<li class="leaf menu-li-office-locations-/-contact-us" aria-label="Office Locations / Contact Us"><a href="node/office-locations.html" title="">Office Locations / Contact Us</a></li>
+<li class="leaf menu-li-employment-opportunities" aria-label="Employment Opportunities"><a href="employment.html" title="">Employment Opportunities</a></li>
+<li class="last leaf menu-li-agency-success-stories" aria-label="Agency Success Stories"><a href="agency-success-stories.html" title="ROC Agency Success Stories">Agency Success Stories</a></li>
+</ul></li>
+<li class="last leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+</ul>
+  </div>
+</div>
+</section>
+  </div>
+    </div>
+<div id="zone-content" class="zone" role="main">
+  <a name="main-content"></a>
+
+
+  <div id="preface-group" class="clearfix">
+              </div>
+
+  
+  <div id="content-wrapper" class="clearfix">
+
+
+    
+
+    <div id="content" class=" main-region contextual-links-region ">
+      <div id="region-content" class="content">
+
+        <h1 id="page-title"  aria-label="Unlicensed Violators List" >Unlicensed Violators List</h1>
+
+        
+                  <div class="region region-content">
+    
+
+<div id="block-system-main"  class="block block-system" aria-label="block-system-main">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <div id="node-3587" class="node node-basic-page">
+  <div class="node-inner node-content">
+
+    
+    <div class="content">
+                  <div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>A person commits a Class 1 Misdemeanor by (1) advertising to perform services that require a contractor’s license, and/or (2) acting in the capacity of a contractor without a license. </p>
+
+<p>As required by A.R.S. § 32-1151.02, below is a list of persons who have been convicted of contracting without a license, or administratively adjudicated to have been contracting without a license after having been issued a civil citation. The list below shows two download options - only violations from the past two years or the full list.</p></div></div></div>          </div>
+
+    
+  </div>
+</div>
+
+  </div>
+</div>
+</div>
+
+
+<div id="block-roc-salesforce-recent"  class="block block-roc-salesforce" aria-label="block-roc-salesforce-recent">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <script src="../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<div id="msgAlert"></div>
+<h3 class="postingH3 postingH3BackBlue" style=" width: 50% !important; min-width: 200px; margin: 0 auto !important;">List of Unlicensed Violators</h3>
+
+<table style=" width: 50%; min-width: 200px; margin: 0 auto;"><tbody><tr><th width="50%">Timeframe</th><th width="50%">Download Link</th></tr>
+
+<tr><td>Last 2 Years</td><td><a href="sites/default/files/ROC_Unlicensed-Violators-List_2018-11-28.csv" target="_blank">CSV</a> (70.22 KB) | View the List Below</td></tr>
+<tr><td>Full List</td><td><a href="sites/default/files/ROC_Unlicensed-Violators-List_All-Time_2018-11-28.csv" target="_blank">CSV</a> (304.00 KB)</td></tr>
+</table>
+
+<hr><form name="searchList" id="searchList" action="javascript:searchUnlicList();">	<label for="searchTerm">Search for: </label>	<input type="text" name="searchTerm" id="searchTerm" size="50" placeholder="Search the list for individual or company names." blur="javascript:searchUnlicList();" />	<button type="submit" onclick="javascript:searchUnlicList();" name="nn">Search</button>	<button type="reset" onclick="javascript:resetUnlicList();" name="oo">Reset</button></form><br><div id="errorMessage"></div><table id="ctrlist" class="ctrlist"><tr><td>Individual</td><td>Doing Business As</td><td>Location</td><td>Adjudicated Date</td><td>Found Issues</td><td>Fine</td><td>Restitution</td><td>ROC Civil Fine</td></tr>
+<tr><td>Robert Garcia</td><td></td><td>Phoenix</td><td>2018-09-07</td><td>Contracting without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Agostinho B Lopes</td><td>European Contractor LLC</td><td>Tempe</td><td>2018-09-07</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Eddie Flores</td><td></td><td>Phoenix</td><td>2018-09-07</td><td>Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Gil M. Campos Chapan</td><td>Campo's Painting & Drywall LLC</td><td>Phoenix</td><td>2018-09-06</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Roberto Gonzalez Sr</td><td>Gonzalez Landcape & Maintenance</td><td>San Luis</td><td>2018-09-05</td><td>Advertising without a License</td><td></td><td></td><td>500.00</td></tr>
+<tr><td>William Darwin Manuel</td><td>My Manuel Construction</td><td>Golden Valley</td><td>2018-09-05</td><td>Contracting without a License; Unlicensed Advertising Unsubstantiated</td><td></td><td>10000.00</td><td></td></tr>
+<tr><td>John Curtis Boren</td><td>North Country Builders LLC</td><td>Phoenix</td><td>2018-09-05</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Miguel Ignacio Ortiz Jr.</td><td>Miguel's Roofing</td><td>Tucson</td><td>2018-08-30</td><td>Contracting without a License; Advertising without a License</td><td>1000.00</td><td>5350.00</td><td></td></tr>
+<tr><td>Jason M. Williams</td><td>JWill Paint Co LLC</td><td>Chandler</td><td>2018-08-28</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Lance E Wills</td><td>Next Step Development LLC</td><td>Scottsdale</td><td>2018-08-23</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Lance E Wills</td><td>Next Step Development LLC</td><td>Phoenix</td><td>2018-08-23</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Darrin William Dreyer</td><td>Dreyer's Custom Woodworking LLC</td><td>Mesa</td><td>2018-08-22</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Richard Earl Newport</td><td>Rick's Kustom's</td><td>Phoenix</td><td>2018-08-15</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jose A Flores</td><td>Iron Horse Welding Work LLC</td><td>Phoenix</td><td>2018-08-15</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jaime Hernandez</td><td>Maricopa Hernandez Painting LLC / Maricopa Hernandez's Painting and More</td><td>Phoenix</td><td>2018-08-15</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Rueben Perez Sr</td><td></td><td>Peoria</td><td>2018-08-15</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Gregory Robert Hernandez</td><td></td><td>Phoenix</td><td>2018-08-15</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Christian Allan Salas</td><td>Salas Divine Stone</td><td>Phoenix</td><td>2018-08-15</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Patricia Marie Wallin</td><td>Half Wheel Ranch Handyman Services LLC</td><td>Lakeside</td><td>2018-08-15</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Christian Allan Salas</td><td>Salas Divine Stone</td><td>Yuma</td><td>2018-08-15</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Gene Larry Coleman Jr</td><td>One Source Solutions</td><td>Phoenix</td><td>2018-08-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Gregory Douglas Link</td><td>AZLink Homes LLC</td><td>Phoenix</td><td>2018-08-09</td><td>Contracting without a License</td><td></td><td></td><td>10000.00</td></tr>
+<tr><td>Luis Alex Villegas Espinoza</td><td>M&L Gates Fence / ML Gates Company / JV Gates Company / Luis Wrought Iron</td><td>Phoenix</td><td>2018-08-07</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Rodney Bagby</td><td>Cardinal Cabinets LLC</td><td>Phoenix</td><td>2018-08-07</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Damon M Long</td><td>Long's Landscaping LLC</td><td>Tucson</td><td>2018-08-07</td><td>Contracting without a License</td><td>1020.00</td><td>12000.00</td><td></td></tr>
+<tr><td>Octavio Cardenas Vasquez</td><td>Pro Star Construction LLC</td><td>Tucson</td><td>2018-08-07</td><td>Contracting without a License</td><td>1000.00</td><td>4504.37</td><td></td></tr>
+<tr><td>Anthony Clark Vega</td><td>Custom Cabinetry by Anthony Vega</td><td>Green Valley</td><td>2018-08-07</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Sergio Constante</td><td>Sergio's Custom Painting</td><td>Tucson</td><td>2018-08-07</td><td>Contracting without a License</td><td>1000.00</td><td>1450.00</td><td></td></tr>
+<tr><td>Michael Anthony Ponce</td><td>M AP Pool Builders</td><td>Yuma</td><td>2018-08-06</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>4000.00</td></tr>
+<tr><td>Adolfo Valdez Ramos</td><td></td><td>Phoenix</td><td>2018-08-06</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Kevin Green</td><td>KBG Builders / Landmark PRM</td><td>Peoria</td><td>2018-08-06</td><td>Contracting without a License; Felony Investigation</td><td></td><td></td><td></td></tr>
+<tr><td>Gail Huff</td><td>H Design</td><td></td><td>2018-08-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Dennis J Booth Jr</td><td>Smith Plumbing / AM PM Plumbing / Booths Handyman & Plumbing Services</td><td>Tempe</td><td>2018-08-03</td><td>Contracting without a License; Advertising without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Bryan Hayden Jr</td><td></td><td>Queen Creek</td><td>2018-08-02</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Abe Trigg Shepherd</td><td>Economy Mobile Home Service / A-Z Mobile Home Service</td><td>Phoenix</td><td>2018-08-01</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>4000.00</td></tr>
+<tr><td>Nicholas Laguna</td><td>Laguna's Forged Ironworks</td><td>Vail</td><td>2018-07-31</td><td>Contracting without a License</td><td>1000.00</td><td>6000.00</td><td></td></tr>
+<tr><td>Lori Kay Anderson</td><td></td><td>Marana</td><td>2018-07-31</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Tomas Marquez</td><td>Masiso Design and Renovation LLC</td><td>Scottsdale</td><td>2018-07-31</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jose Edgardo Celaya</td><td>JMC Blinds</td><td>Phoenix</td><td>2018-07-23</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Jason Kent MacDonald</td><td>Ruled By The Sun Designs</td><td>Chandler</td><td>2018-07-19</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>John R Lopez</td><td></td><td>Phoenix</td><td>2018-07-18</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Fabian E. Guerrero Varela</td><td></td><td>Mesa</td><td>2018-07-17</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Thomas Matthew Carroll</td><td>Industrial Asphalt</td><td>Williams</td><td>2018-07-17</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Robert F. Alexander</td><td>E Logic LLC</td><td>Sun City West</td><td>2018-07-17</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Michael Barton Rose Bond</td><td>Lone Wolf Handyman & Landscape Services LLC</td><td>Prescott</td><td>2018-07-12</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Michael Anthony Ponce</td><td>M AP Pool Builders</td><td>Phoenix</td><td>2018-07-11</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>4000.00</td></tr>
+<tr><td>Mario L. Vargas</td><td></td><td>Mesa</td><td>2018-07-11</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Frank Adam Miller</td><td></td><td>Chandler</td><td>2018-07-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Frank Demarbiex</td><td>Just In Time Services</td><td>Phoenix</td><td>2018-07-05</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Frank A Marquez</td><td>Solid Master Cabinetry</td><td>Mesa</td><td>2018-07-02</td><td>Contracting without a License</td><td>500.00</td><td>2500.00</td><td></td></tr>
+<tr><td>Ramon Cardenas</td><td></td><td>Phoenix</td><td>2018-07-02</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Frank A Marquez</td><td>Solid Master Cabinetry</td><td>Chandler</td><td>2018-07-02</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Robin L. Grant</td><td>City By Designs / Grant Designs LLC</td><td>Paradise Valley</td><td>2018-06-18</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Michel Kuhse</td><td>Jolly Plumbing LLC</td><td>Phoenix</td><td>2018-06-14</td><td>Contracting without a License</td><td>1000.00</td><td>2785.00</td><td></td></tr>
+<tr><td>Enrique M. Hemmings</td><td></td><td>Chandler</td><td>2018-06-11</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Jason A Segedy</td><td>Pristine Pool Tile LLC</td><td>Scottsdale</td><td>2018-06-07</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Roger Thyfault</td><td>Western Maintenance and Supply Company</td><td>Fountain Hills</td><td>2018-06-07</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Carlo Papazian</td><td></td><td>Peoria</td><td>2018-06-07</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Eladio Ignacio Pina</td><td>Ignacio Contracting LLC</td><td>Phoenix</td><td>2018-06-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jerome Howard Kowal III</td><td>3 Guys and a Girl Handy Team</td><td>Snowflake</td><td>2018-06-01</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Thomas G Inman</td><td>Reality Floors LLC</td><td>Glendale</td><td>2018-05-25</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Ernest M Urquieta</td><td>Urquieta Building Group LLC</td><td>Superior</td><td>2018-05-25</td><td>Contracting without a License</td><td>100.00</td><td></td><td></td></tr>
+<tr><td>Thomas G Inman</td><td>Reality Floors LLC</td><td>Chandler</td><td>2018-05-25</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Francisco Pacheco Valdez</td><td></td><td>Yuma</td><td>2018-05-23</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Ahmad Zarifi</td><td>Skyline Ridge LLC.</td><td>Tucson</td><td>2018-05-22</td><td>Contracting without a License</td><td>770.00</td><td></td><td></td></tr>
+<tr><td>Roman R Nunez</td><td>Drisik Electric & Home Maintenance LLC</td><td>Tucson</td><td>2018-05-22</td><td>Contracting without a License; Advertising without a License</td><td>2122.00</td><td></td><td></td></tr>
+<tr><td>Manny Ochoa</td><td>Manny's Wrought Iron & Design</td><td>Vail</td><td>2018-05-22</td><td>Contracting without a License</td><td>920.00</td><td></td><td></td></tr>
+<tr><td>Manny Ochoa</td><td>Manny's Wrought Iron & Design</td><td>Tucson</td><td>2018-05-22</td><td>Contracting without a License</td><td>1680.00</td><td></td><td></td></tr>
+<tr><td>Guadalupe Cardenas</td><td>Lupe & Sons Organic Landscaping</td><td>Tucson</td><td>2018-05-22</td><td>Contracting without a License; Advertising without a License</td><td>2122.00</td><td></td><td></td></tr>
+<tr><td>Fredrick M Cooke</td><td></td><td>Phoenix</td><td>2018-05-22</td><td>Contracting without a License</td><td>1000.00</td><td>3233.76</td><td></td></tr>
+<tr><td>Steven P Chacon</td><td>Steve's Remodeling Service LLC</td><td>Tucson</td><td>2018-05-15</td><td>Contracting without a License; Advertising without a License</td><td>00.00</td><td>7625.26</td><td></td></tr>
+<tr><td>Gilberto Hernandez-Johnston</td><td>Custom Flooring LLC / Johnston Properties & Investments LLC / G Johnston LLC</td><td>Mesa</td><td>2018-05-15</td><td>Contracting without a License</td><td>2000.00</td><td></td><td></td></tr>
+<tr><td>Alden I. Stroble</td><td></td><td>Phoenix</td><td>2018-05-15</td><td>Contracting without a License</td><td>1000.00</td><td>1000.00</td><td></td></tr>
+<tr><td>Leo A Wieck</td><td>Solscape LLC</td><td>Phoenix</td><td>2018-05-04</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Peter Kinser</td><td>PAK Consultant & Remodel</td><td>Phoenix</td><td>2018-05-04</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Michael J. Hirsch</td><td>Fix It Right</td><td>Scottsdale</td><td>2018-05-03</td><td>Contracting without a License; Advertising without a License</td><td>1860.00</td><td>10500.00</td><td></td></tr>
+<tr><td>Francisco Joseph Esquibel III</td><td></td><td>Peoria</td><td>2018-05-03</td><td>Contracting without a License</td><td></td><td>2500.00</td><td></td></tr>
+<tr><td>Juan De Dios Acuna-RuedaFlores</td><td></td><td>Tucson</td><td>2018-05-02</td><td>Other; Contracting without a License</td><td>1000.00</td><td>00.00</td><td></td></tr>
+<tr><td>Luis Angel Arvizo</td><td></td><td>Phoenix</td><td>2018-05-01</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Mohammed F. Meghoufi</td><td>American Tree & Landscape Co LLC</td><td>Queen Creek</td><td>2018-04-30</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>William Leroy Hickman</td><td></td><td>Phoenix</td><td>2018-04-27</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Travis Dustin Routzahn</td><td>Routz Quality Carpentry LLC</td><td>Scottsdale</td><td>2018-04-20</td><td>Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Stephen R Leivas</td><td>CFS Installations</td><td>Mesa</td><td>2018-04-16</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Stephen R Leivas</td><td>CFS Installations</td><td>Chandler</td><td>2018-04-16</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Richard Gaona</td><td>Property Providers Group LLC</td><td>Tempe</td><td>2018-04-10</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Iris F Huerigo Contreras</td><td>Angel's Handyman LLC</td><td>Phoenix</td><td>2018-04-09</td><td>Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Hector Contreras Ojeda</td><td>Angel's Handyman LLC</td><td>Phoenix</td><td>2018-04-09</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Monsour Adeshino Adams</td><td>Perfect Aire</td><td>Phoenix</td><td>2018-04-06</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Richard Bjorn Reistad</td><td></td><td>Flagstaff</td><td>2018-04-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Phillip M Ellard</td><td>GDI Installs</td><td>Phoenix</td><td>2018-04-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Aaron Jackson Morris</td><td>AJM Remodeling LLC</td><td>Phoenix</td><td>2018-04-06</td><td>Contracting without a License</td><td>1000.00</td><td>30000.00</td><td></td></tr>
+<tr><td>Richard Rada</td><td>911 Appliance Repair & Services / AZ Emergency Appliance Heating & Cooling Repair</td><td>Tucson</td><td>2018-04-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Linda Frances Bitsuie</td><td>Jesse's Handiman's Service</td><td>Sedona</td><td>2018-04-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Eugene H Moreno</td><td>Spanish Trail Landscaping</td><td>Tucson</td><td>2018-04-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Tiffanie Ann Murray</td><td>Your Coatings Guys</td><td>Phoenix</td><td>2018-04-06</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Troy W Wood Sr</td><td>A Cut Above Carpentry</td><td>Queen Creek</td><td>2018-04-04</td><td>Contracting without a License</td><td>320.00</td><td></td><td></td></tr>
+<tr><td>Jeremy D Holliday</td><td>Jeremy The Handyman LLC</td><td>Scottsdale</td><td>2018-04-03</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jeff Haas</td><td></td><td>Green Valley</td><td>2018-04-03</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Brian G Welch</td><td>Yeti Cooling and Mechanical</td><td>Phoenix</td><td>2018-03-30</td><td>Advertising without a License</td><td></td><td></td><td>1200.00</td></tr>
+<tr><td>Alvin Lee Ross</td><td></td><td>Mesa</td><td>2018-03-30</td><td>Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Joseph Rojleo Savalas</td><td></td><td>Phoenix</td><td>2018-03-27</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Mark Naccarelli</td><td>AZ Tech Pros</td><td>New River</td><td>2018-03-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Javier Munguia Barron</td><td></td><td>Chandler</td><td>2018-03-20</td><td>Contracting without a License</td><td>2500.00</td><td></td><td></td></tr>
+<tr><td>Richard Hernandez</td><td>Air-co Electrical & Construction Co</td><td>Mesa</td><td>2018-03-20</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Fernando Nunez</td><td>AZ Co LLC</td><td>Sun City</td><td>2018-03-19</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jonathan Quincy Cooper</td><td>AZ-DOT Asphalt / Parkway Paving LLC</td><td>Tucson</td><td>2018-03-19</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Steven Rey Puebla</td><td>I Do Floors Plus</td><td>Phoenix</td><td>2018-03-19</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Toby S. Aldecoa</td><td>Toby's Install and Repair</td><td>Chandler</td><td>2018-03-15</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Norman Yancovich</td><td></td><td>Prescott Valley</td><td>2018-03-15</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Faisal Ghazi Elsamarayi</td><td>Smarra Tile LLC / Samarr LLC</td><td>Tempe</td><td>2018-03-14</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Christian Allan Salas</td><td>Salas Divine Stone</td><td>Yuma</td><td>2018-03-14</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Mark Bosworth</td><td>BFE Properties LLC</td><td>Glendale</td><td>2018-03-07</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jose Luis Rodriguez</td><td>Jose's Concrete</td><td>Phoenix</td><td>2018-03-05</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Peter Kinser</td><td>PAK Consultant & Remodel</td><td>Phoenix</td><td>2018-03-01</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Yardley Alonso Coronado Loera</td><td></td><td>Amado</td><td>2018-03-01</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Wayne Evans</td><td>Integrity Painting and Decks</td><td>Pinetop</td><td>2018-02-16</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Daniel Orlando</td><td></td><td>Chandler</td><td>2018-02-12</td><td>Contracting without a License</td><td>280.00</td><td></td><td></td></tr>
+<tr><td>Brian D Walters</td><td>Bravado Pools / Antigua Landscape Inc</td><td>Chandler</td><td>2018-02-12</td><td>Contracting without a License</td><td>500.00</td><td></td><td></td></tr>
+<tr><td>Moses Gonzales</td><td></td><td>Mesa</td><td>2018-02-12</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Derek Peter Garcia</td><td>DG Masonry / Valleywide Landscaping / Onsite Concrete and Curbing</td><td>Phoenix</td><td>2018-02-12</td><td>Advertising without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Braden Stephens</td><td>RWB Enterprises</td><td>Overgaard</td><td>2018-02-12</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Juan Gutierrez</td><td></td><td>Gold Canyon</td><td>2018-02-12</td><td>Contracting without a License</td><td>750.00</td><td></td><td></td></tr>
+<tr><td>Trey Jeralds</td><td>T & T Handyman Services</td><td>Apache Junction</td><td>2018-02-06</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Thomas Burnett</td><td>Thomas Renovations</td><td>Apache Junction</td><td>2018-02-06</td><td>Contracting without a License</td><td>1000.00</td><td>4000.00</td><td></td></tr>
+<tr><td>Joseph E Papay</td><td></td><td>Gilbert</td><td>2018-02-05</td><td>Contracting without a License</td><td>1000.00</td><td>500.00</td><td></td></tr>
+<tr><td>Robert Teece</td><td></td><td>San Tan Valley</td><td>2018-02-02</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Erick Morales</td><td>Abraham Landscaping</td><td>Mesa</td><td>2018-02-02</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>James Rafael Servellon</td><td></td><td>Queen Creek</td><td>2018-02-02</td><td>Contracting without a License; Felony Investigation</td><td></td><td></td><td></td></tr>
+<tr><td>Cindy Lopez</td><td>Lopez Landscaping</td><td>Guadalupe</td><td>2018-02-02</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>James Rafael Servellon</td><td></td><td>Lakeside</td><td>2018-02-02</td><td>Contracting without a License; Felony Investigation</td><td></td><td></td><td></td></tr>
+<tr><td>James Rafael Servellon</td><td></td><td>Gilbert</td><td>2018-02-02</td><td>Contracting without a License; Felony Investigation</td><td></td><td></td><td></td></tr>
+<tr><td>Arthuro Herrera</td><td>Arthuro Herrera Professional Tile Installer</td><td>Yuma</td><td>2018-02-02</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>James Rafael Servellon</td><td></td><td>Chandler</td><td>2018-02-02</td><td>Contracting without a License; Felony Investigation</td><td></td><td></td><td></td></tr>
+<tr><td>Rodrigo Plascencia</td><td>Sun Valley Nursery / Dreaming By Design</td><td>Cave Creek</td><td>2018-02-01</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Paul A Pendleton</td><td>Pendleton Construction</td><td>Flagstaff</td><td>2018-01-31</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>100.00</td></tr>
+<tr><td>Glenn Wayne Ogden</td><td></td><td>Prescott</td><td>2018-01-31</td><td>Contracting without a License; Poor Work</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Donald Nicholson</td><td>Carpet America</td><td>Phoenix</td><td>2018-01-31</td><td>Contracting without a License</td><td>1000.00</td><td>5602.00</td><td></td></tr>
+<tr><td>Joe Chapman</td><td></td><td>Casa Grande</td><td>2018-01-30</td><td>Other; Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>James Schmidt</td><td>James Schmidt AC & Heating</td><td>Glendale</td><td>2018-01-24</td><td>Contracting without a License</td><td>1000.00</td><td>1950.00</td><td></td></tr>
+<tr><td>Sergio Felix</td><td></td><td>Phoenix</td><td>2018-01-24</td><td>Contracting without a License</td><td>00.00</td><td>00.00</td><td></td></tr>
+<tr><td>Jacob Henige</td><td>Strategic Marketing & Promotions LLC</td><td>Peoria</td><td>2018-01-24</td><td>Contracting without a License</td><td>2000.00</td><td>00.00</td><td></td></tr>
+<tr><td>Dan Adams</td><td>Final Touch Clean-up & Repair</td><td>Mesa</td><td>2018-01-23</td><td>Contracting without a License</td><td>30.00</td><td></td><td></td></tr>
+<tr><td>James R Smith</td><td>J R Smith Construction LLC</td><td>Mesa</td><td>2018-01-23</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Steven S Salyers</td><td>Salyers & Sons LLC</td><td>Gilbert</td><td>2018-01-22</td><td>Contracting without a License</td><td>2000.00</td><td></td><td></td></tr>
+<tr><td>David E. Smeal</td><td>Creative Woodworking Concepts LLC</td><td>Gilbert</td><td>2018-01-22</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Gary W. Cornett</td><td>C & L Woodworking LLC</td><td>Gilbert</td><td>2018-01-19</td><td>Contracting without a License; Advertising without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Todd R. Schenzel</td><td></td><td>Chandler</td><td>2018-01-18</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Eric Antony Carlson</td><td></td><td>Anthem</td><td>2018-01-17</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Mario T Reyes</td><td>J & M Tile & Stone</td><td>Tucson</td><td>2018-01-16</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Daniel Wayne Stipp</td><td></td><td>Gilbert</td><td>2018-01-12</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Mark S Roloson</td><td>Handyman Home Services</td><td>Peoria</td><td>2018-01-09</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Mario A Rios</td><td>MCFixit Maintenance and Repair</td><td></td><td>2018-01-09</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Lino Silva Jr</td><td>Lino Silva Company</td><td></td><td>2018-01-08</td><td>Contracting without a License</td><td>1865.00</td><td>11788.00</td><td></td></tr>
+<tr><td>Charles Lynch</td><td>Lynch Family Plumbing Company</td><td>Scottsdale</td><td>2018-01-08</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Derek Rogers</td><td>Aqua Therapy Tubs LLC</td><td>Queen Creek</td><td>2018-01-08</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Ed Matthews</td><td></td><td>Show Low</td><td>2018-01-05</td><td>Contracting without a License</td><td>1500.00</td><td>2600.00</td><td></td></tr>
+<tr><td>Efoti K Mafileo</td><td>Mafileo Concrete Design and Landscape / Mike Concrete and Landscaping</td><td>Mesa</td><td>2018-01-05</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Efoti K Mafileo</td><td>Mafileo Concrete Design and Landscape / Mike Concrete and Landscaping</td><td>Mesa</td><td>2018-01-05</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Salvador Gonzalez Macias</td><td>Affordable Landscaping & Mason Work</td><td>Tucson</td><td>2018-01-05</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Guadalupe Cardenas</td><td>Lupe & Sons Organic Landscaping</td><td>Phoenix</td><td>2018-01-04</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Gregory Dean Knutson</td><td>The Phoenix Handyman or Greg Knutson Handyman</td><td>Phoenix</td><td>2018-01-02</td><td>Advertising without a License</td><td></td><td></td><td>1200.00</td></tr>
+<tr><td>Jered Wade White</td><td></td><td>Payson</td><td>2018-01-02</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Gabriel Jimenez</td><td></td><td>Phoenix</td><td>2018-01-02</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Paul Montano</td><td></td><td>Phoenix</td><td>2017-12-29</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>James Leroy Dempsey</td><td>Dempsey Painting</td><td>Sun City West</td><td>2017-12-29</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Carlo Camarena</td><td>Coastal Companies LLC</td><td>Phoenix</td><td>2017-12-21</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Bryan Hayden Jr</td><td></td><td>Mesa</td><td>2017-12-21</td><td>Contracting without a License</td><td>50.00</td><td></td><td></td></tr>
+<tr><td>Steven Schweikardt</td><td></td><td>Chandler</td><td>2017-12-20</td><td>Contracting without a License</td><td>1000.00</td><td>2800.00</td><td></td></tr>
+<tr><td>Humberto Ruiz Valenzuela</td><td>Hurva's Cabinets</td><td>Somerton</td><td>2017-12-19</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Peter C. Weiss</td><td></td><td>Scottsdale</td><td>2017-12-18</td><td>Contracting without a License; Advertising without a License</td><td>1000.00</td><td>6500.00</td><td></td></tr>
+<tr><td>Manuel Santiago Gonzales</td><td>BMR Air Conditioning & Heating LLC</td><td>Sierra Vista</td><td>2017-12-11</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Arash Hoss</td><td></td><td>Phoenix</td><td>2017-12-08</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Horacio Perez Torres</td><td></td><td>Phoenix</td><td>2017-12-06</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Francisco J. Contreras</td><td>JDZ Concrete Pros</td><td>Tucson</td><td>2017-12-06</td><td>Contracting without a License</td><td>2000.00</td><td>10000.00</td><td></td></tr>
+<tr><td>James Turrubiartes</td><td>Free American Services LLC</td><td>Phoenix</td><td>2017-12-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Ivan Larson</td><td></td><td>Tucson</td><td>2017-12-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jacinto Ignacio Sanchez</td><td>Arizona Maintenance</td><td>Tucson</td><td>2017-12-06</td><td>Contracting without a License</td><td>1020.00</td><td>3278.12</td><td></td></tr>
+<tr><td>Patrick K Lash</td><td>Lash Logics Handyman Service</td><td>Tucson</td><td>2017-12-05</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jeremy Adam Keller</td><td>All Around Handyman</td><td>Tucson</td><td>2017-12-05</td><td>Contracting without a License</td><td>1865.00</td><td></td><td></td></tr>
+<tr><td>Timothy S. Regester</td><td>Canyon Carpets LLC</td><td>Gilbert</td><td>2017-12-05</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Christopher Gorski</td><td>Nautical Star Pool Service & Repair</td><td>Goodyear</td><td>2017-12-04</td><td>Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Nicolas Garcia-Gonzalez</td><td></td><td>Chandler</td><td>2017-11-27</td><td>Contracting without a License</td><td>1000.00</td><td>3000.00</td><td></td></tr>
+<tr><td>Darrel Scott Bofamy</td><td>Creative Concrete by Scott</td><td>Scottsdale</td><td>2017-11-27</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Norman Yancovich</td><td></td><td>Prescott Valley</td><td>2017-11-22</td><td>Contracting without a License</td><td></td><td></td><td>1400.00</td></tr>
+<tr><td>Steven S Salyers</td><td>Salyers & Sons LLC</td><td>Mesa</td><td>2017-11-22</td><td>Contracting without a License; Felony Investigation</td><td></td><td></td><td></td></tr>
+<tr><td>Daniel R Borges</td><td>Painters of the Valley LLC</td><td>Surprise</td><td>2017-11-22</td><td>Contracting without a License</td><td></td><td></td><td>2000.00</td></tr>
+<tr><td>George J. Rodriguez</td><td></td><td>Scottsdale</td><td>2017-11-21</td><td>Contracting without a License</td><td>1000.00</td><td>1000.00</td><td></td></tr>
+<tr><td>Kimberly A. Gallant</td><td></td><td>Cave Creek</td><td>2017-11-20</td><td>Aiding and abetting; Contracting without a License</td><td>1890.45</td><td>10666.00</td><td></td></tr>
+<tr><td>Bryan Eugene England</td><td></td><td>Apache Junction</td><td>2017-11-16</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Timothy Wayne Yniguez</td><td></td><td>Peoria</td><td>2017-11-15</td><td>Contracting without a License</td><td>1000.00</td><td>2500.00</td><td></td></tr>
+<tr><td>Andrew Maring</td><td>A-1 Air & Appliance</td><td>Tucson</td><td>2017-11-13</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Martin A Gero</td><td>Iron Dog Enterprise LLC</td><td>Elgin</td><td>2017-11-07</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Lance Michael Savard</td><td>American Pools of Yuma LLC</td><td>Phoenix</td><td>2017-11-07</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>John Robert</td><td>JG & 8K LLC</td><td>Phoenix</td><td>2017-11-07</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Jawnathan K DeMarco</td><td>Flagstaff Home Theatre / HAVENS EHC LLC</td><td>Scottsdale</td><td>2017-11-06</td><td>Contracting without a License</td><td>1000.00</td><td>10000.00</td><td></td></tr>
+<tr><td>Kahlil Perez</td><td>First Response Home Services LLC</td><td>Gilbert</td><td>2017-11-02</td><td>Contracting without a License</td><td></td><td>3831.00</td><td></td></tr>
+<tr><td>Thomas Anthony Kaye</td><td>3HK Services</td><td>Phoenix</td><td>2017-11-01</td><td>Contracting without a License</td><td>1000.00</td><td>1200.00</td><td></td></tr>
+<tr><td>Sean Torgrude</td><td>Scenic Pools and Spa</td><td>Tucson</td><td>2017-10-31</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Mario A Rios</td><td>MCFixit Maintenance and Repair</td><td>Phoenix</td><td>2017-10-31</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Gilberto Davalos Gomez</td><td>Hache's Air Conditioning and Heating</td><td>Phoenix</td><td>2017-10-27</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Charles Robert Stichter III</td><td></td><td>Surprise</td><td>2017-10-24</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Shaun B.W. Oakes</td><td>Exquisite Remodeling LLC</td><td>El Mirage</td><td>2017-10-19</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Josue Fernandez</td><td>Super Blue Pools</td><td>Glendale</td><td>2017-10-19</td><td>Contracting without a License</td><td>1000.00</td><td>1000.00</td><td></td></tr>
+<tr><td>William E. Davis</td><td>Creative Tiling</td><td>Surprise</td><td>2017-10-19</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>William E. Davis</td><td>Creative Tiling</td><td>Surprise</td><td>2017-10-18</td><td>Contracting without a License; Unlicensed Advertising Unsubstantiated</td><td></td><td>00.00</td><td></td></tr>
+<tr><td>Christopher A Martinez</td><td>Coach's 1st Class L.L.C.</td><td>Tucson</td><td>2017-10-17</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Edward Keith Flinn</td><td>Quality Stuccon</td><td>Prescott</td><td>2017-10-17</td><td>Contracting without a License</td><td>1000.00</td><td>500.00</td><td></td></tr>
+<tr><td>Carlos Alfonso Olivas</td><td>Rhino Heating and Cooling LLC</td><td>Tucson</td><td>2017-10-17</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Kevin Lee Allen</td><td>KB Custom Wood Works / TRA Custom Design / Barn Doors and More</td><td>Gilbert</td><td>2017-10-17</td><td>Contracting without a License</td><td>545.00</td><td>6000.00</td><td></td></tr>
+<tr><td>Christopher A Martinez</td><td>Coach's 1st Class L.L.C.</td><td>Tucson</td><td>2017-10-17</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Allen Swisher</td><td></td><td>San Tan Valley</td><td>2017-10-16</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>David Barnett Karmel</td><td></td><td>Tempe</td><td>2017-10-16</td><td>Contracting without a License</td><td>1000.00</td><td>00.00</td><td></td></tr>
+<tr><td>Rodrigo Plascencia</td><td>Sun Valley Nursery / Dreaming By Design</td><td>New River</td><td>2017-10-16</td><td>Contracting without a License</td><td>500.00</td><td></td><td></td></tr>
+<tr><td>Jose Herrera</td><td></td><td>Flagstaff</td><td>2017-10-16</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Tyler Misner</td><td>White Mountain Residential</td><td>Concho</td><td>2017-10-16</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Raul Vargas Jr</td><td></td><td></td><td>2017-10-16</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Larry G Spear</td><td>Spear Enterprises LLC</td><td>Forest Lakes</td><td>2017-10-16</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Christiphor Donald Urness</td><td>Right Way Home Improvement Plus</td><td>Phoenix</td><td>2017-10-12</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Juan Carlos Valencia Orozco</td><td>Orozco Remodeling</td><td>Peoria</td><td>2017-10-12</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Timothy E. Stapp</td><td></td><td>Chandler</td><td>2017-10-12</td><td>Contracting without a License; Advertising without a License</td><td></td><td>15900.00</td><td></td></tr>
+<tr><td>Nicholas M. Escobedo</td><td>Layton Industries Inc</td><td>Scottsdale</td><td>2017-10-12</td><td>Contracting without a License</td><td></td><td>42500.00</td><td></td></tr>
+<tr><td>Samuel Matei</td><td>Allmighty Contracting LLC</td><td>Scottsdale</td><td>2017-10-12</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Victor Omar Covarrubias Jr</td><td>Agua Azul Pool Services / Abrasive Pool Industries / Covarrs Pools LLC / Aqua Marina Pools LLC / Aqua Marina Pools & Landscaping LLC</td><td>Phoenix</td><td>2017-10-12</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Gary B. Walker</td><td></td><td>Gilbert</td><td>2017-10-10</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Steven S Salyers</td><td>Salyers & Sons LLC</td><td>Phoenix</td><td>2017-10-10</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>David A. Proctor</td><td></td><td>Peoria</td><td>2017-10-10</td><td>Contracting without a License</td><td>247.00</td><td></td><td></td></tr>
+<tr><td>Mark Allen Whittington</td><td>The End Result / Designers Remodeling</td><td>Phoenix</td><td>2017-10-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Danny Ray Priddy</td><td></td><td>Cave Creek</td><td>2017-10-05</td><td>Other; Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jerry Crocker</td><td>Just Jerry</td><td>Glendale</td><td>2017-10-05</td><td>Contracting without a License</td><td>292.00</td><td></td><td></td></tr>
+<tr><td>Adam C Flath</td><td>Desert Painting & Repair LLC</td><td>Sun City</td><td>2017-10-04</td><td>Contracting without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Thomas Paul Grahek</td><td>TG Custom Construction LLC / Grahek</td><td>Scottsdale</td><td>2017-10-04</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Charles Brown</td><td></td><td>Phoenix</td><td>2017-09-29</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Veetrice D. Banks</td><td>Vienichi Design Group LLC</td><td>Surprise</td><td>2017-09-29</td><td>Contracting without a License</td><td>1000.00</td><td>5000.00</td><td></td></tr>
+<tr><td>Larry Donnell Hill</td><td>PCIS</td><td>Phoenix</td><td>2017-09-29</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Joseph Michael Curell</td><td></td><td>Snowflake</td><td>2017-09-28</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Christopher Pineau</td><td>Pineau's Construction Company</td><td>Gold Canyon</td><td>2017-09-28</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Ronald Eugene Boggess</td><td></td><td>Phoenix</td><td>2017-09-28</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Johnny E Burks</td><td></td><td>Kingman</td><td>2017-09-28</td><td>Advertising without a License; Unlicensed Contracting Unsubstantiated</td><td></td><td></td><td></td></tr>
+<tr><td>Christian Allan Salas</td><td>Salas Divine Stone</td><td>Yuma</td><td>2017-09-28</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Kevin Wayne Taylor</td><td>KLN Concrete</td><td>Phoenix</td><td>2017-09-28</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Steve Tracy Wood Jr</td><td>Steve Wood Builder Inc</td><td>Flagstaff</td><td>2017-09-28</td><td>Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Daniel Espinoza</td><td>C & C Custom Painting</td><td>Phoenix</td><td>2017-09-27</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Ignacio E Gomez</td><td>Matt and Jrs Landscaping</td><td>Glendale</td><td>2017-09-27</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Steven S Salyers</td><td>Salyers & Sons LLC</td><td>Phoenix</td><td>2017-09-27</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Daniel Lee Wilcox</td><td>D&W Painting Solutions</td><td>Surprise</td><td>2017-09-27</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Crystal Lynn DaRosa</td><td>Accurate Edge Home Solutions LLC</td><td>Phoenix</td><td>2017-09-25</td><td>Contracting without a License</td><td>1020.00</td><td>00.00</td><td></td></tr>
+<tr><td>Armando S. Dangerfield</td><td>3R Express</td><td>Tempe</td><td>2017-09-21</td><td>Contracting without a License</td><td>250.00</td><td></td><td></td></tr>
+<tr><td>Richard Tracey</td><td></td><td>Phoenix</td><td>2017-09-21</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Adam Frank Lilla</td><td>Artisan Fine Woodworking</td><td>Parker</td><td>2017-09-20</td><td>Contracting without a License</td><td></td><td>21000.00</td><td></td></tr>
+<tr><td>Michael L Cox</td><td>Cox Contracting LLC</td><td>Chandler</td><td>2017-09-18</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Bogdan Cristiano Craciunescu</td><td>Desert Stone and Glass LLC / Art Glass and Stone Studios LLC</td><td>Scottsdale</td><td>2017-09-14</td><td>Other; Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Rajveer Kandola</td><td></td><td>Phoenix</td><td>2017-09-14</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Bogdan Craciunescu</td><td>Old World Glass / Cristiano's Stone and Glass</td><td>Surprise</td><td>2017-09-14</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Lawrence Allen Dong</td><td></td><td>Peoria</td><td>2017-09-14</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Bogdan Craciunescu</td><td>Old World Glass / Cristiano's Stone and Glass</td><td>Glendale</td><td>2017-09-14</td><td>Contracting without a License; Felony Investigation</td><td></td><td></td><td></td></tr>
+<tr><td>Victor Omar Covarrubias Jr</td><td>Agua Azul Pool Services / Abrasive Pool Industries / Covarrs Pools LLC / Aqua Marina Pools LLC / Aqua Marina Pools & Landscaping LLC</td><td>Glendale</td><td>2017-09-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Brian Bartoszek</td><td>Giant Roofing</td><td>Phoenix</td><td>2017-09-13</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Steven P McCaslin</td><td>CDC Landscaping and Tree Service</td><td>Queen Creek</td><td>2017-09-13</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Jesse Daniel Romero</td><td>Concrete Coatings & Restoratioin</td><td>Phoenix</td><td>2017-09-13</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Earl Colbey</td><td>Colbey Construction</td><td>Peoria</td><td>2017-09-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Alden Immanuel Stroble</td><td></td><td>Phoenix</td><td>2017-09-13</td><td>Contracting without a License</td><td>1000.00</td><td>3114.00</td><td></td></tr>
+<tr><td>Daniel J. Frawley</td><td></td><td>Phoenix</td><td>2017-09-12</td><td>Contracting without a License; Unlicensed Advertising Unsubstantiated</td><td></td><td></td><td></td></tr>
+<tr><td>Victor M Soto</td><td>V. A. S. Concrete</td><td>Glendale</td><td>2017-09-12</td><td>Contracting without a License; Unlicensed Advertising Unsubstantiated</td><td></td><td></td><td></td></tr>
+<tr><td>Dennis Keith Killebrew</td><td>Home Werks / The Home Works</td><td>Peoria</td><td>2017-09-12</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Rafaela Juarez</td><td></td><td>Wittmann</td><td>2017-09-12</td><td>Contracting without a License; Unlicensed Advertising Unsubstantiated</td><td></td><td></td><td></td></tr>
+<tr><td>Richard L Hanson</td><td></td><td>Sun City West</td><td>2017-09-12</td><td>Contracting without a License; Unlicensed Advertising Unsubstantiated</td><td></td><td></td><td></td></tr>
+<tr><td>Vincent J Anzalaco</td><td>Shaughnessy Contracting Inc</td><td>Phoenix</td><td>2017-09-12</td><td>Contracting without a License; Unlicensed Advertising Unsubstantiated</td><td></td><td></td><td></td></tr>
+<tr><td>Jason Paul Taylor</td><td>Diamond Hardscape Development LLC</td><td>Peoria</td><td>2017-09-12</td><td>Advertising without a License; Unlicensed Contracting Unsubstantiated</td><td></td><td></td><td></td></tr>
+<tr><td>Jose Luis Canez</td><td></td><td>Sun City</td><td>2017-09-12</td><td>Contracting without a License; Unlicensed Advertising Unsubstantiated</td><td></td><td></td><td></td></tr>
+<tr><td>Jeffery Joseph Hamelin</td><td></td><td>Sun City</td><td>2017-09-12</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Benjamin Cruz Camberos</td><td>BCC Tile & Granite Art</td><td>Tucson</td><td>2017-09-08</td><td>Contracting without a License; Advertising without a License</td><td></td><td>600.00</td><td></td></tr>
+<tr><td>Kun Xin Tan</td><td>CJ Design and Construction Corporation</td><td>Gilbert</td><td>2017-09-07</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Terry Lee Shattuck</td><td>The Water Doctor</td><td>Phoenix</td><td>2017-09-07</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2000.00</td></tr>
+<tr><td>Timothy Ehlers</td><td>Patriot Roofing</td><td>Glendale</td><td>2017-09-06</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Quartney Courtney Johnson</td><td>HC Home Improvement LLC</td><td>Surprise</td><td>2017-09-06</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Alvin L. Wood</td><td></td><td>Phoenix</td><td>2017-09-06</td><td>Contracting without a License; Advertising without a License</td><td>500.00</td><td>1889.00</td><td></td></tr>
+<tr><td>Ryan P Donohue</td><td></td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Christian A. Vezilj</td><td></td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Paul Lachance</td><td>Your Coatings Guys / North Valley Interiors</td><td>Phoenix</td><td>2017-09-05</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Chad Jorgensen</td><td>Jorgensen Construction</td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Oscar Gus Lopez</td><td></td><td>Rio Rico</td><td>2017-09-05</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Joe B Spriggs</td><td>Joe's Maintenance LLC</td><td>Avondale</td><td>2017-09-05</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Joel Ramos</td><td>Joe's Handyman Services</td><td>Tucson</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Charlene Little</td><td>Desert West Barn and Fence Co</td><td>Tonopah</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Baryalai Badery</td><td>L & B Services AZ LLC</td><td>Bullhead City</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Martin J Craven III</td><td>Sonoran Well & Pump LLC</td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Randall Scott Wilcox</td><td>S.A.M. HomeRepairs LLC</td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Joshua Bartlett</td><td></td><td>Tucson</td><td>2017-09-05</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Adolfo Valdez Ramos</td><td></td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Nicholaus J. Martin</td><td>Cut Above Landscaping</td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Ronald Leland Benson</td><td></td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Edward William Gonzales</td><td>Hot Foot Plumbing LLC</td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Burt J. Gaona</td><td></td><td>Tucson</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Anthony Lobato</td><td></td><td>Tucson</td><td>2017-09-05</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Ruben Robles Rodriguez</td><td></td><td>Phoenix</td><td>2017-09-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Hugh G Burford III</td><td>Tile! Flooring Installations</td><td>Phoenix</td><td>2017-09-05</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Javier Edgar Gutierrez</td><td></td><td>Lake Havasu City</td><td>2017-08-31</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>John T. Blaney</td><td>Mountain Pass Custom Landscaping LLC</td><td>Phoenix</td><td>2017-08-31</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>John T. Blaney</td><td>Mountain Pass Custom Landscaping LLC</td><td>Phoenix</td><td>2017-08-31</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Kristopher J Hjellum</td><td>Kerry's Maintenance LLC</td><td>Sun City West</td><td>2017-08-31</td><td>Contracting without a License; Advertising without a License</td><td>1000.00</td><td>1275.00</td><td></td></tr>
+<tr><td>John T. Blaney</td><td></td><td>Phoenix</td><td>2017-08-31</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>John T. Blaney</td><td>Mountain Pass Custom Landscaping LLC</td><td>Cave Creek</td><td>2017-08-31</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>John T. Blaney</td><td>Mountain Pass Custom Landscaping LLC</td><td>Phoenix</td><td>2017-08-31</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Edmundo Torres</td><td>Romero Landscaping</td><td>Apache Junction</td><td>2017-08-29</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Rafaela Juarez</td><td>Juarez Design</td><td>Sun City West</td><td>2017-08-28</td><td>Contracting without a License</td><td>00.00</td><td>00.00</td><td></td></tr>
+<tr><td>Daniel Robert Drew</td><td></td><td>Scottsdale</td><td>2017-08-28</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Jose Luis Cruz</td><td></td><td>Peoria</td><td>2017-08-28</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Theodore Enick</td><td>Enick Professional Painting LLC</td><td></td><td>2017-08-25</td><td>Advertising without a License</td><td>241.00</td><td></td><td></td></tr>
+<tr><td>Xavier Blanco</td><td>Xavier Blanco Tile & Stone</td><td>Chandler</td><td>2017-08-24</td><td>Contracting without a License</td><td>250.00</td><td></td><td></td></tr>
+<tr><td>Christian Mendoza</td><td></td><td>Cottonwood</td><td>2017-08-24</td><td>Contracting without a License</td><td>1000.00</td><td>00.00</td><td></td></tr>
+<tr><td>Daniel Arispe</td><td></td><td>Queen Creek</td><td>2017-08-23</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Douglas H Butler</td><td>Restorations by Design</td><td>Phoenix</td><td>2017-08-18</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Jorge S Castro</td><td>World Builders & Investments</td><td>Tucson</td><td>2017-08-18</td><td>Contracting without a License</td><td>1865.00</td><td>2179.97</td><td></td></tr>
+<tr><td>Ana Elsa Alvirez</td><td>Sahuaro Stone and Tile LLC / ARA Solutions LLC</td><td>Tucson</td><td>2017-08-18</td><td>Contracting without a License; Advertising without a License</td><td>2122.00</td><td></td><td></td></tr>
+<tr><td>Greg Hawkins</td><td>Southern Arizona Painting and Epoxy Floor Coatings</td><td>Tucson</td><td>2017-08-18</td><td>Contracting without a License</td><td>1000.00</td><td>3000.00</td><td></td></tr>
+<tr><td>Cynthia McFarling</td><td>AZ Rite Way Renovations LLC</td><td>Tucson</td><td>2017-08-18</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Chauncey Nichols</td><td>Nichols Painting</td><td>Tucson</td><td>2017-08-18</td><td>Advertising without a License</td><td>257.00</td><td>700.00</td><td></td></tr>
+<tr><td>Robert Larby</td><td></td><td>Tucson</td><td>2017-08-17</td><td>Advertising without a License</td><td>251.00</td><td></td><td></td></tr>
+<tr><td>Brian K Pfeifer</td><td></td><td>Peoria</td><td>2017-08-17</td><td>Contracting without a License</td><td>1000.00</td><td>2605.78</td><td></td></tr>
+<tr><td>Efren Rivera</td><td>El</td><td>Tucson</td><td>2017-08-17</td><td>Contracting without a License</td><td>800.00</td><td></td><td></td></tr>
+<tr><td>Carlos A Gastelum</td><td>Quality Affordable Painting</td><td>Oro Valley</td><td>2017-08-16</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>James Ray Lucas</td><td></td><td>Mesa</td><td>2017-08-15</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Shane Aaron Stephenson</td><td></td><td>Phoenix</td><td>2017-08-11</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Michael Jones-Lemos</td><td>Halo Electronics Company LLC</td><td>Scottsdale</td><td>2017-08-09</td><td>Contracting without a License; Felony Investigation</td><td></td><td>94640.00</td><td></td></tr>
+<tr><td>Andrew Maring</td><td>A-1 Air & Appliance</td><td>Tucson</td><td>2017-08-08</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Carlos Rodriguez</td><td>L & C Remodeling</td><td>Glendale</td><td>2017-08-02</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Henry Downing</td><td>Tico HD Investments LLC</td><td>Phoenix</td><td>2017-08-02</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Keyla Yenit Torres</td><td>E Garcia Granite LLC</td><td>Gilbert</td><td>2017-08-01</td><td>Advertising without a License</td><td></td><td></td><td>2000.00</td></tr>
+<tr><td>Carlos DelGado</td><td>Delgado's Ornamental Iron LLC</td><td>Phoenix</td><td>2017-07-31</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Gary Gilbert Martinez</td><td>Los Dos Hombres LLC</td><td>Chandler</td><td>2017-07-31</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Tyson Noorda</td><td>Noorda Complete Yard Care</td><td>Mesa</td><td>2017-07-31</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Duane Hilton Miller</td><td>Stellar Plumbing</td><td>Phoenix</td><td>2017-07-27</td><td>Contracting without a License; Own Motion</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Edward Craciunescu</td><td></td><td>Phoenix</td><td>2017-07-27</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Jose Alfonso Cordova Santoyo</td><td></td><td>Yuma</td><td>2017-07-25</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Francisco Javier Valenzuela</td><td></td><td>Tucson</td><td>2017-07-25</td><td>Contracting without a License</td><td>1000.00</td><td>2900.00</td><td></td></tr>
+<tr><td>Jesus A Ibarbo</td><td>JND Welding & Transport LLC</td><td>Scottsdale</td><td>2017-07-24</td><td>Contracting without a License; Felony Investigation</td><td></td><td></td><td></td></tr>
+<tr><td>Juan Esteban Ordonez</td><td></td><td>Phoenix</td><td>2017-07-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Andre Diego Hampton</td><td>Hampton Exteriors</td><td>Phoenix</td><td>2017-07-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Trond E. Matteson</td><td></td><td>Scottsdale</td><td>2017-07-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>John G Yates</td><td></td><td>Paradise Valley</td><td>2017-07-21</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Filiberto J Ramos</td><td>LNK Landscape</td><td>Tempe</td><td>2017-07-21</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Filiberto J Ramos</td><td>LNK Landscape</td><td>Gilbert</td><td>2017-07-21</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jarin B Bixler</td><td></td><td>New River</td><td>2017-07-21</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>James E Cook</td><td>Jim's Pet Sitting/Handyman</td><td>Scottsdale</td><td>2017-07-21</td><td>Contracting without a License; Advertising without a License</td><td>1.00</td><td></td><td></td></tr>
+<tr><td>Kenneth Allen Kohnhorst</td><td>Gunny K's Solar Haus LLC</td><td>Cave Creek</td><td>2017-07-21</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Israel Martinez-Garcia</td><td>Alpha & Omega Painting</td><td>Paradise Valley</td><td>2017-07-20</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Michael Drunasky</td><td>Dru West Services/ Druwest Landscape</td><td>Phoenix</td><td>2017-07-18</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Salvador Perez</td><td>Perez Electric & Handyman Services</td><td>Phoenix</td><td>2017-07-18</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Adrian Tirla</td><td>Plan B Construction LLC</td><td>Phoenix</td><td>2017-07-18</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jose A Flores</td><td>Iron Horse Welding Work LLC</td><td>Scottsdale</td><td>2017-07-18</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Mario A Garcia</td><td>Garcia Painting & Handyman</td><td>Phoenix</td><td>2017-07-18</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Jose A Flores</td><td>Iron Horse Welding Work LLC</td><td>Phoenix</td><td>2017-07-18</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Roman Francisco Morales</td><td>Gila Landscaping SVC</td><td>Tucson</td><td>2017-07-14</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Victor Manuel Acosta</td><td>Acosta Air Conditioning</td><td>Phoenix</td><td>2017-07-13</td><td>Contracting without a License</td><td>1000.00</td><td>1919.31</td><td></td></tr>
+<tr><td>Geronimo Terrazas</td><td></td><td>Scottsdale</td><td>2017-07-13</td><td>Contracting without a License</td><td>1000.00</td><td>5870.00</td><td></td></tr>
+<tr><td>James Michael Mulvey</td><td>Do-Rite Plumbing</td><td>Phoenix</td><td>2017-07-11</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Harold Clark</td><td>C-III Construction</td><td>Tucson</td><td>2017-07-11</td><td>Contracting without a License; Advertising without a License</td><td>2000.00</td><td></td><td></td></tr>
+<tr><td>John Grau</td><td>Westin Diversified Services LLC</td><td>Phoenix</td><td>2017-07-11</td><td>Contracting without a License</td><td>500.00</td><td>2350.00</td><td></td></tr>
+<tr><td>Mark P. Moran</td><td>MK Home Remodeling</td><td>El Mirage</td><td>2017-07-11</td><td>Contracting without a License</td><td>00.00</td><td>00.00</td><td></td></tr>
+<tr><td>Brandon Paul Grede</td><td></td><td>Phoenix</td><td>2017-07-11</td><td>Contracting without a License</td><td>1000.00</td><td>1100.00</td><td></td></tr>
+<tr><td>Mark P. Moran</td><td>MK Home Remodeling</td><td>Sun City West</td><td>2017-07-11</td><td>Contracting without a License</td><td>1000.00</td><td>00.00</td><td></td></tr>
+<tr><td>Samuel Perkins</td><td>Icon Home & Pool Care</td><td>Phoenix</td><td>2017-07-11</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Jerry Krach</td><td>J K Plumbing LLC</td><td>Glendale</td><td>2017-07-11</td><td>Contracting without a License</td><td>2500.00</td><td>00.00</td><td></td></tr>
+<tr><td>Jason John Deegan</td><td></td><td>Surprise</td><td>2017-07-06</td><td>Contracting without a License</td><td>500.00</td><td></td><td></td></tr>
+<tr><td>Hagga Etcitty</td><td>R Daddy's Building Blocks</td><td>Chandler</td><td>2017-07-06</td><td>Contracting without a License; Advertising without a License</td><td>1860.00</td><td>2500.00</td><td></td></tr>
+<tr><td>Gilberto Hernandez-Johnston</td><td>Custom Flooring LLC / Johnston Properties & Investments LLC / G Johnston LLC</td><td>Phoenix</td><td>2017-07-06</td><td>Contracting without a License; Advertising without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Jorge Gonzales Morales</td><td>Fantastic Curbing & Construction</td><td>Phoenix</td><td>2017-07-05</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Ryan Robson</td><td>Mr Capital LLC</td><td>Glendale</td><td>2017-06-28</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Elijah M. Brown</td><td>Knock It Out Painting LLC</td><td>Sun City</td><td>2017-06-26</td><td>Contracting without a License</td><td>286000.00</td><td>300.00</td><td></td></tr>
+<tr><td>Christopher Lamberti</td><td>Lambo's Landscaping</td><td>Anthem</td><td>2017-06-22</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Christopher Lamberti</td><td>Lambo's Landscaping</td><td>Anthem</td><td>2017-06-22</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Joseph Grossmayer</td><td>Front Line Wood Finishing Inc</td><td>Peoria</td><td>2017-06-21</td><td>Advertising without a License</td><td>500.00</td><td>3100.00</td><td></td></tr>
+<tr><td>Nancy Ellen Compton</td><td>Elsie de Wolfe Interior Design Inc</td><td>Scottsdale</td><td>2017-06-21</td><td>Contracting without a License; Advertising without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Jefferson B Roosen</td><td>RG Associates West / RG Associates / RGA West</td><td>Tempe</td><td>2017-06-20</td><td>Contracting without a License</td><td>1865.00</td><td></td><td></td></tr>
+<tr><td>David Ruben Bischoff</td><td>Tri-State Buildings</td><td>Yuma</td><td>2017-06-19</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Terry Murray</td><td>Adobe Landscaping</td><td>Phoenix</td><td>2017-06-19</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>David McGuire</td><td></td><td>Phoenix</td><td>2017-06-16</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Rodney Dale Chappell</td><td>Rod's Handyman Service LLC</td><td>Sierra Vista</td><td>2017-06-15</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Rosario Padilla Aguilar Jr</td><td>AZ Valleywide</td><td>Phoenix</td><td>2017-06-15</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Armando Zuniga</td><td></td><td>Phoenix</td><td>2017-06-15</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>William G Johnson</td><td>PSE Electric</td><td>Sun City West</td><td>2017-06-09</td><td>Advertising without a License</td><td>1000.00</td><td>00.00</td><td></td></tr>
+<tr><td>Jarome Remblance</td><td>Estrella Mountain Pools LLC</td><td>Phoenix</td><td>2017-06-09</td><td>Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Wade C. Cardenas</td><td>C W Remodeling LLC</td><td>Sierra Vista</td><td>2017-06-07</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Wade C. Cardenas</td><td>C W Remodeling LLC</td><td>Sierra Vista</td><td>2017-06-07</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Wade C. Cardenas</td><td>C W Remodeling LLC</td><td>Tucson</td><td>2017-06-07</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>James Robert Mello</td><td>Sun Shader By Design LLC</td><td>Scottsdale</td><td>2017-06-07</td><td>Contracting without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Gabriel Angel Alcaraz</td><td>Angel's Affordable Landscaping LLC / Gabriel's Affordable Landscaping LLC</td><td>Tucson</td><td>2017-06-07</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Wade C. Cardenas</td><td>C W Remodeling LLC</td><td>Tucson</td><td>2017-06-07</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Fausto Fimbres</td><td>Fausto's Painting LLC</td><td>Green Valley</td><td>2017-06-07</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Crystal Lynn DaRosa</td><td>Accurate Edge Home Solutions LLC</td><td>Humboldt</td><td>2017-06-07</td><td>Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Juan Carlos Rubio-Arce</td><td>Evergreen Landscaping</td><td>Prescott Valley</td><td>2017-06-02</td><td>Advertising without a License; Own Motion</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Michael Settel</td><td>dba:  Professional Landscape</td><td>Sun City West</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Brent Whitney Heaton</td><td>Superior Glass LLC</td><td>Phoenix</td><td>2017-05-26</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Oscar Gustavo Lopez</td><td>Paving Co.</td><td>Phoenix</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Shawnley Barnes</td><td></td><td>Phoenix</td><td>2017-05-26</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Armando Felix</td><td>Los Felix Landscape / Los Felix Lawn Service</td><td>Phoenix</td><td>2017-05-26</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>John Carreon</td><td>Sunrise Hills Landscape & Nursery</td><td>Phoenix</td><td>2017-05-26</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Raul T Diaz</td><td></td><td>Douglas</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Antoneo Lewis Trejo</td><td></td><td>Phoenix</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Guadalupe Cardenas</td><td>Lupe & Sons Organic Landscaping</td><td>Phoenix</td><td>2017-05-26</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Andy Trejo</td><td>Andy Trejo and Sons</td><td>Phoenix</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Paul Dennis Wierzba</td><td>DW Tile & Design</td><td>Phoenix</td><td>2017-05-26</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Luis Alfonso Galindo</td><td>Galindo & Sons Painting</td><td>Yuma</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Rodney Bagby</td><td>Cardinal Cabinets LLC</td><td>Gilbert</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Bryan L Dinwiddie</td><td>Dinwiddie Construction</td><td>Phoenix</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Lance Michael Savard</td><td>American Pools of Yuma LLC</td><td>Phoenix</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Eric Moreno</td><td>Moreno's Sun Screens</td><td>Mesa</td><td>2017-05-26</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jerry Darrin Welsh</td><td>AZ Desert Roofing</td><td>Phoenix</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>George Octavi Barrera Jr</td><td>Barrera Construction LLC</td><td>Show Low</td><td>2017-05-26</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Justin Lich</td><td>AZ Quality Homecare</td><td>Scottsdale</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Robert Joe Grajeda</td><td></td><td>Douglas</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Oscar Daniel Reyes</td><td>Amermex Masonry</td><td>Tucson</td><td>2017-05-26</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Gregory Douglas Link</td><td>AZLink Homes LLC</td><td>Phoenix</td><td>2017-05-24</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Gregory Douglas Link</td><td>AZLink Homes LLC</td><td>Phoenix</td><td>2017-05-24</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Vernon William Firestone</td><td>Yavapai Home Repair</td><td>Prescott Valley</td><td>2017-05-23</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Robert S Smith</td><td></td><td>Gilbert</td><td>2017-05-17</td><td>Contracting without a License</td><td>2860.00</td><td></td><td></td></tr>
+<tr><td>Enrique Meraz</td><td>Meraz Design and Construction Inc</td><td>Phoenix</td><td>2017-05-17</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Thomas Salas</td><td></td><td>Mesa</td><td>2017-05-16</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Brian Vanderford</td><td>Brian's Welding / All Things Steel</td><td>Phoenix</td><td>2017-05-12</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Mike Zizic</td><td>Mike Z's Painting</td><td>Phoenix</td><td>2017-05-12</td><td>Contracting without a License</td><td>500.00</td><td></td><td></td></tr>
+<tr><td>Donnie Libby</td><td></td><td>Surprise</td><td>2017-05-10</td><td>Advertising without a License</td><td>250.00</td><td></td><td></td></tr>
+<tr><td>Ron Riddell</td><td></td><td>Mesa</td><td>2017-05-08</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Michael K. Steele</td><td></td><td>Anthem</td><td>2017-05-08</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Michael Hernandez</td><td>HMH Commercial Services LLC</td><td>Phoenix</td><td>2017-05-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Joseph Stephen Vetro</td><td></td><td>Sedona</td><td>2017-05-04</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Joseph Stephen Vetro</td><td></td><td>Sedona</td><td>2017-05-04</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Wells Williams Vaughan</td><td></td><td>Tempe</td><td>2017-05-03</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Agostinho B Lopes</td><td>European Contractor LLC</td><td>Phoenix</td><td>2017-05-03</td><td>Contracting without a License</td><td>1000.00</td><td>1000.00</td><td></td></tr>
+<tr><td>Wells Williams Vaughan</td><td></td><td>Tempe</td><td>2017-05-03</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Jesus A. Gamez</td><td>Dynamic Roofing</td><td>Tucson</td><td>2017-05-01</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Joshua Holmes</td><td></td><td>Tucson</td><td>2017-04-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Bruce P Myers</td><td>Dr Clean Home Care LLC</td><td>Tucson</td><td>2017-04-21</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Bryan L Dinwiddie</td><td>Dinwiddie Construction</td><td>Sierra Vista</td><td>2017-04-19</td><td>Contracting without a License; Own Motion</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Charles J Deutschlander Jr</td><td>Mountain Vista Development</td><td>Phoenix</td><td>2017-04-19</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Antonio Rendon</td><td></td><td>Tucson</td><td>2017-04-19</td><td>Contracting without a License</td><td>1000.00</td><td>1500.00</td><td></td></tr>
+<tr><td>Gary Gilbert Martinez</td><td>Los Dos Hombres LLC</td><td>Phoenix</td><td>2017-04-19</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Michel Kuhse</td><td></td><td>Phoenix</td><td>2017-04-17</td><td>Contracting without a License</td><td></td><td></td><td>1400.00</td></tr>
+<tr><td>Mario A Rios</td><td>MCFixit Maintenance and Repair</td><td>Sun Lakes</td><td>2017-04-17</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Mario A Rios</td><td>MCFixit Maintenance and Repair</td><td>Chandler</td><td>2017-04-17</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Byron R. Farnsworth</td><td>Farnsworth Painting</td><td>Phoenix</td><td>2017-04-17</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Christopher R. Whitsett</td><td>Affordable Handy Services</td><td>Tucson</td><td>2017-04-17</td><td>Contracting without a License; Advertising without a License</td><td>1000.00</td><td>1350.00</td><td></td></tr>
+<tr><td>Billy Smith</td><td>D A Z Specialty Works LLC</td><td>Phoenix</td><td>2017-04-17</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Grant Ross</td><td>Cabana Boy Pool Works</td><td>Tucson</td><td>2017-04-13</td><td>Contracting without a License; Advertising without a License</td><td>2000.00</td><td></td><td></td></tr>
+<tr><td>Fidel Maldonado Acosta</td><td></td><td>Mesa</td><td>2017-04-11</td><td>Contracting without a License; Advertising without a License</td><td>1000.00</td><td>1250.00</td><td></td></tr>
+<tr><td>Abe Van Beek</td><td>Abe's Pools & Spas Inc</td><td>Phoenix</td><td>2017-04-11</td><td>Contracting without a License</td><td></td><td>500.00</td><td></td></tr>
+<tr><td>Manuel Reyes Quintero</td><td>Remodeling &Repairs</td><td>Phoenix</td><td>2017-04-11</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Mark William Kuckuck</td><td></td><td>Phoenix</td><td>2017-04-11</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Dennis Kostandin</td><td>DK Electric LLC</td><td>Phoenix</td><td>2017-04-10</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Richard Alan Underwood</td><td>Wine Cellars by Design</td><td>Scottsdale</td><td>2017-04-07</td><td>Contracting without a License</td><td>5178.35</td><td>11000.00</td><td></td></tr>
+<tr><td>Faustino Sanjuanero-Nieto</td><td>Landgrave Mexican Imports</td><td>Surprise</td><td>2017-04-07</td><td>Contracting without a License; Advertising without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Loretta Nelson</td><td>Foothills Design and Development</td><td>Tucson</td><td>2017-04-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Donald Joseph Bolz</td><td>Time to Save AC & Heating / Bolz AC</td><td>Phoenix</td><td>2017-04-04</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Donald Joseph Bolz</td><td>Time to Save AC & Heating / Bolz AC</td><td>Phoenix</td><td>2017-04-04</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Richard A. Haskins</td><td></td><td>Waddell</td><td>2017-04-04</td><td>Contracting without a License; Advertising without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Brent Poole</td><td>Metal Fusion Inc</td><td></td><td>2017-04-04</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Benjamin Cruz Camberos</td><td>BCC Tile & Granite Art</td><td>Tucson</td><td>2017-04-03</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Dylan Dwight Randall</td><td>Abstract Lighting LLC</td><td>Gilbert</td><td>2017-03-29</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Eddie C Laguna</td><td>American Air Medics LLC</td><td>Mesa</td><td>2017-03-29</td><td>Advertising without a License</td><td>250.00</td><td>00.00</td><td></td></tr>
+<tr><td>Faber Tunison</td><td>Tunison's Floor Covering</td><td>Tucson</td><td>2017-03-27</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jesus G Cruz</td><td>Building Consultants of Arizona LLC</td><td>Tucson</td><td>2017-03-27</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Miguel Dominguez</td><td>Miguel's Handyman Service</td><td>Phoenix</td><td>2017-03-27</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Marshal Teague</td><td>Arizona Southwest Maintenance</td><td>Tucson</td><td>2017-03-27</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jeffrey M King</td><td>The Barn Door Store / One King Street</td><td>Scottsdale</td><td>2017-03-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Miguel L Fuentes</td><td>Arizona Design Flooring & Company LLC</td><td>Goodyear</td><td>2017-03-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Ramon Montoya</td><td>Ramon's Painting Services LLC</td><td>Goodyear</td><td>2017-03-23</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Anthony Bartimioli</td><td>Coats of Many Colors</td><td>Scottsdale</td><td>2017-03-22</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>John G Gountanis</td><td>Gountanis Properties Inc</td><td>Wellton</td><td>2017-03-22</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Steven P McCaslin</td><td>CDC Landscaping and Tree Service</td><td>Mesa</td><td>2017-03-21</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Steven P McCaslin</td><td>CDC Landscaping and Tree Service</td><td>Mesa</td><td>2017-03-21</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Joseph Gerard Scimeca</td><td>The Italian Gardener LLC</td><td>Phoenix</td><td>2017-03-17</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>4500.00</td></tr>
+<tr><td>Zachariah H Robertson</td><td>AZ Westgate Construction</td><td>Phoenix</td><td>2017-03-16</td><td>Contracting without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Anthony B Cota</td><td></td><td>Phoenix</td><td>2017-03-16</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Stelian Nistor</td><td></td><td>Scottsdale</td><td>2017-03-16</td><td>Contracting without a License</td><td>350.00</td><td></td><td></td></tr>
+<tr><td>Scott B Peterson</td><td>Poolscape Design Inc / Vattenstrom Design Group LLC</td><td>Phoenix</td><td>2017-03-15</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Ron Riddell</td><td>One Stop Landscaping & Handyman / ADK Landscaping</td><td>Phoenix</td><td>2017-03-14</td><td>Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Boyd Sturges</td><td>Boyd Sewer & Drain</td><td>Tucson</td><td>2017-03-14</td><td>Contracting without a License; Advertising without a License</td><td>212200.00</td><td></td><td></td></tr>
+<tr><td>Patrick Ryan Kilgore</td><td></td><td>Tempe</td><td>2017-03-14</td><td>Contracting without a License</td><td>2000.00</td><td></td><td></td></tr>
+<tr><td>Ernesto P Lucero</td><td>Antony's Roofing</td><td>Phoenix</td><td>2017-03-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Mark E Moretti</td><td>Arcadian Handyman</td><td>Phoenix</td><td>2017-03-10</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Enrique Rivera</td><td>AZ Teos Plumbing</td><td>Tolleson</td><td>2017-03-08</td><td>Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Lawrence D Hahn</td><td></td><td>Prescott Valley</td><td>2017-03-08</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Quartney Courtney Johnson</td><td>HC Home Improvement LLC</td><td>Youngtown</td><td>2017-03-07</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Lorenzo Bojorquez Moraga</td><td>Seattle Remodel Services LLC</td><td>Tucson</td><td>2017-03-07</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jody E Frison</td><td>Mona Lisa Tile Corporation</td><td>Sun City</td><td>2017-03-07</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>John Jason Schoppmann</td><td>Rent My Husband</td><td>Page</td><td>2017-03-07</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Luis G Encinas</td><td></td><td>Tucson</td><td>2017-03-06</td><td>Contracting without a License</td><td>1865.00</td><td></td><td></td></tr>
+<tr><td>Eduardo G. Escobido Jr.</td><td>First Choice Windows & Doorw</td><td>Chandler</td><td>2017-03-02</td><td>Contracting without a License</td><td>00.00</td><td>00.00</td><td></td></tr>
+<tr><td>Filiberto J Ramos</td><td>LNK Landscape</td><td>Chandler</td><td>2017-03-02</td><td>Contracting without a License</td><td>250.00</td><td></td><td></td></tr>
+<tr><td>Carlos A. Benavidez</td><td></td><td>Gilbert</td><td>2017-03-02</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Robert Leroy Madison</td><td>HDL Pro's</td><td>Yuma</td><td>2017-03-02</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Richard Kornmeyer</td><td></td><td>Tucson</td><td>2017-03-01</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Chris A Tedder</td><td>Cactus Painting AZ</td><td>Gilbert</td><td>2017-02-28</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>James Allen Waide</td><td>Phoenix Paint Pros</td><td>Gilbert</td><td>2017-02-27</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Gilbert Rodriguez</td><td></td><td>Phoenix</td><td>2017-02-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Erasmo "JR" Aguilar</td><td>Aguilar Tile Company LLC</td><td>Phoenix</td><td>2017-02-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jesse Rios Medrano</td><td>Eastern Sky Construction</td><td>Scottsdale</td><td>2017-02-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Neal E Kavanagh</td><td></td><td>Phoenix</td><td>2017-02-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>William H Elias</td><td>The Skylight Specialists</td><td>Phoenix</td><td>2017-02-24</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>David L Bailey</td><td></td><td>Phoenix</td><td>2017-02-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Andrew Carrasco Alvarado</td><td></td><td>Phoenix</td><td>2017-02-24</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Brian Bartoszek</td><td>Giant Roofing</td><td>Phoenix</td><td>2017-02-24</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Scott Shire</td><td>CleanGreen Solutions LLC</td><td>Phoenix</td><td>2017-02-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Christopher Anthony Romo</td><td>Beyond Stone / Olde Town LLC</td><td>Phoenix</td><td>2017-02-24</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Hugh G Burford III</td><td>Tile! Flooring Installations</td><td>Phoenix</td><td>2017-02-24</td><td>Contracting without a License; Advertising without a License; Own Motion</td><td></td><td></td><td></td></tr>
+<tr><td>Jorge Jaquez</td><td>Granite 911 LLC</td><td>Chandler</td><td>2017-02-23</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Christine Wisniewski</td><td>AMERICOURTS LLC</td><td>Phoenix</td><td>2017-02-22</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Hector Robles Torres</td><td>H.T.R. Builders Constrctuion LLC</td><td>Phoenix</td><td>2017-02-22</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Hector Blumenkron</td><td>Saul's Tile Installing & Hector's Tile and General Remodeling Services LLC</td><td>Tucson</td><td>2017-02-21</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Holmes Valladares</td><td>Holmes Home Restoration</td><td>Tempe</td><td>2017-02-21</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Holmes Valladares</td><td>Holmes Home Restoration</td><td>Buckeye</td><td>2017-02-21</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Holmes Valladares</td><td>Holmes Home Restoration</td><td>Phoenix</td><td>2017-02-21</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Douglas A Carroll</td><td>Arizona Sustainable LLC</td><td>Tucson</td><td>2017-02-16</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>00.00</td></tr>
+<tr><td>Antonio (Tony) Fierros</td><td>NovaTuff</td><td>Hereford</td><td>2017-02-16</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Alexjandro Flores</td><td>Alex Marble and Granite</td><td>Phoenix</td><td>2017-02-16</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Rodrigo Plascencia</td><td>Sun Valley Nursery / Dreaming By Design</td><td>Phoenix</td><td>2017-02-13</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Fernando Felix</td><td></td><td>Casa Grande</td><td>2017-02-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>John Kranis</td><td>John Kranis Design</td><td>Tucson</td><td>2017-02-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>James Stark</td><td>Goose Honey Do</td><td>Apache Junction</td><td>2017-02-08</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Thomas Baker</td><td>BaZarr Painting and Wallpaper Removal</td><td>Scottsdale</td><td>2017-02-07</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Philippe J.P. Caspar</td><td></td><td>Paradise Valley</td><td>2017-02-07</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Francesco A Perfetti</td><td></td><td>Mesa</td><td>2017-02-07</td><td>Contracting without a License; Advertising without a License</td><td>1916.00</td><td></td><td></td></tr>
+<tr><td>Victor Omar Covarrubias Jr</td><td>Agua Azul Pool Services / Abrasive Pool Industries / Covarrs Pools LLC / Aqua Marina Pools LLC / Aqua Marina Pools & Landscaping LLC</td><td>Phoenix</td><td>2017-02-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Keith Samuel Klomps</td><td>KSK Restorations</td><td>Tucson</td><td>2017-02-06</td><td>Other; Contracting without a License</td><td>00.00</td><td>00.00</td><td></td></tr>
+<tr><td>Abel Jimenez Jr</td><td></td><td>Phoenix</td><td>2017-02-02</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>James Nelson Petty II</td><td>Jim's Handyman & Repair Service LLC</td><td>Tucson</td><td>2017-01-31</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Gilbert Soto</td><td>Eagle Eye Carpent Cleaning</td><td>Tucson</td><td>2017-01-30</td><td>Contracting without a License; Advertising without a License</td><td>1150.00</td><td>00.00</td><td></td></tr>
+<tr><td>Jeffrey Kirchoffner</td><td>Kirchy's LLC / Kirchy's Lawn Service</td><td>Peoria</td><td>2017-01-27</td><td>Contracting without a License</td><td>500.00</td><td>00.00</td><td></td></tr>
+<tr><td>Phillip D. Keller</td><td></td><td>Phoenix</td><td>2017-01-27</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jose Uzarraga Alvarez</td><td>J A Mata Framing</td><td>Phoenix</td><td>2017-01-27</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Albert Yusupov</td><td></td><td>Phoenix</td><td>2017-01-25</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Lance Michael Savard</td><td>American Pools of Yuma LLC</td><td>Yuma</td><td>2017-01-24</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Peter William Maguire</td><td></td><td>Scottsdale</td><td>2017-01-24</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Ahmad Zarifi</td><td>Skyline Ridge LLC.</td><td>Phoenix</td><td>2017-01-23</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Juan Manuel Aldana</td><td>AZ AirCond LLC</td><td>Phoenix</td><td>2017-01-23</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Russell F Martin</td><td>US Martins Electric Services</td><td>Tucson</td><td>2017-01-23</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Guadalupe Cardenas</td><td>Lupe & Sons Organic Landscaping</td><td>Tucson</td><td>2017-01-23</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>John Richard Blackthorn</td><td>R and R Concrete</td><td>Fort Mohave</td><td>2017-01-23</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Nancy Ellen Compton</td><td>Elsie de Wolfe Interior Design Inc</td><td>Chandler</td><td>2017-01-23</td><td>Contracting without a License</td><td>500.00</td><td></td><td></td></tr>
+<tr><td>Jonathan Wayne Cushing</td><td>Complete Service</td><td>Yuma</td><td>2017-01-23</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jose Antonio Quintero</td><td>Handyman Services</td><td>Wellton</td><td>2017-01-23</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Edgar Omar Villalobos-Huante</td><td>Unique Concepts LLC</td><td>Yuma</td><td>2017-01-23</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Fred Sianez</td><td></td><td>Phoenix</td><td>2017-01-23</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Eric Snyder</td><td></td><td>Tubac</td><td>2017-01-20</td><td>Contracting without a License</td><td>1000.00</td><td>00.00</td><td></td></tr>
+<tr><td>Roger Harper</td><td>Dragon AZ Trailer</td><td>Waddell</td><td>2017-01-19</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Rogelio Trejo</td><td>Doorcraft & Millwork LLC</td><td>Buckeye</td><td>2017-01-19</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Mario Alcantar</td><td>Marios Landscaping</td><td>Phoenix</td><td>2017-01-18</td><td>Contracting without a License; Own Motion</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Patrick L. Gunter</td><td>Pat the Painter</td><td>Chandler</td><td>2017-01-18</td><td>Contracting without a License; Advertising without a License</td><td>200.00</td><td></td><td></td></tr>
+<tr><td>Stephen Keyes</td><td></td><td>Tucson</td><td>2017-01-18</td><td>Contracting without a License</td><td>1000.00</td><td>800.00</td><td></td></tr>
+<tr><td>Timothy James Pierce</td><td></td><td>Tucson</td><td>2017-01-13</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Lawrence Randell Griego</td><td>Randy's Window Tinting</td><td>Surprise</td><td>2017-01-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Edward Regeser</td><td></td><td>Prescott</td><td>2017-01-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Jose Gaspar</td><td></td><td>Phoenix</td><td>2017-01-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Stephen Lee Walker</td><td>Steve's Handyman Service</td><td>Phoenix</td><td>2017-01-12</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Kenneth W Fischer</td><td>FM Enterprises LLC</td><td>Chandler</td><td>2017-01-11</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Steven P McCaslin</td><td>CDC Landscaping and Tree Service</td><td>Mesa</td><td>2017-01-09</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Matthew W. Collins</td><td>Unto Him Landscaping & Design LLC</td><td>Gilbert</td><td>2017-01-06</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Spencer B Madsen</td><td>Spencer for Hire</td><td>Surprise</td><td>2017-01-06</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Charles Parker</td><td>Ace Golf Netting</td><td>Phoenix</td><td>2017-01-05</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>David Hooper</td><td></td><td>Tempe</td><td>2017-01-05</td><td>Contracting without a License</td><td>350.00</td><td></td><td></td></tr>
+<tr><td>Jose Gramajo</td><td>Extreme Painting</td><td>Phoenix</td><td>2017-01-04</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Miguel Angel Monroy</td><td></td><td>Tucson</td><td>2017-01-04</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Miguel Dominguez</td><td>Miguel's Handyman Service</td><td>Phoenix</td><td>2017-01-03</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Robert B. Williams</td><td>Architectural Metal Management</td><td>Scottsdale</td><td>2016-12-23</td><td>Contracting without a License</td><td>1860.00</td><td>2500.00</td><td></td></tr>
+<tr><td>Alexjandro Flores</td><td>Alex Marble and Granite</td><td>Phoenix</td><td>2016-12-20</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Michael Q Abbey</td><td>Infinite Solutions Industry LLC / Abbey Industries</td><td>Phoenix</td><td>2016-12-20</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Alexjandro Flores</td><td>Alex Marble and Granite</td><td>Phoenix</td><td>2016-12-20</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Roman R Nunez</td><td>Drisik Electric & Home Maintenance LLC</td><td>Tucson</td><td>2016-12-16</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Charles J. Kern</td><td></td><td>Chandler</td><td>2016-12-15</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Emil S Bortis</td><td>ER Grout & Tile Restoration LLC</td><td>Gilbert</td><td>2016-12-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Humberto Duran</td><td>Angel's Perfect Cut Landscaping</td><td>Marana</td><td>2016-12-12</td><td>Contracting without a License; Advertising without a License</td><td></td><td>2870.00</td><td></td></tr>
+<tr><td>Martin A McDonald</td><td>Silver Ranch Custom Builders LLC</td><td>Scottsdale</td><td>2016-12-12</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>James Robert Mello</td><td>Sun Shader By Design LLC</td><td>Scottsdale</td><td>2016-12-08</td><td>Contracting without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Kenneth M Schaffer</td><td>Kenstruction</td><td>Chandler</td><td>2016-12-08</td><td>Contracting without a License</td><td>250.00</td><td>00.00</td><td></td></tr>
+<tr><td>Filiberto J Ramos</td><td>LNK Landscape</td><td>Queen Creek</td><td>2016-12-08</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Filiberto J Ramos</td><td>LNK Landscape</td><td>Queen Creek</td><td>2016-12-08</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>David H. Morgensen</td><td></td><td>Gilbert</td><td>2016-12-08</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Joshua Bartlett</td><td></td><td>Tucson</td><td>2016-12-08</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Jeffrey A Cohen</td><td>Custom Cabinetry by Design LLC</td><td>Paradise Valley</td><td>2016-12-06</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Victor M. Lopez</td><td></td><td>Sun Lakes</td><td>2016-12-06</td><td>Contracting without a License</td><td>00.00</td><td></td><td></td></tr>
+<tr><td>Alberto Aguirre</td><td></td><td>Sun City</td><td>2016-12-01</td><td>Contracting without a License</td><td></td><td>1000.00</td><td></td></tr>
+<tr><td>Adrian Johny Crespin</td><td>Sunstate Custom Flooring</td><td>El Mirage</td><td>2016-11-30</td><td>Contracting without a License; Advertising without a License</td><td>500.00</td><td></td><td></td></tr>
+<tr><td>Jason D Wood</td><td>The Court Sport</td><td>Scottsdale</td><td>2016-11-30</td><td>Advertising without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Abraham Perez Sevilla</td><td></td><td>Phoenix</td><td>2017-06-16</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Christopher Paul Carmen</td><td>Mountain Sunset Landscaping</td><td>Prescott</td><td>2018-06-15</td><td>Contracting without a License; Poor Work; Abandonment; A.R.S. § 32-1154(A)(12)</td><td></td><td></td><td></td></tr>
+<tr><td>Edge Hardwood Flooring LLC</td><td></td><td>Phoenix</td><td>2017-01-24</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Enriquez Favela Pablo Sergio</td><td></td><td>Topock</td><td>2017-08-28</td><td>Contracting without a License</td><td>1853.00</td><td></td><td></td></tr>
+<tr><td>Farber Jeremy Aaron</td><td></td><td>Phoenix</td><td>2017-02-13</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>George Brian Wheeler Jr</td><td></td><td>San Tan Valley</td><td>2016-12-08</td><td>Contracting without a License</td><td>1000.00</td><td>2500.00</td><td></td></tr>
+<tr><td>Gino Carl Zanga</td><td></td><td>Glendale</td><td>2018-06-14</td><td>Advertising without a License</td><td></td><td></td><td>1000.00</td></tr>
+<tr><td>Jeremy Ivan Baldridge</td><td>Arctic Circle Cooling and Heating</td><td>Tucson</td><td>2017-08-21</td><td>Contracting without a License</td><td>1000.00</td><td></td><td></td></tr>
+<tr><td>Jonathon J. Murray</td><td>Pro Contracting</td><td>Scottsdale</td><td>2017-02-13</td><td>Contracting without a License</td><td>1860.00</td><td></td><td></td></tr>
+<tr><td>Muhammad Abdullah</td><td></td><td>Laveen</td><td>2017-07-06</td><td>Contracting without a License</td><td>1000.00</td><td>5000.00</td><td></td></tr>
+<tr><td>Najera Juan</td><td></td><td>Peoria</td><td>2017-08-28</td><td>Contracting without a License</td><td>00.00</td><td>00.00</td><td></td></tr>
+<tr><td>Patka Scott</td><td></td><td>Phoenix</td><td>2017-08-28</td><td>Other; Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Perez Mario</td><td></td><td>Phoenix</td><td>2017-04-28</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Rich Overlin</td><td>NorthWestContracting</td><td>Phoenix</td><td>2017-05-15</td><td>Contracting without a License</td><td></td><td></td><td>2500.00</td></tr>
+<tr><td>Ruben Cruz Ruvalcava</td><td></td><td>Scottsdale</td><td>2017-12-06</td><td>Contracting without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Sarkis Oundjian</td><td>Cool Times Pool</td><td>Chandler</td><td>2017-05-26</td><td>Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>Tony Eucharist Olson</td><td></td><td>Phoenix</td><td>2017-11-21</td><td>Other; Advertising without a License</td><td></td><td></td><td>1500.00</td></tr>
+<tr><td>Vern Cooley Design and Building</td><td></td><td>Tucson</td><td>2017-03-23</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+<tr><td>West-Core Drilling LLC</td><td></td><td>Phoenix</td><td>2017-01-23</td><td>Contracting without a License; Advertising without a License</td><td></td><td></td><td></td></tr>
+</table>
+
+<script>var complaintForm = 'unlicensedViolators';</script>
+
+<iframe name="formSubWin" id="formSubWin" title="Contractor Search Results iFrame for Transition" style="display: none;"></iframe>
+<script src="portal/roc_salesforce4c91.js?t=1543448703" type="text/javascript"></script>
+<style type="text/css">@import url("portal/roc_salesforce.css");</style>
+<style type="text/css">@import url("portal/font-awesome/css/font-awesome.css");</style>
+<style type="text/css">@import url("https://fonts.googleapis.com/css?family=Roboto+Slab");</style>
+
+  </div>
+</div>
+</div>
+  </div>
+
+      </div>
+    </div>
+
+
+      </div>
+
+  <div id="postscript-group" class="two-postscript clearfix">
+          <div id="region-postscript-first" class="col-sm-6 postscript">
+          <div class="region region-postscript-first menu-block-placement-doesnt-exist">
+    
+
+<section id="block-views-news-releases-block-2"  class="block block-views" aria-label="ROC News">
+<div class="block-inner clearfix">
+        <h2 class="block-title">ROC News</h2>
+    
+  <div class="content" >
+    <div class="view view-news-releases view-id-news_releases view-display-id-block_2 view-dom-id-524f921e25b1cfc59079d62bf60f6ea8 total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-11-19T00:00:00-07:00">11/19/2018</span></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html">AZ ROC Announces New Chief Counsel/Chief of Legal &amp; Recovery Fund to Agency</a></span>  </span>  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/thumbnail80__80x80_/public/news/images/Untitled%20design%20(10)7484.png?itok=BKxVdRQI" width="50" height="50" alt="a" /></a></div>  </div>  
+  <div class="views-field views-field-field-article-content">        <div class="field-content"><p><span style="font-size:14px"><span style="font-family:georgia,serif">FOR IMMEDIATE RELEASE</span></span><br /><span style="font-size:14px"><span style="font-family:georgia,serif">Monday, November 19, 2018</span></span></p><p><span style="font-size:14px"><span style="font-family:georgia,serif">CONTACT</span></span><br />...</div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+  </div>
+      </div>
+                  <div id="region-postscript-third" class="col-sm-6 postscript">
+          <div class="region region-postscript-third menu-block-placement-doesnt-exist">
+    
+
+<div id="block-block-4"  class="block block-block" aria-label="block-block-4">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <script language="javascript">
+<!--//--><![CDATA[// ><!--
+
+// I don't think I need this now.
+
+//--><!]]>
+</script>
+  </div>
+</div>
+</div>
+
+
+<section id="block-views-tweets-block"  class="block block-views" aria-label="Twitter">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Twitter</h2>
+    
+  <div class="content" >
+    <div class="view view-tweets view-id-tweets view-display-id-block view-dom-id-4530be89281acb6d0c292b5140cbc614 total-results-3">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span>        <span><img class="tweet-image img-responsive" typeof="foaf:Image" src="https://pbs.twimg.com/media/DtF22S8WsAI9lAg.jpg:thumb" alt="" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23WisdomWednesday" class="twitter-hashtag">#WisdomWednesday</a> If opportunity doesn't knock, build a door. <a href="https://t.co/zwVHG1NqdL">https://t.co/zwVHG1NqdL</a></span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span>        <span><img class="tweet-image img-responsive" typeof="foaf:Image" src="https://pbs.twimg.com/media/DtBNQCAU8AA37jr.jpg:thumb" alt="" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23TriviaTuesday" class="twitter-hashtag">#TriviaTuesday</a> To whom is the license issued? <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23AZROC" class="twitter-hashtag">#AZROC</a> <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23ArizonaContractor" class="twitter-hashtag">#ArizonaContractor</a> <a href="https://t.co/I6bUZBP3KQ">https://t.co/I6bUZBP3KQ</a></span>  </span></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <span>        <span><img src="sites/default/files/rocseal.png" alt="A Tweet from az_ROC" class="tweet-image img-responsive" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content">Green Valley News &amp; Sun reports on a local impact of the labor shortage. 
+
+"The lack of workers means projects that… <a href="https://t.co/NqoMr1D3R3">https://t.co/NqoMr1D3R3</a></span>  </span></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="more-link"><a href="https://twitter.com/az_ROC" target="_blank" aria-label="See More ROC Tweets">More  </a></div>    </div>
+  
+  
+</div>
+  </div>
+</div>
+</section>
+  </div>
+      </div>
+          </div>
+
+</div>
+<div id="zone-footer" class="zone" role="contentinfo" aria-labelledby="footer-first">
+    
+    <div id="footer-first-contact" class="clearfix " role="contentinfo" aria-labelledby="footer-contact">
+    <div id="footer-state-seal" class="content clearfix">
+        <div class="footer-wrapper">
+                            <img src="sites/all/themes/az_gov/img/ArizonaOfficialSeal.png" alt="Arizona State Seal" id="state-seal" />
+                    </div>
+    </div>
+
+    <!--  <div id="footer-spacer"></div>-->
+            <div id="footer-contact">
+
+                            <div class="footer-title footer-field">
+                    <a href="office-locations.html">
+                        Contact Us                    </a>
+                </div>
+            
+
+            <div class="footer-info clearfix">
+                <div class="footer-address clearfix">
+                    <div class="footer-address-group footer-group">
+
+                                                    <div class="footer-agency footer-field">
+                                AZ ROC                            </div>
+                        
+                                                    <div class="footer-address-1 footer-field">
+                                1700 W. Washington St. Suite 105                            </div>
+                        
+                                                    <div class="footer-address-2 footer-field">
+                                Phoenix, Arizona 85007-2812                             </div>
+                        
+                                                    <div class="footer-map-link footer-field">
+                                <a href="https://www.google.com/maps/place/1700+W+Washington+St,+Phoenix,+AZ+85007/@33.448295,-112.0978899,17z/data=!3m1!4b1!4m2!3m1!1s0x">
+                                    Find in Google Maps
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="footer-phone-group footer-group">
+
+                                                    <div class="footer-phone footer-field">
+                                <strong>Phone: </strong>(602) 542-1525                            </div>
+                        
+                                                    <div class="footer-fax footer-field">
+                                <strong>Fax: </strong>(602) 542-1599                            </div>
+                        
+                    </div>
+                </div>
+
+                                    <div class="footer-map  footer-group">
+                        <a href="https://www.google.com/maps/place/1700+W+Washington+St,+Phoenix,+AZ+85007/@33.448295,-112.0978899,17z/data=!3m1!4b1!4m2!3m1!1s0x">
+                            <img src="sites/default/files/theme-settings/AZ-Exe-Tower.jpg" alt="Map Image">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+            <div id="region-footer-second">
+              <div class="region region-footer-second">
+    
+
+<section id="block-menu-menu-footer-nav"  class="block block-menu" aria-label="Footer Nav">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Footer Nav</h2>
+    
+  <div class="content" >
+    <ul class="menu nav"><li class="first leaf menu-li-agency-policies" aria-label="Agency Policies"><a href="agency-policies.html" title="">Agency Policies</a></li>
+<li class="leaf menu-li-terms-of-use" aria-label="Terms of Use"><a href="terms.html" title="">Terms of Use</a></li>
+<li class="leaf menu-li-electronic-update" aria-label="Electronic Update"><a href="electronic-update.html" title="">Electronic Update</a></li>
+<li class="leaf menu-li-statewide-policies" aria-label="Statewide Policies"><a href="http://az.gov/policies" title="">Statewide Policies</a></li>
+<li class="last leaf menu-li-©arizona-registrar-of-contractors" aria-label="©Arizona Registrar of Contractors"><a href="home.html" title="">©Arizona Registrar of Contractors</a></li>
+</ul>
+  </div>
+</div>
+</section>
+  </div>
+        </div>
+    </div>
+</div>  <script src="sites/default/files/js/js_L50O_PWoAuMOxVjnzZCkNSSmI0kFwhZsO1_KS8WnGKw.js"></script>
+<script src="sites/default/files/js_injector/js_injector_141d4b.js?pixf2w"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"392a26dc1c","applicationID":"19996584","transactionName":"MVRbYUECXEZUWxUPDAgebEdaTB1cW1wEHk0WWUk=","queueTime":0,"applicationTime":29,"atts":"HRNYFwkYT0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from roc.az.gov/unlicensed-violators-list by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Nov 2018 00:42:33 GMT -->
+</html>

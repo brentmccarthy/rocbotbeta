@@ -1,0 +1,12 @@
+#page .sliver-container, #zone-users, #zone-branding, #postscript-group, #zone-footer, #page .region-sidebar-second, #cboxOverlay, #colorbox {
+   display: none;
+}
+
+.noprint {
+   display: none;
+}
+
+/* page bottom for holding footer area which create one extra blank page when printing */
+#zone-content[class="zone"] {
+   padding-bottom: 0 !important;
+}

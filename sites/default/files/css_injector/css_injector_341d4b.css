@@ -1,0 +1,1540 @@
+/* CSS INJECTOR 1 - named 'Sitewide' - Added date unknown */
+
+    /* overwrite to show blue background color on the CONTRACTOR RESOURCES dropdown navigation menu when mouse over */
+    #zone-branding .region-menu ul.menu .menu-li-contractor-resources ul a:hover {
+    background-color: #4678bf !important;
+    color: #ffffff !important;
+    }
+
+    /* overwrite to show maroon background color on the CONSUMBER RESOURCES dropdown navigation menu when mouse over */
+    #zone-branding .region-menu ul.menu .menu-li-consumer-resources ul a:hover {
+    background-color: #913333 !important;
+    color: #ffffff !important;
+    }
+
+    /* overwrite to show orange background color on the AGENCY dropdown navigation menu when mouse over */
+    #zone-branding .region-menu ul.menu .menu-li-agency ul a:hover {
+    background-color: #B74427 !important;
+    color: #ffffff !important;
+    }
+
+    #zone-branding .site-details .site-info .site-name {
+    font-family: Calibri, Cambria;
+    font-weight: bold;
+    font-size: 26px;
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    }
+
+    #zone-branding .site-details .site-info .site-slogan {
+    display: none;
+    }
+
+    /* main menu items */
+    #zone-branding .region-menu .block-menu ul.menu li a {
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: Calibri, Cambria;
+    }
+
+    #zone-branding .region-menu .block-menu ul.menu li  ul.menu li a {
+    font-weight: normal;
+    text-transform: none;
+    font-size: 1.15em;
+    }
+
+    /* overwrite */
+    /*used for banner announcement*/
+    #page .region-header-first {
+        padding: 15px 10px 0 10px;
+        border: 8px solid #913333;
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    /* overwrite */
+    #zone-header {
+    margin: 0 0 10px;
+    }
+
+    /* overwrite */
+    #zone-header .region {
+    color: #913333;
+    font-weight: bold;
+    font-size: 14px;
+    }
+
+    /* overwrite */
+    #breadcrumb, #zone-header .region {
+        background-color: #fff;
+    }
+
+    /* overwrite */
+    #footer-branding .footer-wrapper .site-name {
+        font-family: Calibri, Cambria;
+        font-weight: bold;
+        color: #fff;
+    }
+
+    /* overwrite */
+    #footer-branding .footer-wrapper .site-info .site-slogan {
+        color: #fff;
+        font-size: 14px;
+        text-transform: none;
+        font-family: Calibri, Cambria;
+    }
+
+    /* overwrite */
+    #footer-branding .footer-wrapper img {
+        padding: 10px;
+    }
+
+    #footer-branding {
+        background-color: #3D68AC;
+    }
+
+    #footer-contact {
+        background-color: #fff;
+    }
+
+    #page h1#page-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-transform: none;
+    font-family: Calibri, Cambria;
+    text-align: center;
+    }
+
+    /* temporary for October*/ 
+    /* overwrite for announcement banner */
+    /*#breadcrumb, #zone-header .region-header-first {
+        background-color: #9c84b8;
+    }*/ 
+
+    /* overwrite for announcement banner */
+    /*#zone-header .region-header-first {
+        color: #fff;
+    } */ 
+
+
+    
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 4 - named 'Media Postscript' - Added date unknown */
+
+#postscript-group {
+    padding-bottom: 10px;
+ }
+ 
+ #postscript-group h2 {
+     padding: 5px 0;
+     margin-bottom: 10px;
+     font-size: 12px;
+     color: #600;
+     font-weight: bold;
+ }
+ 
+ /* overwrite */
+ #postscript-group .region.menu-block-placement-doesnt-exist .block-inner > .content {
+     padding: 0 5px 0 0;
+ }
+ 
+ #postscript-group a {
+    font-size: 12px;
+    color: #913333;
+    text-decoration: underline !important;
+    text-decoration-style: dotted !important;
+ }
+ 
+ #postscript-group a:hover {
+    color: #f93333;
+   text-decoration: underline !important;
+    text-decoration-style: solid !important;
+ }
+ 
+ #postscript-group div.more-link {
+    background-color: #913333;
+ }
+ 
+ #postscript-group div.more-link a {
+    color: #ffffff;
+ }
+ 
+ /* Facebook twitter */
+ #region-postscript-second span img, #region-postscript-third span img {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding-right: 3px;
+ }
+ 
+ /* Facebook text align right to the image and take the whole block even no text or short text so the text of next Facebook item below do not come up */
+ #region-postscript-second div span {
+         display: inline-block;
+         position:relative;
+ }
+ 
+ /* Facebook image goes left */
+ #region-postscript-second div span img {
+    float: left;
+    vertical-align: top; 
+ }
+ 
+ /*--------------------------------------------------------------------------- postscript block latest news ----------------------------------------------------------------------------*/
+ #region-postscript-first .view-news-releases img {
+    float:left;
+    margin: 5px 5px 5px 0; 
+ }
+ 
+ #region-postscript-first .view-news-releases table, #region-postscript-first .view-news-releases tr {
+        border: none;
+ }
+ 
+ #region-postscript-first .view.view-news-releases .views-field-title {
+    font-weight: normal;
+ }
+ 
+ #region-postscript-first div.more-link {
+     margin-top: 0;
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 6 - named 'Basic CSS' - Added date unknown */
+
+.nospace {
+    padding:0; 
+    margin:0
+}
+
+.borderless {
+    border: 0;
+}
+
+.borderless table {
+    border: 0;
+}
+
+.borderless tr {
+    border: 0;
+}
+
+.borderless td {
+   display: inline;
+}
+
+.borderless div {
+    border: 0;
+}
+
+.no-underline {
+text-decoration: none;
+}
+
+.underline {
+text-decoration: underline;
+}
+
+.float-left {
+float: left;
+}
+
+.float-right {
+float: right;
+}
+
+.align-center {
+margin: 0 auto;
+display: block;
+}
+
+.align-bottom {
+vertical-align: bottom;
+}
+
+.align-top {
+vertical-align: top;
+}
+
+.align-middle {
+vertical-align: middle;
+}
+
+.text-align-center {
+text-align:center;
+}
+
+.font-italic {
+font-style: italic;
+}
+
+.font-bold {
+font-weight: bold;
+}
+
+.font-11 {
+font-size: 11px;
+}
+
+.font-12 {
+font-size: 12px;
+}
+
+.font-11-italic {
+font-size: 11px;
+font-style: italic;
+}
+
+.font-11-bold {
+font-size: 11px;
+font-weight: bold;
+}
+
+.font-11-bold-italic {
+font-size: 11px;
+font-weight: bold;
+font-style: italic;
+}
+
+.padding-5 {
+padding: 5px;
+}
+
+.padding-bottom5 {
+margin-bottom: 150px;
+}
+
+.margin-left-13 {
+margin-left: 13px;
+}
+
+.margin-left-15 {
+margin-left: 15px;
+}
+
+.margin-left-30 {
+margin-left: 30px;
+}
+
+.margin-top-18n {
+margin-top: -18px;
+}
+
+.margin-top-5 {
+margin-top: 5px;
+display: block;
+}
+
+.margin-right-5 {
+margin-right: 5px;
+}
+
+.display-inline {
+display: inline;
+}
+
+.display-none {
+display: none;
+}
+
+.color-maroon {
+color: #913333;
+}
+
+.color-gray-333
+{  
+color: #333333;
+}
+
+.color-blue {
+color: #0000FF;
+}
+
+.bgcolor-yellow {
+background-color:#F9F0A0;
+}
+
+.bgcolor-lightyellow {
+background-color: lightyellow;
+}
+
+span .height-5 {
+display: block;
+height: 5px;
+}
+
+.width-100 {
+ width: 100px;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 9 - named 'Featured Item Preface' - Added date unknown */
+
+/* for mobile devices */
+#preface-group img {
+    max-width: 100%;
+}
+
+#preface-group .region-preface-first, #preface-group .region-preface-second {
+   background-color: #DCDCDC;
+}
+
+#preface-group table, #preface-group table tr {   
+   border: 0;
+}
+
+/* dont show second image when hover over (on iphone hover translate to touch) */
+#featured-pic .pic-change img:last-child, .featured-pic .pic-change img:last-child {
+    display:none !important;
+}
+#featured-pic .pic-change:hover img:first-child, .featured-pic .pic-change:hover img:first-child {
+    display:none !important;    
+}
+#featured-pic .pic-change:hover img:last-child, .featured-pic .pic-change:hover img:last-child {
+    display:block !important;
+}
+.no-touch #featured-pic .pic-change img:last-child, .no-touch .featured-pic .pic-change img:last-child {
+    display:none !important;
+}
+.no-touch #featured-pic .pic-change:hover img:first-child, .no-touch .featured-pic .pic-change:hover img:first-child {
+    display:block !important;
+}
+.no-touch #featured-pic .pic-change:hover img:last-child, .no-touch .featured-pic .pic-change:hover img:last-child {
+    display:none !important;
+}
+
+#preface-group h2.block-title, #preface-group h1.block-title {
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: medium none;
+    margin: 0;
+    padding: 5px 3px 3px 3px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+#preface-group a img {
+   display: block;
+   margin: 0 auto;
+}
+
+#preface-group a {
+   color: #333333;
+}
+
+#preface-group a:hover {
+   color: #913333;
+   text-decoration: none;
+}
+
+#preface-group .field-item {
+   border-bottom: 1px solid #999999;
+   margin-bottom: 3px;
+}
+
+#block-views-featured-item-block-32, #block-views-featured-item-block-33, #block-views-featured-item-block-34 {
+   background-color: #F2F0ED;
+   margin: 0 10px 10px 10px;
+   padding: 0;
+}
+
+/* in region-preface-third, office hours, contact us and social media */
+#preface-group #block-views-featured-item-block-32 .content, #preface-group #block-views-featured-item-block-33 .content, #preface-group #block-views-featured-item-block-34 .content {
+    padding: 0 5px 0 5px;
+}
+
+#preface-group .region.menu-block-placement-doesnt-exist .block-inner > .content {
+    padding: 10px 10px 0 10px;
+}
+
+/* in region-preface-third, top section with links */
+#preface-group #block-views-featured-item-block-6 .content, #preface-group #block-views-featured-item-block-10 .content, #preface-group #block-views-featured-item-block-26 .content, #preface-group #block-views-featured-item-block-28 .content {
+   padding-top: 0;
+}
+
+#preface-group #block-views-featured-item-block-6 .field-item, #preface-group #block-views-featured-item-block-10 .field-item, #preface-group #block-views-featured-item-block-26 .field-item, #preface-group #block-views-featured-item-block-28 .field-item {
+    background-color: #F2F0ED;
+    padding: 5px 3px 5px 3px;
+    border-bottom: 0;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+#preface-group #block-views-featured-item-block-6 .field-item:hover, #preface-group #block-views-featured-item-block-10 .field-item:hover, #preface-group #block-views-featured-item-block-26 .field-item:hover, #preface-group #block-views-featured-item-block-28 .field-item:hover {
+   background-color: #DCDCDC;
+}
+
+#preface-group #block-views-featured-item-block-32 span a, #preface-group #block-views-featured-item-block-34 span a {
+   color: blue;
+}
+
+#preface-group #block-views-featured-item-block-32 span a:hover, #preface-group #block-views-featured-item-block-34 span a:hover {
+   color: #913333;
+}
+
+#preface-group #block-views-fa2a5f10f878d75c5a2b6a6261bbf358 h2.block-title,
+#preface-group #block-views-67e33ff312155d4a5bb125ce32a3e4d3 h2.block-title,
+#preface-group #block-views-6e95bc2f0c852b9345ded32530db7cb4 h2.block-title,
+#preface-group #block-views-69d8d1768d8708431ce1e04c2b8402e9 h2.block-title,
+#preface-group #block-views-d38307f51f75b68928a1afa6b8776667 h2.block-title,
+#preface-group #block-views-128cac7afa32468e10a1f0b144caab35 h2.block-title,
+#preface-group #block-views-223d7176726d00faefdb4ebe21a088d9 h2.block-title,
+#preface-group #block-views-e4092fb295997a87d9e5afdb15aa06e6 h2.block-title {
+   background-color: #3B5D94;
+}
+
+#preface-group #block-views-acc4e0038baff37c29c9d6170d13d9fc h2.block-title,
+#preface-group #block-views-eca1e34c2be981d423447b24bce0dde5 h2.block-title,
+#preface-group #block-views-680d6d117c53479e3f650d04852b2c94 h2.block-title,
+#preface-group #block-views-14aeaf2a8c618f981977e6c980585aaf h2.block-title,
+#preface-group #block-views-427cf3ad3707ccddfb0b59c05361bf01 h2.block-title,
+#preface-group #block-views-d7dd934fd0fc57b71a716b6b52d824c3 h2.block-title {
+   background-color: #B74427;
+}
+
+#preface-group #block-views-7ea9678d5a094e242ec5724ca85781bd h2.block-title,
+#preface-group #block-views-574250c0a0d64abbf959d895bad83223 h2.block-title,
+#preface-group #block-views-8fb8516a1b4a514fde439fe4ba08d150 h2.block-title,
+#preface-group #block-views-c6c50bea819a18fda3573d2aaee6928a h2.block-title,
+#preface-group #block-views-9886bb433caf9c481191759fc3212068 h2.block-title,
+#preface-group #block-views-8af5f8d1c405456be03f7d341de15ecd h2.block-title,
+#preface-group #block-views-41e0cdafd37f142c52928dfbec0aaeb5 h2.block-title,
+#preface-group #block-views-3a8af5b41fd49c5134236df212b6a413 h2.block-title,
+#preface-group #block-views-4e06cb7c8b8c7a46f4545bb75560727d h2.block-title,
+#preface-group #block-views-a9fc0f1546ec069a9e8bf6f1604c6a72 h2.block-title  {
+   background-color: #3B5D94;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 10 - named 'Media Branding' - Added date unknown */
+
+/* overwrite */
+#region-branding .region-branding {
+    float: right;
+    padding-top: 10px;
+    margin-bottom: 10px;
+ }
+ 
+ /* overwrite */
+ #region-branding #block-views-featured-item-block-15 table {
+     width: 50px;
+     border: 0;
+     margin-top: 0;
+     float: right;
+ }
+ 
+ #region-branding #block-views-featured-item-block-15 table tr {
+    border: 0;
+ } 
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 11 - named 'Slideshow' - Added date unknown */
+
+#page .node-basic-slideshow.basic-slideshow-style-1 .field-slideshow-pager {
+    position: absolute;
+    bottom: 10px;
+    z-index: 10;
+}
+
+#field-slideshow-1-wrapper .field-slideshow-caption p {
+   color: #ffffff;
+   font-size: 12px;
+}
+
+/* small font size on mobile */
+@media only screen and (max-width: 500px) {
+   #field-slideshow-1-wrapper .field-slideshow-caption p  { font-size: 11px; line-height: 12px; }
+   #page .node-basic-slideshow.basic-slideshow-style-1 .field-slideshow-pager { position: relative; top: 0px; }
+}
+
+#field-slideshow-1-wrapper .field-slideshow-caption a {
+   color: #BE5136;
+   font-size: 16px;
+   font-weight: bold;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 13 - named 'Featured Item Sidebar' - Added date unknown */
+
+#sidebar-second {
+    font-size: 12px;
+ }
+ 
+ #sidebar-second table {
+    border: 0;
+ }
+ 
+ #sidebar-second tr  {
+    border: 0;   
+ }
+ 
+ #sidebar-second a {
+    color: #333333;
+    font-weight: bold;
+    padding-left: 3px;
+ }
+ 
+ #sidebar-second .block-title {
+    color: #ffffff;
+    background-color: #913333;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 6px 3px 6px 3px;
+ }
+ 
+ #sidebar-second .field-item {
+    margin-bottom: 5px;
+    background-color: #e5e5e5;
+    padding: 5px 2px 5px 2px;
+ }
+ 
+ #sidebar-second .field-item:hover {
+   background-color: #ccc;
+ }
+ 
+ #sidebar-second .field-item:hover a {   
+    text-decoration: none;
+    color: #913333;
+ }
+ 
+ #sidebar-second .field-collection-view {
+    padding: 0;
+    margin: 0;
+ }
+ 
+ /* office hours, contact us, social media */
+ #block-views-featured-item-block-7, #block-views-featured-item-block-8, #block-views-featured-item-block-9 {
+    background-color: #e5e5e5;
+    padding: 0 3px 0 6px;
+ }
+ 
+ #block-views-featured-item-block-7 .block-title, #block-views-featured-item-block-8 .block-title, #block-views-featured-item-block-9 .block-title {
+    color: #333333;
+    background-color: #e5e5e5;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-bottom: 0;
+    padding: 0;
+ }
+ 
+ #block-views-featured-item-block-7 a, #block-views-featured-item-block-8 a, #block-views-featured-item-block-9 a {
+    font-weight: normal;
+    color: blue;
+    padding-left: 0;
+ }
+ 
+ #block-views-featured-item-block-8 img {
+    display: inline;
+ }
+ 
+ /* license classification side bar */
+ #block-views-featured-item-block-5 .cell-table {
+    margin: 0;
+    background-color: #e5e5e5;
+ }
+ 
+ #block-views-featured-item-block-5 .cell-table td {
+    padding: 5px 0 0 0;
+ }
+ 
+ #block-views-featured-item-block-5 .cell-table td a:hover {
+    text-decoration: underline;
+    color: #913333;
+ }
+ 
+ /* recovery fund side bar */
+ #block-views-featured-item-block-22 {
+    font-size: 11px;
+ }
+ 
+ /* most wanted side bar */
+ #sidebar-second #block-views-featured-item-block-21 .block-title {
+    font-size: 12px;
+ }
+ 
+ /* ------ page ------ */
+ .node-featured-item-link .field-name-field-featured-item-link-collect .field-items {
+    text-align: center;   
+ }
+ 
+ .node-featured-item-link .field-name-field-featured-item-link-collect .field-item {
+    padding: 6px;
+ }
+ 
+ .node-featured-item-link .field-name-field-featured-item-link-collect .field-item a {
+    font-weight: bold;
+    color: #333;
+ }
+ 
+ .node-featured-item-link .field-name-field-featured-item-link-collect .field-item a:hover {
+    color: #913333;
+ }
+ 
+ /*--------------------------------------------------------------------------- sidebar news list ----------------------------------------------------------------------------*/
+ #sidebar-second .view-news-releases .views-field-title, #sidebar-second .view-news-releases .views-field-field-news-date {
+    display: inline;
+ }
+ 
+ #sidebar-second .view-news-releases .views-field-title a {
+    font-weight: normal;   
+ }
+ 
+ #sidebar-second .view-news-releases .views-field-title a:hover {
+    text-decoration: none;
+    color: #913333; 
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 16 - named 'News' - Added date unknown */
+
+/* overwrite so news content can align top with the image float  */
+#content .view-news .views-field {
+    margin-bottom: 0;
+ }
+ 
+ #content .view-news .views-row {
+    margin-bottom: 50px;
+    border-top: 1px solid #999;
+    padding-top: 5px;
+ }
+ 
+ /* date and title */
+ #content .view-news span {
+    font-weight: bold;
+    color: #333;
+ }
+ 
+ #content .view-news span a {
+    color: #333;
+    font-weight: bold;
+ }
+ 
+ #content .view-news span a:hover {
+    color: #913333;
+ }
+ 
+ #content .view-news span a img {
+     vertical-align: top;  
+ }
+ 
+ #content .view-news .date-display-single {   
+    margin-right: 10px;
+ }
+ 
+ #content .view-news .views-field-field-news-pic {
+    margin-top: 10px;
+ }
+ 
+ #content .view-news .views-field-field-news-pic img {
+    float: left;
+    margin-bottom: 0;
+    margin-right: 10px;
+ }
+ 
+ #content .view-news .views-field-field-news-link {
+    margin-top: 5px;
+    font-size: 11px;
+    color: #913333;
+ }
+ 
+ /* ---------- sidebar ----------*/
+ #block-views-news-block .view-news img {
+    display: none;
+ }
+ 
+ #block-views-news-block .view-news .date-display-single {
+    font-weight: bold;
+ }
+ 
+ #block-views-news-block .view-news a {
+    font-weight: normal;
+ }
+ 
+ #block-views-news-block .view-news a:hover {
+    color: #913333;
+    text-decoration: underline;
+ }
+ 
+ /* ------- postscript ------ */
+ #region-postscript-first .view-news a img {
+    display: none;
+ }
+ 
+ /* overwrite so news content can align top with the image float  */
+ #region-postscript-first .view-news .views-field {
+    margin-bottom: 0;
+ }
+ 
+ #region-postscript-first .view-news .views-field-field-news-pic img {
+    float: left;
+    margin-right: 5px;
+ }
+ 
+ #region-postscript-first .view-news .views-field-field-news-pic {
+    margin-top: 6px;
+ }
+ 
+ #region-postscript-first .more-link {
+    margin-top: 10px;
+ }
+ 
+ /* ------ page ------ */
+ /* overwrite page content css */
+ #content #region-content .content >div.node.node-news {
+    background-color: transparent;
+ }
+ 
+ /* overwrite page content css */
+ #content #region-content .content >div.node.node-news {
+     padding: 10px;
+ }
+ 
+ .node-news {
+    border-top: 1px solid #333;
+ }
+ 
+ .node-news .field-name-field-news-date {
+    float: left;
+    margin-right: 6px;
+ }
+ 
+ .node-news .field-name-field-news-title-link a {
+    color: #333;
+    font-weight: bold;
+ }
+ 
+ .node-news .field-name-field-news-title-link a img {
+    vertical-align: top;
+ }
+ 
+ .node-news .field-name-field-news-title-link a:hover {
+    color: #913333;
+ }
+ 
+ .node-news .field-name-field-news-pic {
+    float: left;
+    margin-right: 10px;
+ }
+ 
+ .node-news .field-name-field-news-link a {
+    color: #913333;
+    font-size: 11px;
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 17 - named 'Page Simple' - Added date unknown */
+
+/* no scaling for images on mobile devices for charts */
+#content .node-simple-page div#imgmap img {
+    max-width: none;
+ }
+ 
+ .node-simple-page div.mobile-version {
+    display: none;
+    width: 100%;
+ }
+ 
+ /* show mobile header and hide regular version header */
+ @media only screen and (max-width: 500px) {
+    .node-simple-page table.screen-version { display: none; }
+    .node-simple-page div.mobile-version { display: block; font-size: 8px; }
+ }
+ 
+ .node-simple-page div.mobile-version span {
+    margin-left: 5px;
+ }
+ 
+ .node-simple-page div.mobile-version span.right {
+    float: right;
+ }
+ 
+ .field-name-field-page-top {
+    padding: 5px 0 10px 0;
+ }
+ 
+ .node-simple-page table {
+    border: 0;
+ }
+ 
+ .node-simple-page table td {
+    padding: 0 0 15px 0;
+ }
+ 
+ .node-simple-page td#left {
+    vertical-align: top;
+ }
+ 
+ .node-simple-page td#right, .node-simple-page td#right a {
+    float: right;
+ }
+ 
+ .field-name-field-page-top a {
+    font-size: 11px;
+ }
+ 
+ .field-name-field-page-top a:hover {
+    color: #913333;
+ }
+ 
+ .field-name-field-page-btm {
+    padding-top: 15px;
+ }
+ 
+ #tip.tip-style {   
+    background-color: #f2f2f2;
+    border: solid 1px #913333;
+    border-radius: 5px;
+    padding: 5px;
+    color: #333333;
+    font-size: 11px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 15px;
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 18 - named 'Basic Item' - Added date unknown */
+
+span.button-blue {
+    display: inline-block;
+    background-color: #4678bf;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    width: 160px;
+    height: 30px;
+ }
+ 
+ span.button-blue:hover {
+    background-color: #913333;
+ }
+ 
+ span.link-text {
+    cursor: pointer;
+    color: blue;  
+ }
+ 
+ span.spacer15 {
+    display: inline-block; 
+    width: 15px;
+ }
+ 
+ .warning {
+    font-weight: bold;
+    color: #913333;
+ }
+ 
+ .text-warning-big {
+    font-weight: bold;
+    font-size: 16px;
+    color: #913333;
+ }
+ 
+ .text-title-red {
+    font-weight: bold;
+    font-size: 12px;
+    color: #913333;
+ }
+ 
+ .text-title {
+    font-weight: bold;
+    font-size: 12px;
+ }
+ 
+ .text-title11 {
+    font-weight: bold;
+    font-size: 11px;
+ }
+ 
+ div.note, p.note {
+    background-color: #F6F6BF;
+    font-size: 12px;
+ }
+ 
+ span.note {
+    background-color: #F6F6BF;
+    font-size: 12px;
+    padding: 3px;
+ }
+ 
+ div.header-red {
+    background-color: #913333;
+    padding: 3px;
+    font-weight: bold;
+    color: #fff;
+ }
+ 
+ .field-item a.link-white-bold {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ffffff;
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 20 - named 'Show Menu on All Widths' - Added date unknown */
+
+#zone-branding .region-menu {
+    display: block !important;
+  }
+  
+  #mobile-menu {
+    display: none !important;
+  }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 21 - named 'Wanted' - Added date unknown */
+
+.content .field-name-field-wanted-name {
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #cccccc;
+    padding: 3px 0 3px 0;
+ }
+ 
+ #region-content .field-name-field-wanted-person-pix {
+    float: left;
+ }
+ 
+ .field-name-field-wanted-person-pix img {
+    display: block;
+    padding-right: 10px;
+ }
+ 
+ .field-name-field-business-name, .field-name-field-known-work-locations, .field-name-field-wanted-for, .field-name-field-aliases, .field-name-field-gender, 
+ .field-name-field-height, .field-name-field-weight, .field-name-field-hair, .field-name-field-eyes, .field-name-field-race {
+    overflow: auto;
+ }
+ 
+ #region-content .field-name-field-aliases, #region-content .field-name-field-gender, #region-content .field-name-field-height, #region-content .field-name-field-weight, #region-content .field-name-field-hair, #region-content .field-name-field-eyes, #region-content .field-name-field-race, #region-content .field-name-field-age {
+    margin-left: 150px;
+ }
+ 
+ .field-name-field-wanted-person-info .field-collection-view .field-label {
+    width: auto;
+    padding-right: 5px;
+ }
+ 
+ .node .field-name-field-wanted-person-info .field {
+     margin-bottom: 3px;
+ }
+ 
+ .content .field-name-field-report-wanted {
+    background-color: #FFFF99;
+    padding: 3px;
+ }
+ 
+ .node-wanted .field-collection-view {
+     border-bottom: 0;
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 23 - named 'Page Regular' - Added date unknown */
+
+#content .content .field-name-field-item-header {
+    background-color: #cccccc;
+    font-weight: bold;
+    padding: 3px;
+ }
+ 
+ .field-name-field-item-header span > img, .field-name-field-subitem-header span > img {
+    position: relative;
+    top: 3px;
+ }
+ 
+ .field-name-field-item-header a img, #content .content .field-name-field-subitem-header a img {
+    float: right;
+    position: relative;
+ }
+ 
+ .field-name-field-item-header a img {
+    top: -3px;
+ }
+ 
+ #content .content .field-name-field-subitem-header {
+    color: #333;
+    font-weight: bold;
+    padding: 3px 0 3px 0;
+    border-top: 1px solid #999;
+    margin-bottom: 10px;
+ }
+ 
+ .field-name-field-item-collection .field-name-field-header-pic-text img {
+    float: right;
+    margin: 0 0 10px 10px;
+ }
+ 
+ .field-name-field-item-collection .field-name-field-header-pic-text img.float-left {
+    float: left;
+    margin: 0 10px 10px 0;
+ }
+ 
+ .field-name-field-item-collection .field-name-field-header-pic-text img.border {
+    border:1px solid #999;
+ }
+ 
+ .field-name-field-item-collection .field-name-field-header-pic-text img.top30 {
+    position: relative;
+    top: 30px;
+ }
+ 
+ .field-name-field-item-collection .field-name-field-header-pic-text img.border-black {
+    border:1px solid #000;
+ }
+ 
+ .field-name-field-item-collection .field-collection-container {
+     border-bottom: 0;
+ }
+ 
+ .field-name-field-item-collection .field-collection-container img {
+     margin-right: 5px;
+ }
+ 
+ /* overwrite space between item and subitem */
+ .node .field-name-field-item-collection .field {
+     margin-bottom: 8px;
+ }
+ 
+ /* overwrite space between subitems */
+ .field-name-field-item-collection .field-collection-container .field-items .field-name-field-subitem-content .field-items .field-item {
+     margin-bottom: 8px;
+ }
+ 
+ /* space between main field collection items */
+ .field-name-field-item-collection .field-items .field-item {
+    margin-bottom: 10px;
+ }
+ 
+ /* overwrite for text wrapping */
+ .field-name-field-item-collection .field-collection-view .entity-field-collection-item {
+   float: none;
+ }
+ 
+ /* overwrite for text wrapping */
+ .field-name-field-item-collection .clearfix:after {
+   content: "";
+   display: inline;
+   height: 0;
+   clear: both;
+   visibility: hidden;
+ }
+ 
+ /* overwrite to remove border bottom line between field collection items */
+ .field-name-field-item-collection .field-collection-view {
+     border-bottom: 0;
+     margin-bottom: 5px;    
+ }
+ 
+ #content .content .field-name-field-subitem-content {
+    margin-left: 15px;
+ }
+ 
+ #content .content .field-name-field-subitem-content .field-item a img {
+    float: right;
+    position: relative;
+    top: -8px;
+ }
+ 
+ .field-name-field-item-content .question {
+    cursor: pointer;
+ }
+ 
+ .field-name-field-subitem-content span.answer {
+    display: none;
+ }
+ 
+ .field-name-field-item-content span.question:hover {
+    color: #913333;
+    text-decoration: underline;
+ }
+ 
+ .field-name-field-item-content img.img-link {
+    margin-left: 5px;
+ }
+ 
+ .field-name-field-item-collection a.item-link {
+    color: #333;
+ }
+ 
+ .field-name-field-item-collection a.item-link:hover {
+    color: #913333;
+    text-decoration: none;
+    /* can't user underline for text-decoration because of 'last-text; inline-block. use border-bottom instead */
+    border-bottom: 1px solid #913333;
+ }
+ 
+ /* animated back to top */
+ a.back-to-top {
+     display: none;
+     width: 30px;
+     height: 30px;
+     text-indent: -9999px;
+     position: fixed;
+     z-index: 999;
+     right: 15px;
+     bottom: 15px;
+     background: rgba(145,51,51,0.6) url("../images/up-arrow.png") no-repeat center 50%;
+     -webkit-border-radius: 30px;
+     -moz-border-radius: 30px;
+     border-radius: 30px;
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 24 - named 'Table' - Added date unknown */
+
+/* adjust font size of the table to fit mobile device */
+@media only screen and (max-width: 500px) {
+    table#licensefee #th1, table#licensefee #th2, table#licensefee #th3, table#licensefee #th4, table#licensefee #th5 { font-size: 8px; }
+    table#licensefee td { font-size: 11px; }
+    table#licensefee, table#renewalfee, div#licensefeenote { margin-left: -15px; }
+ }
+ 
+ #content .content .field-name-field-item-collection table {
+    width: 770px;
+ }
+ 
+ #content .content .field-name-field-item-collection .field-name-field-subitem-content table {
+    width: 750px;
+ }
+ 
+ #content .content .field-name-field-item-collection table th.table-header {
+    background-color: #ccc;
+    text-align: center;
+ }
+ 
+ #content .content .field-name-field-item-collection td {
+    border: 1px #999 solid;
+    padding: 3px;
+    vertical-align: top;
+ }
+ 
+ #content .content .field-name-field-item-collection th {
+    background-color: #F6F6BF;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 3px;
+    border: 1px #999 solid;
+ }
+ 
+ .field-name-field-item-collection table#bonds #th1 {
+    width: 260px;
+ }
+ 
+ .field-name-field-item-collection table#bonds #th2 {
+    width: 390px;
+ }
+ 
+ .field-name-field-item-collection table#bonds #th3 {
+    width: 120px;
+ }
+ 
+ .field-name-field-item-collection table#solar {
+    font-size: 11px;
+ }
+ 
+ .field-name-field-item-collection table#solar #th1 {
+    width: 210px;
+ }
+ 
+ .field-name-field-item-collection table#solar #th2 {
+    width: 250px;
+ }
+ 
+ .field-name-field-item-collection table#solar #th3 {
+    width: 310px;
+ }
+ 
+ #sidebar-second table, #sidebar-second table th, #sidebar-second table tr , #sidebar-second table td {
+    padding: 0;
+ }
+ 
+ #sidebar-second table#class td a {
+    padding-bottom: 5px;
+    font-weight: normal;
+ }
+ 
+ #sidebar-second table#class td a.title {
+    font-weight: bold;
+ }
+ 
+ #sidebar-second table#class td a:hover {
+    color: #913333;
+ }
+ 
+ #sidebar-second table#class {
+    width: 100%;
+ }
+ 
+ #sidebar-second table#class td {
+    width: 17%;
+    white-space: nowrap;
+    font-size: 11px;
+ }
+ 
+ .field-name-field-subitem-content table#licensefee #th1 {
+    width: 30%
+ }
+ 
+ .field-name-field-subitem-content table#licensefee #th2 {
+    width: 15%
+ }
+ 
+ .field-name-field-subitem-content table#licensefee #th3 {
+    width: 15%
+ }
+ 
+ .field-name-field-subitem-content table#licensefee #th4 {
+    width: 25%
+ }
+ 
+ .field-name-field-subitem-content table#licensefee #th5 {
+    width: 15%
+ }
+ 
+ .field-name-field-subitem-content table#renewalfee #th1 {
+    width: 45%
+ }
+ 
+ .field-name-field-subitem-content table#renewalfee #th2 {
+    width: 15%
+ }
+ 
+ .field-name-field-subitem-content table#renewalfee #th3 {
+    width: 25%
+ }
+ 
+ .field-name-field-subitem-content table#renewalfee #th4 {
+    width: 15%
+ }
+ 
+ /* license classification table page */
+ #content table#class tr {
+    border: #ccc 1px solid;
+ }
+ 
+ #content table#class td a {
+    padding-bottom: 5px;
+    font-weight: normal;
+    color: #333;
+    white-space: nowrap;
+    font-size: 11px;
+ }
+ 
+ #content table#class td a:hover {
+    color: #913333;
+ }
+ 
+ #content table#class td a.title {
+    font-weight: bold;
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 25 - named 'HideShow' - Added date unknown */
+
+.field-name-field-item-content span.area-title {
+    background: url("../images/arrow-red.png") no-repeat left;
+ }
+ 
+ .field-name-field-item-content span.area-title span.right {
+    margin-left: 15px;
+ }
+ 
+ .field-name-field-item-content span.area-title:hover {
+    cursor: pointer;
+ }
+ 
+ .field-name-field-subitem-content div.area-text {
+    display: none;
+    border-bottom: 1px solid #999; 
+    font-weight: bold;
+    font-size: 11px;
+ }
+ 
+ .field-name-field-subitem-content div.area-text-header span.left {
+    width: 35px;
+    display: inline-block;
+    /*margin-left: 15px;*/
+ }
+ 
+ .field-name-field-subitem-content span.area-text {
+    display: none;
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 27 - named 'Page Content' - Added date unknown */
+
+/* scale large images on mobile devices */
+#content img {
+    max-width: 100%;
+ }
+ 
+ /* scale small images on mobile devices */
+ #content .field-name-field-header-pic-text img {
+    max-width: 50%;
+ }
+ 
+ /* scale table on mobile devices */
+ #content table {
+    max-width: 100%;
+ }
+ 
+ @media only screen and (max-width: 500px) {
+    /* horizontal aligned buttons turns to vertical alignment on mobile */
+    span.spacer15 { display: block; margin-top: 5px; }
+ }
+ 
+ #content .content {
+    color: #333;
+ }
+ 
+ /* layout for all content pages */
+ #content #region-content .content >div.node {
+    font-size: 12px;
+    background-color: #ffffff;
+    padding: 0 10px 10px 10px;
+    font-family: Arial;
+ }
+ 
+ body .field-item a {
+    color: blue;
+ }
+ 
+ .field-collection-view {
+    margin: 0;
+    padding: 0;
+ }
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 28 - named 'Location' - Added date unknown */
+
+.content .field-name-field-location-map {
+    float: right;
+    border: 1px solid #999;
+    margin: 0 0 5px 10px;
+    max-width: 50%;
+ }
+ 
+ .content .field-name-field-location-header {
+    color: #913333;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Calibri, Cambria;
+    background-color: #ccc;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+ }
+ 
+ /* overwrite to remove border bottom of each field collection */
+ .content .field-name-field-location-collection .field-collection-view {
+    border-bottom: 0;
+ } 
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 29 - named 'Team' - Added date unknown */
+
+
+.content .field-name-field-name-title {
+    border-bottom: 1px solid #999;
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+ }
+ 
+ .field-name-field-name-title span.title {
+    color: #913333;
+ }
+ 
+ .field-name-field-team-pic img {
+    float: left;
+    max-width: 30%;
+    padding: 0 10px 5px 0;
+ }
+ 
+ .field-name-field-team-collection .field-collection-view {
+    border-bottom: 0;
+ }
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* CSS INJECTOR 33 - named 'Updated CSS for 2018' - Added date unknown */
+
+.tweet-image { max-width: 50px !important; height: auto !important; max-height: 50px !important; float: left; clear: left; padding: 0 5px 5px 0 !important; }
+.view-id-tweets .item-list > ul > li { margin: 0 0 10px 0 !important; clear: left !important; }
+
+/* Hide Advanced Search Content Type fields / checkboxes on search form */
+#edit-advanced #edit-type, label[for='edit-type'] { display: none; }
+.search-disclaimer {     
+    margin: 10px auto !important;
+    width: 90% !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+    background: rgba(255,255,0,0.3) !important;
+    padding: 20px !important;
+    border-radius: 12px !important;
+    text-align: center !important; 
+}
+.search-result-h2 { font-size: 1.3em !important; font-weight: bold !important; }
+.search-result h3 { margin: 20px 0 5px 0 !important; font-weight: bold !important; text-transform: none !important; font-size: 1.15em !important; }
+.search-result .search-snippet-info { margin: 0 0 20px 0 !important; }
+.search-result .search-snippet, .search-result .search-snippet, .search-info { margin: 0 !important; padding: 0 0 4px 0 !important; }
+.search-result .search-info { font-style: italic; }
+.search-result .search-info .username { display: none; }
+.search-result .search-info::before { content: "Published"; }
+
+/* NEW CSS - NOT IN OTHER INJECTORS */
+
+.facebookFeedItem img { display: inline-block !important; margin: 0 5px 5px 0 !important; max-width: 100px !important; }
+#block-roc-salesforce-recent { background: #fff; padding: 10px; }

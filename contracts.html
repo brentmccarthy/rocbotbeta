@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<!-- Mirrored from roc.az.gov/contracts by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Nov 2018 00:42:08 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="apple-touch-icon-precomposed" href="sites/default/files/apple-touch-icon-120x120-precomposed.png" type="image/png" />
+<link rel="apple-touch-icon" href="sites/default/files/apple-touch-icon.png" type="image/png" />
+<link rel="shortlink" href="node/1938.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="node/contracts.html" />
+<link rel="shortcut icon" href="sites/default/files/roc.ico" type="image/vnd.microsoft.icon" />
+<!-- barracuda domain verification --> <meta name="barracuda-site-verification" content="b89bdb2bfb4710e23dc39c3f13205099" />
+  <title>Contracts and Miscellaneous Info | Arizona Registrar of Contractors</title>
+  <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_vfcc4mhqcxp3ETjX6MxFrJzWxE1M1gQ7TOXV4Gls__E.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_XyELJoL1qsdMTQdFrViNSLevfcrzPM23hhX_NrpUCh0.css" media="all" />
+<style>.media-list-thumbnails .form-type-checkbox{top:0;}
+.view-media-default iframe{width:200px;height:140px;}
+</style>
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_u3UJHjCFb7Kirv8TWwoGyHRf_B8MM4PswZiAnjkXEuw.css" media="all" />
+<style>.system-themes-list-disabled,#system-themes-admin-form{display:none;}
+</style>
+<link type="text/css" rel="stylesheet" href="../cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_6Ex8VzEujhzxDT2kJMBgRV4vgbICW_VB08y0C_M9lWY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_0M9OMAIvIrYnoZmSUPWoSe7fORCUHLS06uV0Wdin2YU.css" media="(min-width:600px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_5sgSMoi_cQ9RggDu0_wpq60CnzL7GR-FdJQo_MUSvsQ.css" media="(min-width:768px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_GclIRYO9mLEEA2Qzh1vwOcQ8crXFJdXzW9nffKwPrD0.css" media="(min-width:920px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_-PlYobE30WJJQRJ9ZP8YW3SYGAB6sq0yluSR74yE1Po.css" media="(min-width:1240px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css_injector/css_injector_221d4b.css?pixf2w" media="print" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css_injector/css_injector_341d4b.css?pixf2w" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='sites/all/modules/contrib/jquery_update/replace/jquery/1.9/jquery.min.js'>\x3C/script>")</script>
+<script src="sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="sites/default/files/js/js_BLxotNs2yt7YGlf9QRI9L9AMfdnkQfnN-_ADBTW3SiE.js"></script>
+<script src="../cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="sites/default/files/js/js_2tPYVYNuRH41x_ro37hwNKEIWlfMQ5O_mAH5OZXY3vU.js"></script>
+<script src="sites/default/files/js/js_guwUcY6e6nFt2IHol5E8nfWL8ELF_a4vFjX0UT-ggIk.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","../www.google-analytics.com/analytics.js","ga");ga("create", "UA-50050513-30", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="sites/default/files/js/js_L-4zh0rdRrw4X24hGi2r-aXx00ANntaIzvnKRahcVuI.js"></script>
+<script src="sites/default/files/js/js_p459evxXxPUX-E8tD80FggANdcWyn8NzT2Q_g2IJ4oI.js"></script>
+<script src="sites/default/files/js/js_v89jUZ_l2LR8NzEXW2kWQ6me12tC-jCbLw8O3mpuQ2A.js"></script>
+<script src="sites/default/files/js_injector/js_injector_181d4b.js?pixf2w"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"az_branded","theme_token":"veHJCT5NiO9SLyDsjnTJHi4QCMWJs1K1U-boNT894cM","jquery_version":"1.9","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/default\/files\/js_injector\/js_injector_14.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.9.1\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.2.0\/js\/bootstrap.min.js":1,"sites\/all\/modules\/contrib\/roc_salesforce\/cSearch.js":1,"sites\/all\/modules\/custom\/wysiwyg_accordion\/wysiwyg_accordion.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/custom\/menu_block_placement\/modules\/mbp_defaults\/mbp_defaults.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"https:\/\/static.az.gov\/sliver\/sliver.js":1,"sites\/all\/themes\/az_gov\/js\/global.js":1,"sites\/all\/themes\/az_gov\/js\/accessibility.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/default\/files\/js_injector\/js_injector_18.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/roc_salesforce\/animate.css":1,"sites\/all\/modules\/custom\/wysiwyg_accordion\/wysiwyg_accordion.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"0":1,"1":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"2":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.2.0\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/3.2.0\/overrides.min.css":1,"sites\/all\/themes\/az_gov\/css\/contextual.css":1,"sites\/all\/themes\/az_branded\/css\/colors.css":1,"sites\/all\/themes\/az_gov\/css\/reset.css":1,"sites\/all\/themes\/az_gov\/css\/global.css":1,"sites\/all\/themes\/az_gov\/css\/nodes.css":1,"sites\/all\/themes\/az_branded\/css\/branded-global.css":1,"sites\/all\/themes\/az_branded\/css\/branded-nodes.css":1,"sites\/all\/themes\/az_gov\/css\/min-600.css":1,"sites\/all\/themes\/az_gov\/css\/min-768.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-768.css":1,"sites\/all\/themes\/az_gov\/css\/min-920.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-720.css":1,"sites\/all\/themes\/az_gov\/css\/min-1240.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-1240.css":1,"sites\/default\/files\/css_injector\/css_injector_22.css":1,"sites\/default\/files\/css_injector\/css_injector_34.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:382aae0445435f790fd11517f190f661":{"view_name":"mbp_11","view_display_id":"block","view_args":"988","view_path":"node\/1938","view_base_path":null,"view_dom_id":"382aae0445435f790fd11517f190f661","pager_element":0},"views_dom_id:6635dc2803bf7290cda4a6cb04440467":{"view_name":"mbp_7","view_display_id":"block","view_args":"preface_first\/988\/722+988","view_path":"node\/1938","view_base_path":null,"view_dom_id":"6635dc2803bf7290cda4a6cb04440467","pager_element":0},"views_dom_id:d423c0219c07d2e5ebb51958cb2e2bfd":{"view_name":"mbp_7","view_display_id":"block","view_args":"sidebar_first\/988\/722+988","view_path":"node\/1938","view_base_path":null,"view_dom_id":"d423c0219c07d2e5ebb51958cb2e2bfd","pager_element":0},"views_dom_id:e3193a82a9801e8efc80cbcc74bc29a2":{"view_name":"mbp_7","view_display_id":"block","view_args":"content\/988\/722+988","view_path":"node\/1938","view_base_path":null,"view_dom_id":"e3193a82a9801e8efc80cbcc74bc29a2","pager_element":0},"views_dom_id:bd7c4a8ea3bdb62b8ec8443a40643874":{"view_name":"mbp_7","view_display_id":"block","view_args":"sidebar_second\/988\/722+988","view_path":"node\/1938","view_base_path":null,"view_dom_id":"bd7c4a8ea3bdb62b8ec8443a40643874","pager_element":0},"views_dom_id:b61c7aaba05c6943587a2d92f69adfeb":{"view_name":"mbp_7","view_display_id":"block","view_args":"postscript_first\/988\/722+988","view_path":"node\/1938","view_base_path":null,"view_dom_id":"b61c7aaba05c6943587a2d92f69adfeb","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/contracts":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"(azroc\\.gov)|(roc\\.az\\.gov)","extInclude":"\\.pdf","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1938 node-type-regular-page">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page">
+    <div id="zone-users" class="zone">
+
+            <div class="region region-user-first">
+    
+
+<div id="block-feature-sliver-sliver"  class="block block-feature-sliver" aria-label="block-feature-sliver-sliver">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    
+  </div>
+</div>
+</div>
+  </div>
+    
+    
+  </div>
+<div id="zone-branding" class="zone" role="navigation" aria-labelledby="zone-branding">
+    <div id="region-branding" class="clearfix">
+              <div class="site-details clearfix">
+                      <a class="logo" href="index.html">
+              <img src="sites/default/files/rocseal.png"
+                   alt="Arizona Registrar of Contractors Logo">
+            </a>
+          
+                      <div class="site-info">
+                              <div class="site-name">
+                    <a  href="index.html">
+                      Arizona Registrar of Contractors                    </a>
+                </div>
+                                            <div class="site-slogan">
+                  Protect the health, safety and welfare of the public through a regulatory system designed to promote quality construction by Arizona contractors.                </div>
+                          </div>
+                  </div>
+                      <div class="region region-branding">
+    
+
+<div id="block-search-form"  class="block block-search" aria-label="block-search-form">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <form class="form-search content-search" action="https://roc.az.gov/contracts" method="post" id="search-block-form" accept-charset="UTF-8"><div><div title = "Search">
+        <div class="input-group"><input title="Search" placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary" aria-label="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="false" aria-label="Click to search"></span></button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-DRVHEO8Rj3wE-ZtTacQySvrlJi_34IZNMdIKW4qcwxo" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+  </div>
+</div>
+</div>
+  </div>
+          </div>
+    <a href="#" id="mobile-menu">
+    </a>
+            <div class="region region-menu">
+    
+
+<section id="block-system-main-menu"  class="block block-system block-menu" aria-label="Main menu">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Main menu</h2>
+    
+  <div class="content" >
+    <ul class="menu nav"><li class="first leaf menu-li-home" aria-label="Home"><a href="index.html" title="Home">Home</a></li>
+<li class="expanded active-trail active menu-li-contractor-resources" aria-label="Contractor Resources"><a href="contractor-resources.html" title="" class="active-trail">Contractor Resources</a><ul class="menu nav"><li class="first expanded menu-li-licensing" aria-label="Licensing"><a href="licensing.html" title="">Licensing</a><ul class="menu nav"><li class="first leaf menu-li-applying-for-a-license?" aria-label="Applying for a License?"><a href="applying-license.html" title="">Applying for a License?</a></li>
+<li class="leaf menu-li-service-members-and-veterans" aria-label="Service Members and Veterans"><a href="contractor-resources/licensing/service-members-and-veterans.html">Service Members and Veterans</a></li>
+<li class="leaf menu-li-license-classifications" aria-label="License Classifications"><a href="license-classifications.html" title="">License Classifications</a></li>
+<li class="leaf menu-li-maintenance-of-account" aria-label="Maintenance of Account"><a href="https://rocrenewal.az.gov/" title="">Maintenance of Account</a></li>
+<li class="leaf menu-li-name-availability" aria-label="Name Availability"><a href="name-availability.html" title="">Name Availability</a></li>
+<li class="leaf menu-li-contractor-background-checks" aria-label="Contractor Background Checks"><a href="background-checks.html" title="">Contractor Background Checks</a></li>
+<li class="leaf menu-li-posting-list" aria-label="Posting List"><a href="posting-list.html" title="">Posting List</a></li>
+<li class="leaf menu-li-bond-information" aria-label="Bond Information"><a href="bond-information.html" title="">Bond Information</a></li>
+<li class="leaf menu-li-timeframes" aria-label="Timeframes"><a href="timeframes.html" title="">Timeframes</a></li>
+<li class="leaf menu-li-license-fees" aria-label="License Fees"><a href="node/license-fees.html" title="">License Fees</a></li>
+<li class="last leaf menu-li-testing-information" aria-label="Testing Information"><a href="applying-license46c0.html?targetclass=answer-question-examinations#question-examinations" title="">Testing Information</a></li>
+</ul></li>
+<li class="leaf menu-li-renew-license-online" aria-label="Renew License Online"><a href="https://rocrenewal.az.gov/" title="">Renew License Online</a></li>
+<li class="expanded menu-li-complaints-and-investigations" aria-label="Complaints and Investigations"><a href="complaints-and-investigations.html" title="">Complaints and Investigations</a><ul class="menu nav"><li class="first leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-considering-filing?" aria-label="Considering Filing?"><a href="considering-filing.html" title="">Considering Filing?</a></li>
+<li class="leaf menu-li-file-a-complaint" aria-label="File a Complaint"><a href="file-complaint.html" title="">File a Complaint</a></li>
+<li class="leaf menu-li-complaint-process" aria-label="Complaint Process"><a href="node/complaint-process-investigation.html" title="">Complaint Process</a></li>
+<li class="leaf menu-li-legal" aria-label="Legal"><a href="legal.html" title="">Legal</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="">Recovery Fund</a></li>
+<li class="last leaf menu-li-unlicensed-contracting-tips-hotline" aria-label="Unlicensed Contracting Tips Hotline"><a href="unlicensed-contracting-tips-hotline.html" title="">Unlicensed Contracting Tips Hotline</a></li>
+</ul></li>
+<li class="leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+<li class="leaf menu-li-forms" aria-label="Forms"><a href="forms.html">Forms</a></li>
+<li class="leaf active-trail active menu-li-contracts-and-miscellaneous-info" aria-label="Contracts and Miscellaneous Info"><a href="node/contracts.html" title="" class="active-trail active">Contracts and Miscellaneous Info</a></li>
+<li class="leaf menu-li-bond-information" aria-label="Bond Information"><a href="bond-information.html" title="">Bond Information</a></li>
+<li class="leaf menu-li-most-wanted-and-unlicensed-violations" aria-label="Most Wanted and Unlicensed Violations"><a href="roc-wanted.html" title="">Most Wanted and Unlicensed Violations</a></li>
+<li class="last leaf menu-li-rules-and-policies" aria-label="Rules and Policies"><a href="rules.html" title="">Rules and Policies</a></li>
+</ul></li>
+<li class="expanded menu-li-consumer-resources" aria-label="Consumer Resources"><a href="consumer-resources.html" title="">Consumer Resources</a><ul class="menu nav"><li class="first expanded menu-li-complaints-and-investigations" aria-label="Complaints and Investigations"><a href="complaints-and-investigations.html" title="">Complaints and Investigations</a><ul class="menu nav"><li class="first leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-considering-filing?" aria-label="Considering Filing?"><a href="considering-filing.html" title="">Considering Filing?</a></li>
+<li class="leaf menu-li-file-a-complaint" aria-label="File a Complaint"><a href="file-complaint.html" title="">File a Complaint</a></li>
+<li class="leaf menu-li-complaint-process" aria-label="Complaint Process"><a href="node/complaint-process-investigation.html" title="">Complaint Process</a></li>
+<li class="leaf menu-li-legal" aria-label="Legal"><a href="legal.html" title="">Legal</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="">Recovery Fund</a></li>
+<li class="last leaf menu-li-unlicensed-contracting-tips-hotline" aria-label="Unlicensed Contracting Tips Hotline"><a href="unlicensed-contracting-tips-hotline.html" title="">Unlicensed Contracting Tips Hotline</a></li>
+</ul></li>
+<li class="leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+<li class="leaf menu-li-most-wanted-and-unlicensed-violations" aria-label="Most Wanted and Unlicensed Violations"><a href="roc-wanted.html" title="">Most Wanted and Unlicensed Violations</a></li>
+<li class="leaf menu-li-forms" aria-label="Forms"><a href="forms.html" title="">Forms</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="">Recovery Fund</a></li>
+<li class="leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-minimum-elements-of-a-contract" aria-label="Minimum Elements of a Contract"><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01158.htm" title="">Minimum Elements of a Contract</a></li>
+<li class="last leaf menu-li-before-you-hire-a-contractor" aria-label="Before You Hire A Contractor"><a href="before-hire.html" title="">Before You Hire A Contractor</a></li>
+</ul></li>
+<li class="expanded menu-li-agency" aria-label="Agency"><a href="agency.html" title="">Agency</a><ul class="menu nav"><li class="first leaf menu-li-about-az-roc" aria-label="About AZ ROC"><a href="about-roc.html" title="">About AZ ROC</a></li>
+<li class="leaf menu-li-administrative-team" aria-label="Administrative Team"><a href="administrative-team.html" title="">Administrative Team</a></li>
+<li class="leaf menu-li-news-&amp;-media" aria-label="News &amp; Media"><a href="news.html" title="">News &amp; Media</a></li>
+<li class="leaf menu-li-strategic-plan-/-budget-request" aria-label="Strategic Plan / Budget Request"><a href="strategic-plan.html" title="">Strategic Plan / Budget Request</a></li>
+<li class="leaf menu-li-rules-and-policies" aria-label="Rules and Policies"><a href="rules.html" title="">Rules and Policies</a></li>
+<li class="leaf menu-li-office-locations-/-contact-us" aria-label="Office Locations / Contact Us"><a href="node/office-locations.html" title="">Office Locations / Contact Us</a></li>
+<li class="leaf menu-li-employment-opportunities" aria-label="Employment Opportunities"><a href="employment.html" title="">Employment Opportunities</a></li>
+<li class="last leaf menu-li-agency-success-stories" aria-label="Agency Success Stories"><a href="agency-success-stories.html" title="ROC Agency Success Stories">Agency Success Stories</a></li>
+</ul></li>
+<li class="last leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+</ul>
+  </div>
+</div>
+</section>
+  </div>
+    </div>
+<div id="zone-content" class="zone" role="main">
+  <a name="main-content"></a>
+
+
+  <div id="preface-group" class="clearfix">
+              </div>
+
+  
+  <div id="content-wrapper" class="clearfix">
+
+
+    
+
+    <div id="content" class="col-sm-8 col-md-8 main-region contextual-links-region ">
+      <div id="region-content" class="content">
+
+        <h1 id="page-title"  aria-label="Contracts and Miscellaneous Info" >Contracts and Miscellaneous Info</h1>
+
+        
+                  <div class="region region-content">
+    
+
+<div id="block-system-main"  class="block block-system" aria-label="block-system-main">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <div id="node-1938" class="node node-regular-page">
+  <div class="node-inner node-content">
+
+    
+    <div class="content">
+                  <div class="field-collection-container clearfix"><div class="field field-name-field-item-collection field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/937" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Minimum Elements of a Contract</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/938" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01158.htm" class="item-link">32-1158. Minimum Elements of a Contract</a></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/1576" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Minimum Industry Standards</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1577" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="sites/default/files/files/minimum_industry_standards.pdf" class="item-link">Minimum Industry Standards</a></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/940" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="advertising">Advertising</span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/941" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" />
+Advertising by Contractors</div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="font-11-bold-italic">
+In any advertising for services, performed by licensed contractors, the following guidelines may be useful to prevent false and misleading advertisements.
+</span>
+<br /><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+Any advertisement, including the name of the business, should not imply the name of a building trade or craft for which the contractor is not duly licensed.</div><div class="field-item odd"><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+Advertisements, including the name of the business, should not imply that you can perform work outside the scope of work allowed under your license.</div><div class="field-item even"><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+Commercial and residential contracting are regulated separately, and therefore the license should be appropriate for the work you are promoting.</div><div class="field-item odd"><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+All advertising, including websites, letterheads, business cards, fixed signs, mobile signs, other business forms and documents and radio and television commercials used in the conduct of business under your license should include the license number and the company name under which you are licensed. Written forms of advertising should include "ROC" preceding any license number.</div><div class="field-item even"><span class="text-title">Referencing the ROC on Websites</span>
+<br />
+Internet websites referencing the Arizona Registrar of Contractors are requested to include hypertext links to https://roc.az.gov, the Arizona Registrar of Contractors' website.
+</div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/943" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" />
+Advertising by unlicensed contractors
+</div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="text-title">Contracting or Advertising Without a License is a Crime.</span></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/1533" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="tpt">Transaction Privilege Tax (TPT) Fact Sheet from ADOR</span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1534" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="text-warning-big">TPT Fact Sheet</span>
+<br /><p>The Arizona Department of Revenue (ADOR) will be implementing changes to transaction privilege tax (TPT) licensing and reporting, as required by law. These changes affect all Arizona-based businesses as well as those located outside of Arizona that sell to Arizona customers. As a licensed contracting professional doing business in Arizona, the information provided on <a href="sites/default/files/files/160610_TPT_Contractor_Fact_Sheet.pdf">ADOR’s 2016 Fact Sheet</a> may be of use to you.</p></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/944" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="air">Air Quality - Asbestos and Dust Regulations</span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/954" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span></span></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/945" typeof="">
+  <div class="content">
+    <div class="field field-name-field-subitem-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Maricopa County</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/946" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.maricopa.gov/aq" class="item-link">Maricopa County Air Quality Department</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/947" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="https://www.maricopa.gov/DocumentCenter/View/5108/NESHAP-Notification-Form-PDF" class="item-link">NESHAP Notification Form</a> (Best viewed in Internet Explorer)</div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/950" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="https://www.maricopa.gov/DocumentCenter/View/34241/Maricopa-County-Air-Quality-Department-Rule-370-adopted-12-13-2017-PDF" class="item-link">Maricopa County Rules and Regulation Rule 370 for Asbestos</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/951" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://mcassessor.maricopa.gov/" class="item-link">Maricopa County Assessor GIS Portal</a>
+</div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/952" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="https://www.maricopa.gov/1919/Dust-Control-Permit-Applications-Rule-31" class="item-link">Dust Permits, Forms and Training</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/955" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Page 27 of the Dust Control Permit Package is directly related to the Asbestos notification and must be completed correctly when filing the dust permit. This page is put into the dust permit application just to try to make the contractor aware that a notification may be needed and who to call and questions that may help them to know if they need to file.</p>
+
+<p><span class="text-title">COMMON MYTHS/MISPERCEPTIONS</span>
+<br />
+Many contractors <span class="font-bold">incorrectly</span> assume Asbestos NESHAP does not apply to them for many reasons including:
+
+
+</p></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+the project falls into city jurisdiction- county does not apply [MYTH]</div><div class="field-item odd"><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+they are only working on one of the houses [MYTH]</div><div class="field-item even"><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+it was built recently [MYTH]</div><div class="field-item odd"><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+there was no asbestos so I do not have to file a demo [MYTH]</div><div class="field-item even"><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+Asbestos was banned years ago [MYTH]</div><div class="field-item odd"><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+I obtained city permits, county or federal regulation do not apply [MYTH]</div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/956" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">Maricopa County Air Quality is delegated Asbestos NESHAP regulation of all public, commercial, industrial, institutional facilities including apartment, townhome, and condominiums of greater than four units. This includes pipelines, bridges &amp; two or more dwelling units (each freestanding). Scheduled renovation or demolition at these facilities may have regulatory applicability. All building materials are generally suspect &amp; assumed to be asbestos containing. A currently AHERA certified Building Inspector can perform a survey of these materials to prove otherwise. Regulations require this survey be performed within 12 months of commencement of renovation or demolition activity. Certain activities may require submittal of a NESHAP notification. Issuance of a Dust Control Permit may be delayed if Asbestos NESHAP requirements have not been met. For questions regarding applicability contact Maricopa County at (602) 506-6708 or (602) 506-0421.</div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/957" typeof="">
+  <div class="content">
+    <div class="field field-name-field-subitem-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">State of Arizona</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/958" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.azcc.gov/" class="item-link">Arizona Corporation Commission</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/959" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" />Verify correct name use on the permits and notifications
+<br /><span class="margin-left-15"><a href="http://ecorp.azcc.gov/" class="item-link">Arizona Corporation Commission State of Arizona Public Access System (STARPAS)</a></span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/960" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.azdeq.gov/programs/air-quality-programs/what-asbestos" class="item-link">Arizona Department of Environmental Quality (ADEQ) - Asbestos Information</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/961" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="https://www.aztaxes.gov/Security/Login.aspx" class="item-link">Arizona Department of Revenue Business Registration - Joint Tax Application</a></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/962" typeof="">
+  <div class="content">
+    <div class="field field-name-field-subitem-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Federal Government</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/963" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="https://www.osha.gov/SLTC/asbestos" class="item-link">US Dept. of Labor Occupational Health and Safety</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/964" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="https://www.epa.gov/asbestos" class="item-link">Environmental Protection Agency (EPA) Asbestos Information</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/965" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="https://www3.epa.gov/region9/air" class="item-link">Environmental Protection Agency (EPA) - Region 9: Air Programs</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/966" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.ecfr.gov/cgi-bin/text-idx?SID=b5d61a5670848a5e78a713003cfd7b2f&amp;mc=true&amp;node=pt40.9.61&amp;rgn=div5#sp40.9.61.m" class="item-link">Federal Asbestos NESHAP - 40 CFR Part 61, Subpart M</a></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/967" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="bond">Bond Information</span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/968" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="bond-information.html" class="item-link">Bonding requirements FQA, bond limits and regulations and list of businesses licensed to offer surety products in Arizona.</a>
+<br /><br /></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/969" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="historic">Historic Preservation Zones</span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/970" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">Every year contractors and homeowners remodel homes that are zoned in Historic Preservation Zones throughout the State of Arizona. Did you know that most such homes are subject to strict land use codes which require special review processes that are required to be undertaken and approved before construction begins? Violation of the applicable land use codes and review processes could place property owners in jeopardy and result in expensive fines and court-ordered corrective remedies. So, be aware of where you are working and help your client-homeowners to seek the appropriate permissions according to all applicable codes and review processes before commencing any remodeling project for a home located in an Historic Preservation Zone.</div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/971" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">Historic Preservation Links
+<br /><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span><a href="https://www.phoenix.gov/pdd/historic" class="item-link">Phoenix</a></span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/972" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span><a href="http://www.prescott-az.gov/history/" class="item-link">Prescott</a></span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/973" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span><a href="https://www.tucsonaz.gov/historic-preservation" class="item-link">Tucson</a></span></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/974" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="adeq">Arizona Department of Environmental Quality</span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/975" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span><a href="http://megasearch.azdeq.gov/megasearch" class="item-link">ADEQ Mega Search</a></span>
+<br /><br /></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/976" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="notice">Notice: Arizona Solar Contractors</span><span><a href="#"><img src="sites/default/files/images/anchor-top.png" alt="Return to Top" /></a></span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/977" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span></span></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/978" typeof="">
+  <div class="content">
+    <div class="field field-name-field-subitem-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Solar Energy Device Warranties</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/979" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Most contractors are aware that pursuant to <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01170-01.htm">A.R.S. § 32-1170.01</a> it is unlawful to install, alter, or repair a solar device without first qualifying as a solar contractor. Contractors should also be aware that <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/44/01762.htm">A.R.S. § 44-1762</a> and <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/44/01763.htm">A.R.S. § 44-1763</a> require those who manufacture, furnish for installation, or install a solar energy device to provide consumers a written statement of (1) warranty, (2) responsibilities assumed or disclaimed and (3) performance data of the solar energy device and its components.</p>
+
+<p>The form of this statement is subject to approval by the Registrar of Contractors and a copy of the approved statement is to be kept on public file with the agency.</p>
+
+<p>Questions regarding these written statements or their filing with the Registrar of Contractors should be directed to the licensing department at 602-542-1525.<?p?></p></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/980" typeof="">
+  <div class="content">
+    <div class="field field-name-field-subitem-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Solar Contracting</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/981" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p id="solarTableDescription">Proper licensure is the first step. The table below reflects the current classifications and requirements necessary for solar licensure as defined by the Registrar of Contractors. In order to perform solar installation in the state of Arizona, contractors must hold at least one of the following licenses:</p></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/983" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><table id="solar" aria-describedby="solarTableDescription"><thead><tr><th colspan="3" class="table-header">Arizona Registrar of Contractors Solar Licensing Requirements</th>
+</tr><tr><th id="th1">License Classification</th>
+<th id="th2">Description</th>
+<th id="th3">Experience Requirements</th>
+</tr></thead><tbody><tr><td>R-4, C-74, CR-74</td>
+<td>Boilers, Including Solar</td>
+<td>4 Years Journeyman</td>
+</tr><tr><td>R-37, C-77, CR-77</td>
+<td>Plumbing, Including Solar</td>
+<td>4 Years Journeyman</td>
+</tr><tr><td>R-37R, C-78, CR-78</td>
+<td>Solar Plumbing Liquid Systems Only</td>
+<td><span style="font-size:12px">6 Months Journeyman</span></td>
+</tr><tr><td>R-39, C-79, CR-79</td>
+<td>Air Conditioning And Refrigeration Including Solar</td>
+<td>4 Years Journeyman</td>
+</tr><tr><td>A-19, B-6, KA-6</td>
+<td>Swimming Pools, Including Solar</td>
+<td>4 Years Management of General Swimming Pool Contracting.</td>
+</tr><tr><td>A-17, R-11, C-11, CR-11</td>
+<td>Electrical (including solar electric)</td>
+<td>4 Years Journeyman</td>
+</tr><tr><td>A-General, B-4 General, KA-General</td>
+<td>General Engineering (including solar electric)</td>
+<td>4 Years Management of General Engineering</td>
+</tr></tbody></table></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/984" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Residential and Commercial General Contracting and Remodeling Licenses may contract for solar installations.  However, all work pertaining to the installation must be subcontracted to a properly licensed solar plumbing, air conditioning, boiler, electrical or swimming pool contractor.  An exception is that the A-General, B-4 General and KA-Dual Engineering Licenses may perform solar installations.</p>
+
+<p>Roofing tile that function as solar collectors must be installed by a CR-42, roofing contractor. However, connection of these tiles to the electrical system can only be performed by a licensed electrical contractor.</p>
+
+<p>Additionally, any devices (solar or otherwise) mounted on the roof that significantly impacts, may compromise the roof components or may void the existing roof warranty, may require inspection and/or installation by a licensed roofing contractor.</p>
+
+<p>Always ensure that the contractor you hire to perform solar related projects is licensed through the Arizona Registrar of Contractor. <a href="http://www.azroc.gov/roc/contractorsearch.html">Check the status of a Contractor</a> with the Registrar of Contractors.</p>
+
+<p>If you have additional questions you may contact the ROC at 1-877-692-9762.</p><p></p></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/985" typeof="">
+  <div class="content">
+    <div class="field field-name-field-subitem-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Testing Requirements</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/986" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="applying-license46c0.html?targetclass=answer-question-examinations#question-examinations" class="item-link">Contractors Business Management Exam and Trade Exam</a></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/987" typeof="">
+  <div class="content">
+    <div class="field field-name-field-subitem-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Statute/ Rule Reference</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/988" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="text-title">R4-9-102, R4-9-103, R4-9-104.</span>
+<br />
+Article 4. Qualification of Solar Contractors</div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/989" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01170.htm" class="item-link">§ 32-1170. Definitions</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/990" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01170-01.htm" class="item-link">§ 32-1170.01. Installation, alteration or repair of solar device without qualification as solar contractor prohibited</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/991" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01170-02.htm" class="item-link">§ 32-1170.02. Qualification Examination</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/992" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/44/01762.htm" class="item-link">§ 44-1762. Solar energy device Warranties: Installation standards; Inspection</a></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1511" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/44/01763.htm" class="item-link">§ 44-1763. Distributed energy generation system agreements; disclosures; exception</a></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/1514" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="painting">Renovation, Repair and Painting (RRP) Rule</span><span><a href="#"><img src="sites/default/files/images/anchor-top.png" alt="Return to Top" class="noprint" /></a></span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1515" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">EPA's Lead Renovation, Repair and Painting (RRP) Rule requires that firms performing renovation, repair, and painting projects that disturb lead-based paint in homes, child care facilities and pre-schools built before 1978 have their firm certified by EPA (or an EPA authorized state), use certified renovators who are trained by EPA-approved training providers, and follow lead-safe work practices.</div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1516" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">On October 27, 2015 EPA announced 75 enforcement actions from the past year for violation of the requirement that renovation contractors and training providers protect people from harmful exposure to lead dust and debris.  Be sure to stay current with training and certification requirements and to work lead-safe!</div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1517" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">As many of you know, EPA extended the training expiration date for many certified renovators to accommodate its January 14, 2015 proposed change to the Renovation, Repair and Painting (RRP) Rule.  That amendment was approved and published in the Federal Register on February 17, 2016.  Under the final rule, Renovators can take a refresher course without the hands-on training every other time they get certified.  A course without hands-on training can be taken completely online.  Renovators who take the online training will be certified for three years; renovators who take the hands-on training will be certified for five years.  Modifying the hands-on requirement is designed to give renovators easier access to trainings, saving them time and money and possibly resulting in a higher number of renovators taking the refresher course.</div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1518" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><div id="renovatorDescription">Affected expiration dates are based on when the previous course was taken (see table below). Note:  <span class="underline">The extensions apply only to individual certifications, not to firm certifications<span>.</span></span></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1519" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><br /><table aria-describedby="renovatorDescription"><tr><th colspan="2" class="table-header">Renovator Training Expiration Information</th>
+</tr><tr><th>Date Course Completed</th>
+<th>Expiration</th>
+</tr><tr><td>On or before March 31, 2010</td>
+<td>March 31, 2016</td>
+</tr><tr><td>From April 1, 2010-March 31, 2011</td>
+<td>6 years from the date of course completion</td>
+</tr><tr><td>On or after April 1, 2011</td>
+<td>No extension provided – Expiration is 5 years from the date of course completion</td>
+</tr></table><br /></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1520" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">For more information, please call Nancy Kain, EPA's Regional Lead Coordinator, at 415-947-4280 or email her at kain.n<a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="264748455f664356470841495008">[email&#160;protected]</a></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><a href="#" class="back-to-top">Back to Top</a></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div>          </div>
+
+    
+  </div>
+</div>
+
+  </div>
+</div>
+</div>
+  </div>
+
+      </div>
+    </div>
+
+
+          <aside id="sidebar-second" class="col-sm-4 col-md-4 main-region">
+          <div class="region region-sidebar-second">
+    
+
+<section id="block-views-featured-item-block-7"  class="block block-views" aria-label="Office Hours">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Office Hours</h2>
+    
+  <div class="content" >
+    <div class="view view-featured-item view-id-featured_item view-display-id-block_7 view-dom-id-cff7ea96428a98098d895b9a2548d28b total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-body">        <div class="field-content"><p class="color-gray-333">
+<span>Monday - Friday:   8:00 am - 5:00 pm</span>
+<br /><span class="font-bold">Closed on Saturday, Sunday and State Holidays</span>
+<br /><span><a href="office-locations.html">Office Locations</a></span>
+</p></div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+
+
+<section id="block-views-featured-item-block-9"  class="block block-views" aria-label="Contact Us">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Contact Us</h2>
+    
+  <div class="content" >
+    <div class="view view-featured-item view-id-featured_item view-display-id-block_9 view-dom-id-a0745207677a0a7baf510162556f2f40 total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-body">        <span class="field-content"><p>
+<span class="font-12 color-gray-333">
+      <span>Phoenix Office: </span>
+      <span>(602) 542-1525</span>
+      <br /><span>Tucson Office: </span>
+       <span>(520) 628-6345</span>
+       <br /><span>Flagstaff Office: </span>
+       <span>(877) 692-9762</span>
+       <br /><!--<a class="no-underline" href="mailto:webmaster@roc.az.gov">Email</a>--><br /><strong>Email:</strong><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#d9aebcbbb4b8aaadbcab99abb6baf7b8a3f7beb6af">Webmaster</a><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#91fdf8f2f4ffe2f8fff6d1e3fef2bff0ebbff6fee7">Licensing</a><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#b7d4d8dac7dbded6d9d4d2d3d2c7d6c5c3dad2d9c3dbded4f7c5d8d499d6cd99d0d8c1">Compliance (Licensed)</a><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#086b676578646169666b6d6c6d78697a7c656d667c7d646d487a676b266972266f677e">Compliance (Unlicensed)</a><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#c5a9a0a2a4a9aba0b2a0a8a4aca985b7aaa6eba4bfeba2aab3">Legal</a>
+       
+</span>
+</p></span>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+
+
+<div id="block-views-featured-item-block-8"  class="block block-views" aria-label="block-views-featured-item-block-8">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <div class="view view-featured-item view-id-featured_item view-display-id-block_8 view-dom-id-e55b52869db602e4bb0d8561a70ca945 total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-body">        <span class="field-content"><p>
+<span class="font-bold">Social Media</span>
+<span class="height-5"></span>
+<span>
+      <a href="https://www.facebook.com/ArizonaROC">
+            <img src="sites/default/files/images/facebook.png" style="display:inline" alt="Find us on Facebook" /></a>
+       
+      <a href="https://twitter.com/az_ROC">
+            <img src="sites/default/files/images/twitter.png" style="display:inline" alt="Follow us on Twitter" /></a>
+</span>
+</p><p></p></span>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</div>
+  </div>
+      </aside>
+      </div>
+
+  <div id="postscript-group" class="two-postscript clearfix">
+          <div id="region-postscript-first" class="col-sm-6 postscript">
+          <div class="region region-postscript-first menu-block-placement-doesnt-exist">
+    
+
+<section id="block-views-news-releases-block-2"  class="block block-views" aria-label="ROC News">
+<div class="block-inner clearfix">
+        <h2 class="block-title">ROC News</h2>
+    
+  <div class="content" >
+    <div class="view view-news-releases view-id-news_releases view-display-id-block_2 view-dom-id-454e97bd3e8774a27ab94389a99c4b5c total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-11-19T00:00:00-07:00">11/19/2018</span></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html">AZ ROC Announces New Chief Counsel/Chief of Legal &amp; Recovery Fund to Agency</a></span>  </span>  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/thumbnail80__80x80_/public/news/images/Untitled%20design%20(10)7484.png?itok=BKxVdRQI" width="50" height="50" alt="a" /></a></div>  </div>  
+  <div class="views-field views-field-field-article-content">        <div class="field-content"><p><span style="font-size:14px"><span style="font-family:georgia,serif">FOR IMMEDIATE RELEASE</span></span><br /><span style="font-size:14px"><span style="font-family:georgia,serif">Monday, November 19, 2018</span></span></p><p><span style="font-size:14px"><span style="font-family:georgia,serif">CONTACT</span></span><br />...</div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+  </div>
+      </div>
+                  <div id="region-postscript-third" class="col-sm-6 postscript">
+          <div class="region region-postscript-third menu-block-placement-doesnt-exist">
+    
+
+<div id="block-block-4"  class="block block-block" aria-label="block-block-4">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script language="javascript">
+<!--//--><![CDATA[// ><!--
+
+// I don't think I need this now.
+
+//--><!]]>
+</script>
+  </div>
+</div>
+</div>
+
+
+<section id="block-views-tweets-block"  class="block block-views" aria-label="Twitter">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Twitter</h2>
+    
+  <div class="content" >
+    <div class="view view-tweets view-id-tweets view-display-id-block view-dom-id-0cf09714e010cdbc63744ab21eec68d0 total-results-3">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span>        <span><img class="tweet-image img-responsive" typeof="foaf:Image" src="https://pbs.twimg.com/media/DtF22S8WsAI9lAg.jpg:thumb" alt="" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23WisdomWednesday" class="twitter-hashtag">#WisdomWednesday</a> If opportunity doesn't knock, build a door. <a href="https://t.co/zwVHG1NqdL">https://t.co/zwVHG1NqdL</a></span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span>        <span><img class="tweet-image img-responsive" typeof="foaf:Image" src="https://pbs.twimg.com/media/DtBNQCAU8AA37jr.jpg:thumb" alt="" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23TriviaTuesday" class="twitter-hashtag">#TriviaTuesday</a> To whom is the license issued? <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23AZROC" class="twitter-hashtag">#AZROC</a> <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23ArizonaContractor" class="twitter-hashtag">#ArizonaContractor</a> <a href="https://t.co/I6bUZBP3KQ">https://t.co/I6bUZBP3KQ</a></span>  </span></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <span>        <span><img src="sites/default/files/rocseal.png" alt="A Tweet from az_ROC" class="tweet-image img-responsive" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content">Green Valley News &amp; Sun reports on a local impact of the labor shortage. 
+
+"The lack of workers means projects that… <a href="https://t.co/NqoMr1D3R3">https://t.co/NqoMr1D3R3</a></span>  </span></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="more-link"><a href="https://twitter.com/az_ROC" target="_blank" aria-label="See More ROC Tweets">More  </a></div>    </div>
+  
+  
+</div>
+  </div>
+</div>
+</section>
+  </div>
+      </div>
+          </div>
+
+</div>
+<div id="zone-footer" class="zone" role="contentinfo" aria-labelledby="footer-first">
+    
+    <div id="footer-first-contact" class="clearfix " role="contentinfo" aria-labelledby="footer-contact">
+    <div id="footer-state-seal" class="content clearfix">
+        <div class="footer-wrapper">
+                            <img src="sites/all/themes/az_gov/img/ArizonaOfficialSeal.png" alt="Arizona State Seal" id="state-seal" />
+                    </div>
+    </div>
+
+    <!--  <div id="footer-spacer"></div>-->
+            <div id="footer-contact">
+
+                            <div class="footer-title footer-field">
+                    <a href="office-locations.html">
+                        Contact Us                    </a>
+                </div>
+            
+
+            <div class="footer-info clearfix">
+                <div class="footer-address clearfix">
+                    <div class="footer-address-group footer-group">
+
+                                                    <div class="footer-agency footer-field">
+                                AZ ROC                            </div>
+                        
+                                                    <div class="footer-address-1 footer-field">
+                                1700 W. Washington St. Suite 105                            </div>
+                        
+                                                    <div class="footer-address-2 footer-field">
+                                Phoenix, Arizona 85007-2812                             </div>
+                        
+                                                    <div class="footer-map-link footer-field">
+                                <a href="https://www.google.com/maps/place/1700+W+Washington+St,+Phoenix,+AZ+85007/@33.448295,-112.0978899,17z/data=!3m1!4b1!4m2!3m1!1s0x">
+                                    Find in Google Maps
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="footer-phone-group footer-group">
+
+                                                    <div class="footer-phone footer-field">
+                                <strong>Phone: </strong>(602) 542-1525                            </div>
+                        
+                                                    <div class="footer-fax footer-field">
+                                <strong>Fax: </strong>(602) 542-1599                            </div>
+                        
+                    </div>
+                </div>
+
+                                    <div class="footer-map  footer-group">
+                        <a href="https://www.google.com/maps/place/1700+W+Washington+St,+Phoenix,+AZ+85007/@33.448295,-112.0978899,17z/data=!3m1!4b1!4m2!3m1!1s0x">
+                            <img src="sites/default/files/theme-settings/AZ-Exe-Tower.jpg" alt="Map Image">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+            <div id="region-footer-second">
+              <div class="region region-footer-second">
+    
+
+<section id="block-menu-menu-footer-nav"  class="block block-menu" aria-label="Footer Nav">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Footer Nav</h2>
+    
+  <div class="content" >
+    <ul class="menu nav"><li class="first leaf menu-li-agency-policies" aria-label="Agency Policies"><a href="agency-policies.html" title="">Agency Policies</a></li>
+<li class="leaf menu-li-terms-of-use" aria-label="Terms of Use"><a href="terms.html" title="">Terms of Use</a></li>
+<li class="leaf menu-li-electronic-update" aria-label="Electronic Update"><a href="electronic-update.html" title="">Electronic Update</a></li>
+<li class="leaf menu-li-statewide-policies" aria-label="Statewide Policies"><a href="http://az.gov/policies" title="">Statewide Policies</a></li>
+<li class="last leaf menu-li-©arizona-registrar-of-contractors" aria-label="©Arizona Registrar of Contractors"><a href="home.html" title="">©Arizona Registrar of Contractors</a></li>
+</ul>
+  </div>
+</div>
+</section>
+  </div>
+        </div>
+    </div>
+</div>  <script src="sites/default/files/js/js_L50O_PWoAuMOxVjnzZCkNSSmI0kFwhZsO1_KS8WnGKw.js"></script>
+<script src="sites/default/files/js_injector/js_injector_141d4b.js?pixf2w"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"392a26dc1c","applicationID":"19996584","transactionName":"MVRbYUECXEZUWxUPDAgebEdaTB1cW1wEHk0WWUk=","queueTime":0,"applicationTime":11,"atts":"HRNYFwkYT0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from roc.az.gov/contracts by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Nov 2018 00:42:08 GMT -->
+</html>

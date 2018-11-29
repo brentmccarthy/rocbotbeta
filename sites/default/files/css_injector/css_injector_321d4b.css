@@ -1,0 +1,19 @@
+#block-views-forms-page-item-list-block, #block-views-forms-page-item-list-block-1, #block-views-forms-page-item-list-block-2, #block-views-forms-page-item-list-block-3, #block-views-forms-page-item-list-block-4, #block-views-forms-page-item-list-block-5, #block-views-forms-page-item-list-block-6, #block-views-forms-page-item-list-block-7, #block-views-forms-page-item-list-block-8 { background: #fff !important; padding: 0 1em !important; }
+
+#block-views-form-page-item-list-block { background: #fff !important; padding: 0 1em !important; }
+#block-views-form-page-item-list-block-1 { background: #fff !important; padding: 0 1em !important; }
+#block-views-form-page-item-list-block-2 { background: #fff !important; padding: 0 1em !important; }
+#block-views-form-page-item-list-block-3 { background: #fff !important; padding: 0 1em !important; }
+#block-views-form-page-item-list-block-4 { background: #fff !important; padding: 0 1em !important; }
+
+.red-arrow-ul, .red-arrow-ul-row, red-arrow-ul ul li {
+  margin: 10px 0 10px 15px !important;
+  list-style: url('../images/arrow-red.png') !important;
+}
+.view-footer .red-arrow-ul, .view-footer .red-arrow-ul-row, .view-footer .item-list ul, .view-footer .item-list ul li {
+  margin: 10px 0 10px 30px !important;
+  list-style: url('../images/arrow-red.png') !important;
+}
+.view-header .note { padding: 10px !important; }
+.extra-marg-left { margin-left: 30px !important; }
+.form-list-separator { margin-bottom: 0px !important; }

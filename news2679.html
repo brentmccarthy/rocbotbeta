@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<!-- Mirrored from roc.az.gov/news?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Nov 2018 00:43:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="apple-touch-icon-precomposed" href="sites/default/files/apple-touch-icon-120x120-precomposed.png" type="image/png" />
+<link rel="shortcut icon" href="sites/default/files/roc.ico" type="image/vnd.microsoft.icon" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="apple-touch-icon" href="sites/default/files/apple-touch-icon.png" type="image/png" />
+<!-- barracuda domain verification --> <meta name="barracuda-site-verification" content="b89bdb2bfb4710e23dc39c3f13205099" />
+  <title>News &amp; Media | Arizona Registrar of Contractors</title>
+  <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_vfcc4mhqcxp3ETjX6MxFrJzWxE1M1gQ7TOXV4Gls__E.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_XyELJoL1qsdMTQdFrViNSLevfcrzPM23hhX_NrpUCh0.css" media="all" />
+<style>.media-list-thumbnails .form-type-checkbox{top:0;}
+.view-media-default iframe{width:200px;height:140px;}
+</style>
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_Ijii_GD5j5AGAMxG616MLU99fkje6JiAaTFvhF5xBFw.css" media="all" />
+<style>.system-themes-list-disabled,#system-themes-admin-form{display:none;}
+</style>
+<link type="text/css" rel="stylesheet" href="../cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_6Ex8VzEujhzxDT2kJMBgRV4vgbICW_VB08y0C_M9lWY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_0M9OMAIvIrYnoZmSUPWoSe7fORCUHLS06uV0Wdin2YU.css" media="(min-width:600px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_5sgSMoi_cQ9RggDu0_wpq60CnzL7GR-FdJQo_MUSvsQ.css" media="(min-width:768px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_GclIRYO9mLEEA2Qzh1vwOcQ8crXFJdXzW9nffKwPrD0.css" media="(min-width:920px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_-PlYobE30WJJQRJ9ZP8YW3SYGAB6sq0yluSR74yE1Po.css" media="(min-width:1240px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css_injector/css_injector_221d4b.css?pixf2w" media="print" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css_injector/css_injector_311d4b.css?pixf2w" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css_injector/css_injector_341d4b.css?pixf2w" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='sites/all/modules/contrib/jquery_update/replace/jquery/1.9/jquery.min.js'>\x3C/script>")</script>
+<script src="sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="sites/default/files/js/js_BLxotNs2yt7YGlf9QRI9L9AMfdnkQfnN-_ADBTW3SiE.js"></script>
+<script src="../cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="sites/default/files/js/js_2tPYVYNuRH41x_ro37hwNKEIWlfMQ5O_mAH5OZXY3vU.js"></script>
+<script src="sites/default/files/js/js_guwUcY6e6nFt2IHol5E8nfWL8ELF_a4vFjX0UT-ggIk.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","../www.google-analytics.com/analytics.js","ga");ga("create", "UA-50050513-30", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="sites/default/files/js/js_L-4zh0rdRrw4X24hGi2r-aXx00ANntaIzvnKRahcVuI.js"></script>
+<script src="sites/default/files/js/js_p459evxXxPUX-E8tD80FggANdcWyn8NzT2Q_g2IJ4oI.js"></script>
+<script src="sites/default/files/js/js_v89jUZ_l2LR8NzEXW2kWQ6me12tC-jCbLw8O3mpuQ2A.js"></script>
+<script src="sites/default/files/js_injector/js_injector_181d4b.js?pixf2w"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"az_branded","theme_token":"fAyCXODK37mDnE6iDYH0Sj6n5roKfa30h8pA3-0yHdM","jquery_version":"1.9","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/default\/files\/js_injector\/js_injector_14.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.9.1\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.2.0\/js\/bootstrap.min.js":1,"sites\/all\/modules\/contrib\/roc_salesforce\/cSearch.js":1,"sites\/all\/modules\/custom\/wysiwyg_accordion\/wysiwyg_accordion.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/custom\/menu_block_placement\/modules\/mbp_defaults\/mbp_defaults.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"https:\/\/static.az.gov\/sliver\/sliver.js":1,"sites\/all\/themes\/az_gov\/js\/global.js":1,"sites\/all\/themes\/az_gov\/js\/accessibility.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/default\/files\/js_injector\/js_injector_18.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/roc_salesforce\/animate.css":1,"sites\/all\/modules\/custom\/wysiwyg_accordion\/wysiwyg_accordion.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"0":1,"1":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"2":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.2.0\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/3.2.0\/overrides.min.css":1,"sites\/all\/themes\/az_gov\/css\/contextual.css":1,"sites\/all\/themes\/az_branded\/css\/colors.css":1,"sites\/all\/themes\/az_gov\/css\/reset.css":1,"sites\/all\/themes\/az_gov\/css\/global.css":1,"sites\/all\/themes\/az_gov\/css\/nodes.css":1,"sites\/all\/themes\/az_branded\/css\/branded-global.css":1,"sites\/all\/themes\/az_branded\/css\/branded-nodes.css":1,"sites\/all\/themes\/az_gov\/css\/min-600.css":1,"sites\/all\/themes\/az_gov\/css\/min-768.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-768.css":1,"sites\/all\/themes\/az_gov\/css\/min-920.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-720.css":1,"sites\/all\/themes\/az_gov\/css\/min-1240.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-1240.css":1,"sites\/default\/files\/css_injector\/css_injector_22.css":1,"sites\/default\/files\/css_injector\/css_injector_31.css":1,"sites\/default\/files\/css_injector\/css_injector_34.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:3ad5a186b8e3fa530d39f0340b2aae7e":{"view_name":"mbp_11","view_display_id":"block","view_args":"1333","view_path":"news-releases","view_base_path":null,"view_dom_id":"3ad5a186b8e3fa530d39f0340b2aae7e","pager_element":0},"views_dom_id:c79b4849b62701420edd7b7ade68c95f":{"view_name":"mbp_7","view_display_id":"block","view_args":"preface_first\/1333\/673+1333","view_path":"news-releases","view_base_path":null,"view_dom_id":"c79b4849b62701420edd7b7ade68c95f","pager_element":0},"views_dom_id:0a91825f94e87fea97c3a329cbd3d4c7":{"view_name":"mbp_7","view_display_id":"block","view_args":"sidebar_first\/1333\/673+1333","view_path":"news-releases","view_base_path":null,"view_dom_id":"0a91825f94e87fea97c3a329cbd3d4c7","pager_element":0},"views_dom_id:950fd47a3f506591a4f4923ad69da2cf":{"view_name":"mbp_7","view_display_id":"block","view_args":"content\/1333\/673+1333","view_path":"news-releases","view_base_path":null,"view_dom_id":"950fd47a3f506591a4f4923ad69da2cf","pager_element":0},"views_dom_id:235c8fe4b55438a62aa6993919371472":{"view_name":"mbp_7","view_display_id":"block","view_args":"sidebar_second\/1333\/673+1333","view_path":"news-releases","view_base_path":null,"view_dom_id":"235c8fe4b55438a62aa6993919371472","pager_element":0},"views_dom_id:573b117451e64580b273daad8d54cf48":{"view_name":"mbp_7","view_display_id":"block","view_args":"postscript_first\/1333\/673+1333","view_path":"news-releases","view_base_path":null,"view_dom_id":"573b117451e64580b273daad8d54cf48","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/news?page=1":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"(azroc\\.gov)|(roc\\.az\\.gov)","extInclude":"\\.pdf","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-news-releases">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page">
+    <div id="zone-users" class="zone">
+
+            <div class="region region-user-first">
+    
+
+<div id="block-feature-sliver-sliver"  class="block block-feature-sliver" aria-label="block-feature-sliver-sliver">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    
+  </div>
+</div>
+</div>
+  </div>
+    
+    
+  </div>
+<div id="zone-branding" class="zone" role="navigation" aria-labelledby="zone-branding">
+    <div id="region-branding" class="clearfix">
+              <div class="site-details clearfix">
+                      <a class="logo" href="index.html">
+              <img src="sites/default/files/rocseal.png"
+                   alt="Arizona Registrar of Contractors Logo">
+            </a>
+          
+                      <div class="site-info">
+                              <div class="site-name">
+                    <a  href="index.html">
+                      Arizona Registrar of Contractors                    </a>
+                </div>
+                                            <div class="site-slogan">
+                  Protect the health, safety and welfare of the public through a regulatory system designed to promote quality construction by Arizona contractors.                </div>
+                          </div>
+                  </div>
+                      <div class="region region-branding">
+    
+
+<div id="block-search-form"  class="block block-search" aria-label="block-search-form">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <form class="form-search content-search" action="https://roc.az.gov/news?page=1" method="post" id="search-block-form" accept-charset="UTF-8"><div><div title = "Search">
+        <div class="input-group"><input title="Search" placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary" aria-label="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="false" aria-label="Click to search"></span></button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-H-YayQEZ929Sm2ALGuO8o8RSFFr1kGUMXpqvt1SOqHM" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+  </div>
+</div>
+</div>
+  </div>
+          </div>
+    <a href="#" id="mobile-menu">
+    </a>
+            <div class="region region-menu">
+    
+
+<section id="block-system-main-menu"  class="block block-system block-menu" aria-label="Main menu">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Main menu</h2>
+    
+  <div class="content" >
+    <ul class="menu nav"><li class="first leaf menu-li-home" aria-label="Home"><a href="index.html" title="Home">Home</a></li>
+<li class="expanded menu-li-contractor-resources" aria-label="Contractor Resources"><a href="contractor-resources.html" title="">Contractor Resources</a><ul class="menu nav"><li class="first expanded menu-li-licensing" aria-label="Licensing"><a href="licensing.html" title="">Licensing</a><ul class="menu nav"><li class="first leaf menu-li-applying-for-a-license?" aria-label="Applying for a License?"><a href="applying-license.html" title="">Applying for a License?</a></li>
+<li class="leaf menu-li-service-members-and-veterans" aria-label="Service Members and Veterans"><a href="contractor-resources/licensing/service-members-and-veterans.html">Service Members and Veterans</a></li>
+<li class="leaf menu-li-license-classifications" aria-label="License Classifications"><a href="license-classifications.html" title="">License Classifications</a></li>
+<li class="leaf menu-li-maintenance-of-account" aria-label="Maintenance of Account"><a href="https://rocrenewal.az.gov/" title="">Maintenance of Account</a></li>
+<li class="leaf menu-li-name-availability" aria-label="Name Availability"><a href="name-availability.html" title="">Name Availability</a></li>
+<li class="leaf menu-li-contractor-background-checks" aria-label="Contractor Background Checks"><a href="background-checks.html" title="">Contractor Background Checks</a></li>
+<li class="leaf menu-li-posting-list" aria-label="Posting List"><a href="posting-list.html" title="">Posting List</a></li>
+<li class="leaf menu-li-bond-information" aria-label="Bond Information"><a href="bond-information.html" title="">Bond Information</a></li>
+<li class="leaf menu-li-timeframes" aria-label="Timeframes"><a href="timeframes.html" title="">Timeframes</a></li>
+<li class="leaf menu-li-license-fees" aria-label="License Fees"><a href="node/license-fees.html" title="">License Fees</a></li>
+<li class="last leaf menu-li-testing-information" aria-label="Testing Information"><a href="applying-license46c0.html?targetclass=answer-question-examinations#question-examinations" title="">Testing Information</a></li>
+</ul></li>
+<li class="leaf menu-li-renew-license-online" aria-label="Renew License Online"><a href="https://rocrenewal.az.gov/" title="">Renew License Online</a></li>
+<li class="expanded menu-li-complaints-and-investigations" aria-label="Complaints and Investigations"><a href="complaints-and-investigations.html" title="">Complaints and Investigations</a><ul class="menu nav"><li class="first leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-considering-filing?" aria-label="Considering Filing?"><a href="considering-filing.html" title="">Considering Filing?</a></li>
+<li class="leaf menu-li-file-a-complaint" aria-label="File a Complaint"><a href="file-complaint.html" title="">File a Complaint</a></li>
+<li class="leaf menu-li-complaint-process" aria-label="Complaint Process"><a href="node/complaint-process-investigation.html" title="">Complaint Process</a></li>
+<li class="leaf menu-li-legal" aria-label="Legal"><a href="legal.html" title="">Legal</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="">Recovery Fund</a></li>
+<li class="last leaf menu-li-unlicensed-contracting-tips-hotline" aria-label="Unlicensed Contracting Tips Hotline"><a href="unlicensed-contracting-tips-hotline.html" title="">Unlicensed Contracting Tips Hotline</a></li>
+</ul></li>
+<li class="leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+<li class="leaf menu-li-forms" aria-label="Forms"><a href="forms.html">Forms</a></li>
+<li class="leaf menu-li-contracts-and-miscellaneous-info" aria-label="Contracts and Miscellaneous Info"><a href="node/contracts.html" title="">Contracts and Miscellaneous Info</a></li>
+<li class="leaf menu-li-bond-information" aria-label="Bond Information"><a href="bond-information.html" title="">Bond Information</a></li>
+<li class="leaf menu-li-most-wanted-and-unlicensed-violations" aria-label="Most Wanted and Unlicensed Violations"><a href="roc-wanted.html" title="">Most Wanted and Unlicensed Violations</a></li>
+<li class="last leaf menu-li-rules-and-policies" aria-label="Rules and Policies"><a href="rules.html" title="">Rules and Policies</a></li>
+</ul></li>
+<li class="expanded menu-li-consumer-resources" aria-label="Consumer Resources"><a href="consumer-resources.html" title="">Consumer Resources</a><ul class="menu nav"><li class="first expanded menu-li-complaints-and-investigations" aria-label="Complaints and Investigations"><a href="complaints-and-investigations.html" title="">Complaints and Investigations</a><ul class="menu nav"><li class="first leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-considering-filing?" aria-label="Considering Filing?"><a href="considering-filing.html" title="">Considering Filing?</a></li>
+<li class="leaf menu-li-file-a-complaint" aria-label="File a Complaint"><a href="file-complaint.html" title="">File a Complaint</a></li>
+<li class="leaf menu-li-complaint-process" aria-label="Complaint Process"><a href="node/complaint-process-investigation.html" title="">Complaint Process</a></li>
+<li class="leaf menu-li-legal" aria-label="Legal"><a href="legal.html" title="">Legal</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="">Recovery Fund</a></li>
+<li class="last leaf menu-li-unlicensed-contracting-tips-hotline" aria-label="Unlicensed Contracting Tips Hotline"><a href="unlicensed-contracting-tips-hotline.html" title="">Unlicensed Contracting Tips Hotline</a></li>
+</ul></li>
+<li class="leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+<li class="leaf menu-li-most-wanted-and-unlicensed-violations" aria-label="Most Wanted and Unlicensed Violations"><a href="roc-wanted.html" title="">Most Wanted and Unlicensed Violations</a></li>
+<li class="leaf menu-li-forms" aria-label="Forms"><a href="forms.html" title="">Forms</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="">Recovery Fund</a></li>
+<li class="leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-minimum-elements-of-a-contract" aria-label="Minimum Elements of a Contract"><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01158.htm" title="">Minimum Elements of a Contract</a></li>
+<li class="last leaf menu-li-before-you-hire-a-contractor" aria-label="Before You Hire A Contractor"><a href="before-hire.html" title="">Before You Hire A Contractor</a></li>
+</ul></li>
+<li class="expanded active-trail active menu-li-agency" aria-label="Agency"><a href="agency.html" title="" class="active-trail">Agency</a><ul class="menu nav"><li class="first leaf menu-li-about-az-roc" aria-label="About AZ ROC"><a href="about-roc.html" title="">About AZ ROC</a></li>
+<li class="leaf menu-li-administrative-team" aria-label="Administrative Team"><a href="administrative-team.html" title="">Administrative Team</a></li>
+<li class="leaf active-trail active menu-li-news-&amp;-media" aria-label="News &amp; Media"><a href="news.html" title="" class="active-trail active">News &amp; Media</a></li>
+<li class="leaf menu-li-strategic-plan-/-budget-request" aria-label="Strategic Plan / Budget Request"><a href="strategic-plan.html" title="">Strategic Plan / Budget Request</a></li>
+<li class="leaf menu-li-rules-and-policies" aria-label="Rules and Policies"><a href="rules.html" title="">Rules and Policies</a></li>
+<li class="leaf menu-li-office-locations-/-contact-us" aria-label="Office Locations / Contact Us"><a href="node/office-locations.html" title="">Office Locations / Contact Us</a></li>
+<li class="leaf menu-li-employment-opportunities" aria-label="Employment Opportunities"><a href="employment.html" title="">Employment Opportunities</a></li>
+<li class="last leaf menu-li-agency-success-stories" aria-label="Agency Success Stories"><a href="agency-success-stories.html" title="ROC Agency Success Stories">Agency Success Stories</a></li>
+</ul></li>
+<li class="last leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+</ul>
+  </div>
+</div>
+</section>
+  </div>
+    </div>
+<div id="zone-content" class="zone" role="main">
+  <a name="main-content"></a>
+
+
+  <div id="preface-group" class="clearfix">
+              </div>
+
+  
+  <div id="content-wrapper" class="clearfix">
+
+
+    
+
+    <div id="content" class="col-sm-8 col-md-8 main-region contextual-links-region ">
+      <div id="region-content" class="content">
+
+        <h1 id="page-title"  aria-label="News &amp;amp; Media" >News &amp; Media</h1>
+
+        
+                  <div class="region region-content">
+    
+
+<div id="block-block-8"  class="block block-block" aria-label="block-block-8">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <script language="javascript">
+<!--//--><![CDATA[// ><!--
+
+var pg = window.location.href;
+var pgs = pg.split("roc.az.gov");
+var page = pgs[1];
+if ( document.getElementById('page-title') != null ) {
+if ( page.indexOf('consumer-resources') > -1 ) { 
+  document.getElementById('page-title').innerHTML = 'Consumer Resources'; 
+} else if ( page.indexOf('news') > -1 ) { 
+  document.getElementById('page-title').innerHTML = 'News'; 
+} else if ( page.indexOf('news-releases') > -1 ) { 
+  document.getElementById('page-title').innerHTML = 'News Releases'; 
+} else if ( page.indexOf('complaints-and-investigations') > -1 ) { 
+  document.getElementById('page-title').innerHTML = 'Complaints and Investigations'; 
+} else if ( page.indexOf('licensing') > -1 ) { 
+  document.getElementById('page-title').innerHTML = 'Licensing'; 
+} else if ( page.indexOf('contractor-resources') > -1 ) { 
+  document.getElementById('page-title').innerHTML = 'Contractor Resources'; 
+} else {
+  document.getElementById('page-title').innerHTML = 'Arizona Registrar of Contractors'; 
+}
+  document.getElementById('page-title').className = 'hide'; 
+}
+
+//--><!]]>
+</script>
+  </div>
+</div>
+</div>
+
+
+<div id="block-system-main"  class="block block-system" aria-label="block-system-main">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <div class="view view-news-releases view-id-news_releases view-display-id-page view-dom-id-5f3fed522d010c54911f7143f481a665 total-results-6">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/news_article__600_x_400_/public/news/images/Untitled%20design%20(10)718c.png?itok=zVm7N0Bo" width="600" height="400" alt="a" /></a></div>  </div>  
+  <div class="views-field views-field-field-short-title">        <div class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html">New Chief Counsel/Chief of Legal &amp; Recovery Fund</a></div>  </div></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/arizona-construction-career-days-woos-more-5000-high-school-students.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/news_article__600_x_400_/public/news/images/CareerDay1-900x550155b.jpg?itok=HJz0b8XE" width="600" height="400" alt="CD" /></a></div>  </div>  
+  <div class="views-field views-field-field-short-title">        <div class="field-content"><a href="newsarticle/arizona-construction-career-days-woos-more-5000-high-school-students.html">Construction Career Days Woos More Than 5,000 Students</a></div>  </div></li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/n4t-investigators-homeowner-loses-thousands-unlicensed-contractor.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/news_article__600_x_400_/public/news/images/Untitled%20design_10e98e.png?itok=4xE7LU47" width="600" height="400" alt="ULE" /></a></div>  </div>  
+  <div class="views-field views-field-field-short-title">        <div class="field-content"><a href="newsarticle/n4t-investigators-homeowner-loses-thousands-unlicensed-contractor.html">Homeowner Loses Thousands to Unlicensed Contractor</a></div>  </div></li>
+          <li class="views-row views-row-4 views-row-even">  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/revoked-licensee-turns-illegal-unlicensed-individual.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/news_article__600_x_400_/public/news/images/Arrested%20(1)d213.png?itok=6Yh3dIO_" width="600" height="400" alt="Photo Sources: Graham County Sheriff&#039;s Office" /></a></div>  </div>  
+  <div class="views-field views-field-field-short-title">        <div class="field-content"><a href="newsarticle/revoked-licensee-turns-illegal-unlicensed-individual.html">Revoked Licensee Turns Illegal, Unlicensed Individual</a></div>  </div></li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/most-wanted-unlicensed-entity-arrested-mesa-pd.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/news_article__600_x_400_/public/news/images/Arresteddf6d.png?itok=HQl4-g_6" width="600" height="400" alt="Arrest" /></a></div>  </div>  
+  <div class="views-field views-field-field-short-title">        <div class="field-content"><a href="newsarticle/most-wanted-unlicensed-entity-arrested-mesa-pd.html">Most Wanted Unlicensed Entity Arrested by Mesa PD</a></div>  </div></li>
+          <li class="views-row views-row-6 views-row-even views-row-last">  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/az-roc%e2%80%99s-recovery-fund-help-individuals-valley-wide-recoup-losses-two-revoked-licensees.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/news_article__600_x_400_/public/news/images/Option2_0936d.png?itok=WKGfvr5H" width="600" height="400" alt="Homeowners Looking to Recovery Fund" /></a></div>  </div>  
+  <div class="views-field views-field-field-short-title">        <div class="field-content"><a href="search/node/newsarticle%20az%20roc%20E2%2080%2099s%20recovery%20fund%20help%20individuals%20valley%20wide%20recoup%20losses%20two%20revoked%20licensees.html">AZ ROC’s Recovery Fund to Help Individuals Recoup Losses</a></div>  </div></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</div>
+  </div>
+
+      </div>
+    </div>
+
+
+          <aside id="sidebar-second" class="col-sm-4 col-md-4 main-region">
+          <div class="region region-sidebar-second">
+    
+
+<section id="block-views-featured-item-block-75"  class="block block-views" aria-label="Public Records Request">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Public Records Request</h2>
+    
+  <div class="content" >
+    <div class="view view-featured-item view-id-featured_item view-display-id-block_75 view-dom-id-fbf7d1785e30d4c02e21b175ab780ab3 total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-field-featured-item-link-collect">        <div class="field-content"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-featured-item-link-collect clearfix" about="/field-collection/field-featured-item-link-collect/779" typeof="">
+  <div class="content">
+    <div class="field field-name-field-featured-item-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="forms.html#misc">Public Records Request Form</a></div><div class="field-item odd"><a href="search/node/sites%20default%20files%20files%20Public%20Records%20Policy%20Handbook%20pdf.html">Public Records Policy Handbook</a></div><div class="field-item even"><a href="cdn-cgi/l/email-protection.html#82efe7e6ebe3c2e3f8f0ede1ace5edf4">Email PIO</a></div></div></div>  </div>
+</div>
+</div></div>  </div>  
+  <div class="views-field views-field-field-featured-item-link-area">        <div class="field-content"></div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+
+
+<section id="block-views-news-releases-block-1"  class="block block-views" aria-label="<h1 class="block-title">ROC News Releases</h1>">
+<div class="block-inner clearfix">
+        <h2 class="block-title"><h1 class="block-title">ROC News Releases</h1></h2>
+    
+  <div class="content" >
+    <div class="view view-news-releases view-id-news_releases view-display-id-block_1 view-dom-id-5282d69fe70e297db264d05d3d0ab3a2 total-results-12">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-08-13T00:00:00-07:00">08/13/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/home-repair-scams-rise-monsoon-storms-hit-arizona.html">Home Repair Scams on the Rise as Monsoon Storms Hit Arizona</a></span>  </span>  </div>
+  <div class="views-row views-row-2 views-row-even">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-07-25T00:00:00-07:00">07/25/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/man-gets-probation-theft-woman%e2%80%99s-roof-repair-money.html">Man Gets Probation for Theft of Woman’s Roof Repair Money</a></span>  </span>  </div>
+  <div class="views-row views-row-3 views-row-odd">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-28T00:00:00-07:00">06/28/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/az-roc-participates-national-effort-educate-public-and-curb-unlicensed-activity.html">AZ ROC Participates in National Effort to Educate Public and Curb Unlicensed Activity</a></span>  </span>  </div>
+  <div class="views-row views-row-4 views-row-even">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-27T00:00:00-07:00">06/27/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/az-roc-designates-veteran-representatives-and-launches-new-web-page-help-service-members.html">AZ ROC Designates Veteran Representatives and Launches New Web Page to Help Service Members and Veterans</a></span>  </span>  </div>
+  <div class="views-row views-row-5 views-row-odd">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-06-26T00:00:00-07:00">06/26/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/unlicensed-yuma-pool-repairman-cases-submitted-criminal-charging.html">Unlicensed Yuma Pool Repairman Cases Submitted for Criminal Charging</a></span>  </span>  </div>
+  <div class="views-row views-row-6 views-row-even">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-05-24T00:00:00-07:00">05/24/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/fake-contractor-runs-3-your-side-after-taking-21000-consumer.html">Fake Contractor Runs From 3 On Your Side After Taking $21,000 From Consumer</a></span>  </span>  </div>
+  <div class="views-row views-row-7 views-row-odd">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-05-23T00:00:00-07:00">05/23/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/n4t-investigators-contracting-trouble.html">N4T Investigators: Contracting Trouble</a></span>  </span>  </div>
+  <div class="views-row views-row-8 views-row-even">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-05-22T00:00:00-07:00">05/22/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/tucson-man-guilty-contracting-wout-license.html">Tucson Man Guilty of Contracting Without a License</a></span>  </span>  </div>
+  <div class="views-row views-row-9 views-row-odd">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-05-17T00:00:00-07:00">05/17/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/warrant-issued-prescott-man-accused-fraudulently-acting-contractor.html">Warrant Issued for Prescott Man Accused of Fraudulently Acting as a Contractor</a></span>  </span>  </div>
+  <div class="views-row views-row-10 views-row-even">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-05-10T00:00:00-07:00">05/10/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/azdailysun-homeowners-work-helped-save-structures-tinder-fire.html">AZDailySun: Homeowners&#039; Work Helped Save Structures in Tinder Fire</a></span>  </span>  </div>
+  <div class="views-row views-row-11 views-row-odd">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-05-10T00:00:00-07:00">05/10/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/unlicensed-contractor-found-guilty-and-ordered-pay-12k.html">Unlicensed Contractor Found Guilty and Ordered to Pay $12k</a></span>  </span>  </div>
+  <div class="views-row views-row-12 views-row-even views-row-last">
+      
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-05-10T00:00:00-07:00">05/10/2018</span></span>  </span>  
+  <span class="views-field views-field-field-news-date">        <span class="field-content"></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/n4t-investigators-unlicensed-unfinished.html">N4T Investigators: Unlicensed &amp; Unfinished</a></span>  </span>  </div>
+    </div>
+  
+      <ul class="pager"><li class="pager-previous"><a href="news.html">‹‹</a></li>
+<li class="pager-current">2 of 4</li>
+<li class="pager-next"><a href="news4658.html?page=2">››</a></li>
+</ul>  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+  </div>
+      </aside>
+      </div>
+
+  <div id="postscript-group" class="two-postscript clearfix">
+          <div id="region-postscript-first" class="col-sm-6 postscript">
+          <div class="region region-postscript-first menu-block-placement-doesnt-exist">
+    
+
+<section id="block-views-news-releases-block-2"  class="block block-views" aria-label="ROC News">
+<div class="block-inner clearfix">
+        <h2 class="block-title">ROC News</h2>
+    
+  <div class="content" >
+    <div class="view view-news-releases view-id-news_releases view-display-id-block_2 view-dom-id-f9f4bf74b5f4531ce83da876d02f3589 total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-11-19T00:00:00-07:00">11/19/2018</span></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html">AZ ROC Announces New Chief Counsel/Chief of Legal &amp; Recovery Fund to Agency</a></span>  </span>  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/thumbnail80__80x80_/public/news/images/Untitled%20design%20(10)7484.png?itok=BKxVdRQI" width="50" height="50" alt="a" /></a></div>  </div>  
+  <div class="views-field views-field-field-article-content">        <div class="field-content"><p><span style="font-size:14px"><span style="font-family:georgia,serif">FOR IMMEDIATE RELEASE</span></span><br /><span style="font-size:14px"><span style="font-family:georgia,serif">Monday, November 19, 2018</span></span></p><p><span style="font-size:14px"><span style="font-family:georgia,serif">CONTACT</span></span><br />...</div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+  </div>
+      </div>
+                  <div id="region-postscript-third" class="col-sm-6 postscript">
+          <div class="region region-postscript-third menu-block-placement-doesnt-exist">
+    
+
+<div id="block-block-4"  class="block block-block" aria-label="block-block-4">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script language="javascript">
+<!--//--><![CDATA[// ><!--
+
+// I don't think I need this now.
+
+//--><!]]>
+</script>
+  </div>
+</div>
+</div>
+
+
+<section id="block-views-tweets-block"  class="block block-views" aria-label="Twitter">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Twitter</h2>
+    
+  <div class="content" >
+    <div class="view view-tweets view-id-tweets view-display-id-block view-dom-id-2a892036420c04a7220ba5e984740c95 total-results-3">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span>        <span><img class="tweet-image img-responsive" typeof="foaf:Image" src="https://pbs.twimg.com/media/DtF22S8WsAI9lAg.jpg:thumb" alt="" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23WisdomWednesday" class="twitter-hashtag">#WisdomWednesday</a> If opportunity doesn't knock, build a door. <a href="https://t.co/zwVHG1NqdL">https://t.co/zwVHG1NqdL</a></span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span>        <span><img class="tweet-image img-responsive" typeof="foaf:Image" src="https://pbs.twimg.com/media/DtBNQCAU8AA37jr.jpg:thumb" alt="" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23TriviaTuesday" class="twitter-hashtag">#TriviaTuesday</a> To whom is the license issued? <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23AZROC" class="twitter-hashtag">#AZROC</a> <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23ArizonaContractor" class="twitter-hashtag">#ArizonaContractor</a> <a href="https://t.co/I6bUZBP3KQ">https://t.co/I6bUZBP3KQ</a></span>  </span></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <span>        <span><img src="sites/default/files/rocseal.png" alt="A Tweet from az_ROC" class="tweet-image img-responsive" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content">Green Valley News &amp; Sun reports on a local impact of the labor shortage. 
+
+"The lack of workers means projects that… <a href="https://t.co/NqoMr1D3R3">https://t.co/NqoMr1D3R3</a></span>  </span></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="more-link"><a href="https://twitter.com/az_ROC" target="_blank" aria-label="See More ROC Tweets">More  </a></div>    </div>
+  
+  
+</div>
+  </div>
+</div>
+</section>
+  </div>
+      </div>
+          </div>
+
+</div>
+<div id="zone-footer" class="zone" role="contentinfo" aria-labelledby="footer-first">
+    
+    <div id="footer-first-contact" class="clearfix " role="contentinfo" aria-labelledby="footer-contact">
+    <div id="footer-state-seal" class="content clearfix">
+        <div class="footer-wrapper">
+                            <img src="sites/all/themes/az_gov/img/ArizonaOfficialSeal.png" alt="Arizona State Seal" id="state-seal" />
+                    </div>
+    </div>
+
+    <!--  <div id="footer-spacer"></div>-->
+            <div id="footer-contact">
+
+                            <div class="footer-title footer-field">
+                    <a href="office-locations.html">
+                        Contact Us                    </a>
+                </div>
+            
+
+            <div class="footer-info clearfix">
+                <div class="footer-address clearfix">
+                    <div class="footer-address-group footer-group">
+
+                                                    <div class="footer-agency footer-field">
+                                AZ ROC                            </div>
+                        
+                                                    <div class="footer-address-1 footer-field">
+                                1700 W. Washington St. Suite 105                            </div>
+                        
+                                                    <div class="footer-address-2 footer-field">
+                                Phoenix, Arizona 85007-2812                             </div>
+                        
+                                                    <div class="footer-map-link footer-field">
+                                <a href="https://www.google.com/maps/place/1700+W+Washington+St,+Phoenix,+AZ+85007/@33.448295,-112.0978899,17z/data=!3m1!4b1!4m2!3m1!1s0x">
+                                    Find in Google Maps
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="footer-phone-group footer-group">
+
+                                                    <div class="footer-phone footer-field">
+                                <strong>Phone: </strong>(602) 542-1525                            </div>
+                        
+                                                    <div class="footer-fax footer-field">
+                                <strong>Fax: </strong>(602) 542-1599                            </div>
+                        
+                    </div>
+                </div>
+
+                                    <div class="footer-map  footer-group">
+                        <a href="https://www.google.com/maps/place/1700+W+Washington+St,+Phoenix,+AZ+85007/@33.448295,-112.0978899,17z/data=!3m1!4b1!4m2!3m1!1s0x">
+                            <img src="sites/default/files/theme-settings/AZ-Exe-Tower.jpg" alt="Map Image">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+            <div id="region-footer-second">
+              <div class="region region-footer-second">
+    
+
+<section id="block-menu-menu-footer-nav"  class="block block-menu" aria-label="Footer Nav">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Footer Nav</h2>
+    
+  <div class="content" >
+    <ul class="menu nav"><li class="first leaf menu-li-agency-policies" aria-label="Agency Policies"><a href="agency-policies.html" title="">Agency Policies</a></li>
+<li class="leaf menu-li-terms-of-use" aria-label="Terms of Use"><a href="terms.html" title="">Terms of Use</a></li>
+<li class="leaf menu-li-electronic-update" aria-label="Electronic Update"><a href="electronic-update.html" title="">Electronic Update</a></li>
+<li class="leaf menu-li-statewide-policies" aria-label="Statewide Policies"><a href="http://az.gov/policies" title="">Statewide Policies</a></li>
+<li class="last leaf menu-li-©arizona-registrar-of-contractors" aria-label="©Arizona Registrar of Contractors"><a href="home.html" title="">©Arizona Registrar of Contractors</a></li>
+</ul>
+  </div>
+</div>
+</section>
+  </div>
+        </div>
+    </div>
+</div>  <script src="sites/default/files/js/js_L50O_PWoAuMOxVjnzZCkNSSmI0kFwhZsO1_KS8WnGKw.js"></script>
+<script src="sites/default/files/js_injector/js_injector_141d4b.js?pixf2w"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"392a26dc1c","applicationID":"19996584","transactionName":"MVRbYUECXEZUWxUPDAgeeFZHCl1bGk4IAxQVbklUVAY=","queueTime":0,"applicationTime":859,"atts":"HRNYFwkYT0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from roc.az.gov/news?page=1 by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Nov 2018 00:43:14 GMT -->
+</html>

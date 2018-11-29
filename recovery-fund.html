@@ -1,0 +1,834 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/ dc: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ og: http://ogp.me/ns# rdfs: http://www.w3.org/2000/01/rdf-schema# sioc: http://rdfs.org/sioc/ns# sioct: http://rdfs.org/sioc/types# skos: http://www.w3.org/2004/02/skos/core# xsd: http://www.w3.org/2001/XMLSchema#">
+
+<!-- Mirrored from roc.az.gov/recovery-fund by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Nov 2018 00:40:18 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<head>
+  <link rel="profile" href="http://www.w3.org/1999/xhtml/vocab" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" /><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now()])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1099.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="apple-touch-icon-precomposed" href="sites/default/files/apple-touch-icon-120x120-precomposed.png" type="image/png" />
+<link rel="apple-touch-icon" href="sites/default/files/apple-touch-icon.png" type="image/png" />
+<link rel="shortlink" href="node/1880.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="recovery-fund.html" />
+<link rel="shortcut icon" href="sites/default/files/roc.ico" type="image/vnd.microsoft.icon" />
+<!-- barracuda domain verification --> <meta name="barracuda-site-verification" content="b89bdb2bfb4710e23dc39c3f13205099" />
+  <title>Recovery Fund | Arizona Registrar of Contractors</title>
+  <link type="text/css" rel="stylesheet" href="sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_vfcc4mhqcxp3ETjX6MxFrJzWxE1M1gQ7TOXV4Gls__E.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_XyELJoL1qsdMTQdFrViNSLevfcrzPM23hhX_NrpUCh0.css" media="all" />
+<style>.media-list-thumbnails .form-type-checkbox{top:0;}
+.view-media-default iframe{width:200px;height:140px;}
+</style>
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_u3UJHjCFb7Kirv8TWwoGyHRf_B8MM4PswZiAnjkXEuw.css" media="all" />
+<style>.system-themes-list-disabled,#system-themes-admin-form{display:none;}
+</style>
+<link type="text/css" rel="stylesheet" href="../cdn.jsdelivr.net/bootstrap/3.2.0/css/bootstrap.min.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_6Ex8VzEujhzxDT2kJMBgRV4vgbICW_VB08y0C_M9lWY.css" media="all" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_0M9OMAIvIrYnoZmSUPWoSe7fORCUHLS06uV0Wdin2YU.css" media="(min-width:600px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_5sgSMoi_cQ9RggDu0_wpq60CnzL7GR-FdJQo_MUSvsQ.css" media="(min-width:768px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_GclIRYO9mLEEA2Qzh1vwOcQ8crXFJdXzW9nffKwPrD0.css" media="(min-width:920px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css/css_-PlYobE30WJJQRJ9ZP8YW3SYGAB6sq0yluSR74yE1Po.css" media="(min-width:1240px)" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css_injector/css_injector_221d4b.css?pixf2w" media="print" />
+<link type="text/css" rel="stylesheet" href="sites/default/files/css_injector/css_injector_341d4b.css?pixf2w" media="all" />
+  <!-- HTML5 element support for IE6-8 -->
+  <!--[if lt IE 9]>
+    <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <script src="../ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write("<script src='sites/all/modules/contrib/jquery_update/replace/jquery/1.9/jquery.min.js'>\x3C/script>")</script>
+<script src="sites/default/files/js/js_vSmhpx_T-AShyt_WMW5_TcwwxJP1imoVOa8jvwL_mxE.js"></script>
+<script src="sites/default/files/js/js_BLxotNs2yt7YGlf9QRI9L9AMfdnkQfnN-_ADBTW3SiE.js"></script>
+<script src="../cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="sites/default/files/js/js_2tPYVYNuRH41x_ro37hwNKEIWlfMQ5O_mAH5OZXY3vU.js"></script>
+<script src="sites/default/files/js/js_ZsPBDbsLdL4Y99HCl3mJWWUaely9CcOQqleujknej28.js"></script>
+<script>(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","../www.google-analytics.com/analytics.js","ga");ga("create", "UA-50050513-30", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");</script>
+<script src="sites/default/files/js/js_L-4zh0rdRrw4X24hGi2r-aXx00ANntaIzvnKRahcVuI.js"></script>
+<script src="sites/default/files/js/js_p459evxXxPUX-E8tD80FggANdcWyn8NzT2Q_g2IJ4oI.js"></script>
+<script src="sites/default/files/js/js_v89jUZ_l2LR8NzEXW2kWQ6me12tC-jCbLw8O3mpuQ2A.js"></script>
+<script src="sites/default/files/js_injector/js_injector_111d4b.js?pixf2w"></script>
+<script src="sites/default/files/js_injector/js_injector_181d4b.js?pixf2w"></script>
+<script>jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"az_branded","theme_token":"9Mhwr-b2QndYzauvA0Sai9r3uHS1kz67lyyyzm80xv0","jquery_version":"1.9","js":{"sites\/all\/themes\/bootstrap\/js\/bootstrap.js":1,"sites\/default\/files\/js_injector\/js_injector_14.js":1,"\/\/ajax.googleapis.com\/ajax\/libs\/jquery\/1.9.1\/jquery.min.js":1,"0":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.2.0\/js\/bootstrap.min.js":1,"sites\/all\/modules\/contrib\/roc_salesforce\/cSearch.js":1,"sites\/all\/modules\/custom\/wysiwyg_accordion\/wysiwyg_accordion.js":1,"sites\/all\/modules\/contrib\/extlink\/extlink.js":1,"sites\/all\/libraries\/colorbox\/jquery.colorbox-min.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox.js":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.js":1,"sites\/all\/modules\/contrib\/colorbox\/js\/colorbox_load.js":1,"sites\/all\/modules\/contrib\/views\/js\/base.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/_progress.js":1,"sites\/all\/modules\/custom\/menu_block_placement\/modules\/mbp_defaults\/mbp_defaults.js":1,"sites\/all\/modules\/contrib\/views\/js\/ajax_view.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"1":1,"https:\/\/static.az.gov\/sliver\/sliver.js":1,"sites\/all\/themes\/az_gov\/js\/global.js":1,"sites\/all\/themes\/az_gov\/js\/accessibility.js":1,"sites\/all\/themes\/bootstrap\/js\/modules\/views\/js\/ajax_view.js":1,"sites\/all\/themes\/bootstrap\/js\/misc\/ajax.js":1,"sites\/default\/files\/js_injector\/js_injector_11.js":1,"sites\/default\/files\/js_injector\/js_injector_18.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"sites\/all\/modules\/contrib\/roc_salesforce\/animate.css":1,"sites\/all\/modules\/custom\/wysiwyg_accordion\/wysiwyg_accordion.css":1,"sites\/all\/modules\/contrib\/extlink\/extlink.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/colorbox\/styles\/default\/colorbox_style.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"0":1,"1":1,"sites\/all\/modules\/contrib\/panels\/css\/panels.css":1,"sites\/all\/modules\/contrib\/field_collection\/field_collection.theme.css":1,"2":1,"\/\/cdn.jsdelivr.net\/bootstrap\/3.2.0\/css\/bootstrap.min.css":1,"sites\/all\/themes\/bootstrap\/css\/3.2.0\/overrides.min.css":1,"sites\/all\/themes\/az_gov\/css\/contextual.css":1,"sites\/all\/themes\/az_branded\/css\/colors.css":1,"sites\/all\/themes\/az_gov\/css\/reset.css":1,"sites\/all\/themes\/az_gov\/css\/global.css":1,"sites\/all\/themes\/az_gov\/css\/nodes.css":1,"sites\/all\/themes\/az_branded\/css\/branded-global.css":1,"sites\/all\/themes\/az_branded\/css\/branded-nodes.css":1,"sites\/all\/themes\/az_gov\/css\/min-600.css":1,"sites\/all\/themes\/az_gov\/css\/min-768.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-768.css":1,"sites\/all\/themes\/az_gov\/css\/min-920.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-720.css":1,"sites\/all\/themes\/az_gov\/css\/min-1240.css":1,"sites\/all\/themes\/az_branded\/css\/branded-min-1240.css":1,"sites\/default\/files\/css_injector\/css_injector_22.css":1,"sites\/default\/files\/css_injector\/css_injector_34.css":1}},"colorbox":{"opacity":"0.85","current":"{current} of {total}","previous":"\u00ab Prev","next":"Next \u00bb","close":"Close","maxWidth":"98%","maxHeight":"98%","fixed":true,"mobiledetect":true,"mobiledevicewidth":"480px"},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:b5c95e3df73409686ffdcaa8eaa93ad8":{"view_name":"mbp_11","view_display_id":"block","view_args":"1110","view_path":"node\/1880","view_base_path":null,"view_dom_id":"b5c95e3df73409686ffdcaa8eaa93ad8","pager_element":0},"views_dom_id:73a590bb3250a7b38deeceb6a7498439":{"view_name":"mbp_7","view_display_id":"block","view_args":"preface_first\/1110\/722+840+1110","view_path":"node\/1880","view_base_path":null,"view_dom_id":"73a590bb3250a7b38deeceb6a7498439","pager_element":0},"views_dom_id:8f4da3c4495001d13376decfb058f2a3":{"view_name":"mbp_7","view_display_id":"block","view_args":"sidebar_first\/1110\/722+840+1110","view_path":"node\/1880","view_base_path":null,"view_dom_id":"8f4da3c4495001d13376decfb058f2a3","pager_element":0},"views_dom_id:a3d43f1a9bf31d2297fbf39185e09bec":{"view_name":"mbp_7","view_display_id":"block","view_args":"content\/1110\/722+840+1110","view_path":"node\/1880","view_base_path":null,"view_dom_id":"a3d43f1a9bf31d2297fbf39185e09bec","pager_element":0},"views_dom_id:c8c01546da54ba633ebb9499a5ccc941":{"view_name":"mbp_7","view_display_id":"block","view_args":"sidebar_second\/1110\/722+840+1110","view_path":"node\/1880","view_base_path":null,"view_dom_id":"c8c01546da54ba633ebb9499a5ccc941","pager_element":0},"views_dom_id:00ac427c4e2794a5b45b23d7e8d12972":{"view_name":"mbp_7","view_display_id":"block","view_args":"postscript_first\/1110\/722+840+1110","view_path":"node\/1880","view_base_path":null,"view_dom_id":"00ac427c4e2794a5b45b23d7e8d12972","pager_element":0}}},"urlIsAjaxTrusted":{"\/views\/ajax":true,"\/recovery-fund":true},"extlink":{"extTarget":"_blank","extClass":0,"extLabel":"(link is external)","extImgClass":0,"extSubdomains":0,"extExclude":"(azroc\\.gov)|(roc\\.az\\.gov)","extInclude":"\\.pdf","extCssExclude":"","extCssExplicit":"","extAlert":0,"extAlertText":"This link will take you to an external web site.","mailtoClass":0,"mailtoLabel":"(link sends e-mail)"},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip","trackColorbox":1},"bootstrap":{"anchorsFix":1,"anchorsSmoothScrolling":1,"formHasError":1,"popoverEnabled":1,"popoverOptions":{"animation":1,"html":0,"placement":"right","selector":"","trigger":"click","triggerAutoclose":1,"title":"","content":"","delay":0,"container":"body"},"tooltipEnabled":1,"tooltipOptions":{"animation":1,"html":0,"placement":"auto left","selector":"","trigger":"hover focus","delay":0,"container":"body"}}});</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-1880 node-type-regular-page">
+  <div id="skip-link">
+    <a href="#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page">
+    <div id="zone-users" class="zone">
+
+            <div class="region region-user-first">
+    
+
+<div id="block-feature-sliver-sliver"  class="block block-feature-sliver" aria-label="block-feature-sliver-sliver">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    
+  </div>
+</div>
+</div>
+  </div>
+    
+    
+  </div>
+<div id="zone-branding" class="zone" role="navigation" aria-labelledby="zone-branding">
+    <div id="region-branding" class="clearfix">
+              <div class="site-details clearfix">
+                      <a class="logo" href="index.html">
+              <img src="sites/default/files/rocseal.png"
+                   alt="Arizona Registrar of Contractors Logo">
+            </a>
+          
+                      <div class="site-info">
+                              <div class="site-name">
+                    <a  href="index.html">
+                      Arizona Registrar of Contractors                    </a>
+                </div>
+                                            <div class="site-slogan">
+                  Protect the health, safety and welfare of the public through a regulatory system designed to promote quality construction by Arizona contractors.                </div>
+                          </div>
+                  </div>
+                      <div class="region region-branding">
+    
+
+<div id="block-search-form"  class="block block-search" aria-label="block-search-form">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <form class="form-search content-search" action="https://roc.az.gov/recovery-fund" method="post" id="search-block-form" accept-charset="UTF-8"><div><div title = "Search">
+        <div class="input-group"><input title="Search" placeholder="Search" class="form-control form-text" type="text" id="edit-search-block-form--2" name="search_block_form" value="" size="15" maxlength="128" /><span class="input-group-btn"><button type="submit" class="btn btn-primary" aria-label="Search"><span class="icon glyphicon glyphicon-search" aria-hidden="false" aria-label="Click to search"></span></button></span></div><div class="form-actions form-wrapper form-group" id="edit-actions"><button class="element-invisible btn btn-primary form-submit" type="submit" id="edit-submit" name="op" value="Search">Search</button>
+</div><input type="hidden" name="form_build_id" value="form-Za2OCQYddPXdt3uU_EhGmIFCpAdlcd_4eFkcUqC-1m0" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>
+  </div>
+</div>
+</div>
+  </div>
+          </div>
+    <a href="#" id="mobile-menu">
+    </a>
+            <div class="region region-menu">
+    
+
+<section id="block-system-main-menu"  class="block block-system block-menu" aria-label="Main menu">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Main menu</h2>
+    
+  <div class="content" >
+    <ul class="menu nav"><li class="first leaf menu-li-home" aria-label="Home"><a href="index.html" title="Home">Home</a></li>
+<li class="expanded menu-li-contractor-resources" aria-label="Contractor Resources"><a href="contractor-resources.html" title="">Contractor Resources</a><ul class="menu nav"><li class="first expanded menu-li-licensing" aria-label="Licensing"><a href="licensing.html" title="">Licensing</a><ul class="menu nav"><li class="first leaf menu-li-applying-for-a-license?" aria-label="Applying for a License?"><a href="applying-license.html" title="">Applying for a License?</a></li>
+<li class="leaf menu-li-service-members-and-veterans" aria-label="Service Members and Veterans"><a href="contractor-resources/licensing/service-members-and-veterans.html">Service Members and Veterans</a></li>
+<li class="leaf menu-li-license-classifications" aria-label="License Classifications"><a href="license-classifications.html" title="">License Classifications</a></li>
+<li class="leaf menu-li-maintenance-of-account" aria-label="Maintenance of Account"><a href="https://rocrenewal.az.gov/" title="">Maintenance of Account</a></li>
+<li class="leaf menu-li-name-availability" aria-label="Name Availability"><a href="name-availability.html" title="">Name Availability</a></li>
+<li class="leaf menu-li-contractor-background-checks" aria-label="Contractor Background Checks"><a href="background-checks.html" title="">Contractor Background Checks</a></li>
+<li class="leaf menu-li-posting-list" aria-label="Posting List"><a href="posting-list.html" title="">Posting List</a></li>
+<li class="leaf menu-li-bond-information" aria-label="Bond Information"><a href="bond-information.html" title="">Bond Information</a></li>
+<li class="leaf menu-li-timeframes" aria-label="Timeframes"><a href="timeframes.html" title="">Timeframes</a></li>
+<li class="leaf menu-li-license-fees" aria-label="License Fees"><a href="node/license-fees.html" title="">License Fees</a></li>
+<li class="last leaf menu-li-testing-information" aria-label="Testing Information"><a href="applying-license46c0.html?targetclass=answer-question-examinations#question-examinations" title="">Testing Information</a></li>
+</ul></li>
+<li class="leaf menu-li-renew-license-online" aria-label="Renew License Online"><a href="https://rocrenewal.az.gov/" title="">Renew License Online</a></li>
+<li class="expanded menu-li-complaints-and-investigations" aria-label="Complaints and Investigations"><a href="complaints-and-investigations.html" title="">Complaints and Investigations</a><ul class="menu nav"><li class="first leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-considering-filing?" aria-label="Considering Filing?"><a href="considering-filing.html" title="">Considering Filing?</a></li>
+<li class="leaf menu-li-file-a-complaint" aria-label="File a Complaint"><a href="file-complaint.html" title="">File a Complaint</a></li>
+<li class="leaf menu-li-complaint-process" aria-label="Complaint Process"><a href="node/complaint-process-investigation.html" title="">Complaint Process</a></li>
+<li class="leaf menu-li-legal" aria-label="Legal"><a href="legal.html" title="">Legal</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="" class="active">Recovery Fund</a></li>
+<li class="last leaf menu-li-unlicensed-contracting-tips-hotline" aria-label="Unlicensed Contracting Tips Hotline"><a href="unlicensed-contracting-tips-hotline.html" title="">Unlicensed Contracting Tips Hotline</a></li>
+</ul></li>
+<li class="leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+<li class="leaf menu-li-forms" aria-label="Forms"><a href="forms.html">Forms</a></li>
+<li class="leaf menu-li-contracts-and-miscellaneous-info" aria-label="Contracts and Miscellaneous Info"><a href="node/contracts.html" title="">Contracts and Miscellaneous Info</a></li>
+<li class="leaf menu-li-bond-information" aria-label="Bond Information"><a href="bond-information.html" title="">Bond Information</a></li>
+<li class="leaf menu-li-most-wanted-and-unlicensed-violations" aria-label="Most Wanted and Unlicensed Violations"><a href="roc-wanted.html" title="">Most Wanted and Unlicensed Violations</a></li>
+<li class="last leaf menu-li-rules-and-policies" aria-label="Rules and Policies"><a href="rules.html" title="">Rules and Policies</a></li>
+</ul></li>
+<li class="expanded active-trail active menu-li-consumer-resources" aria-label="Consumer Resources"><a href="consumer-resources.html" title="" class="active-trail">Consumer Resources</a><ul class="menu nav"><li class="first expanded menu-li-complaints-and-investigations" aria-label="Complaints and Investigations"><a href="complaints-and-investigations.html" title="">Complaints and Investigations</a><ul class="menu nav"><li class="first leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-considering-filing?" aria-label="Considering Filing?"><a href="considering-filing.html" title="">Considering Filing?</a></li>
+<li class="leaf menu-li-file-a-complaint" aria-label="File a Complaint"><a href="file-complaint.html" title="">File a Complaint</a></li>
+<li class="leaf menu-li-complaint-process" aria-label="Complaint Process"><a href="node/complaint-process-investigation.html" title="">Complaint Process</a></li>
+<li class="leaf menu-li-legal" aria-label="Legal"><a href="legal.html" title="">Legal</a></li>
+<li class="leaf menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="" class="active">Recovery Fund</a></li>
+<li class="last leaf menu-li-unlicensed-contracting-tips-hotline" aria-label="Unlicensed Contracting Tips Hotline"><a href="unlicensed-contracting-tips-hotline.html" title="">Unlicensed Contracting Tips Hotline</a></li>
+</ul></li>
+<li class="leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+<li class="leaf menu-li-most-wanted-and-unlicensed-violations" aria-label="Most Wanted and Unlicensed Violations"><a href="roc-wanted.html" title="">Most Wanted and Unlicensed Violations</a></li>
+<li class="leaf menu-li-forms" aria-label="Forms"><a href="forms.html" title="">Forms</a></li>
+<li class="leaf active-trail active menu-li-recovery-fund" aria-label="Recovery Fund"><a href="recovery-fund.html" title="" class="active-trail active">Recovery Fund</a></li>
+<li class="leaf menu-li-building-confidence-program" aria-label="Building Confidence Program"><a href="building-confidence-program.html" title="">Building Confidence Program</a></li>
+<li class="leaf menu-li-minimum-elements-of-a-contract" aria-label="Minimum Elements of a Contract"><a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01158.htm" title="">Minimum Elements of a Contract</a></li>
+<li class="last leaf menu-li-before-you-hire-a-contractor" aria-label="Before You Hire A Contractor"><a href="before-hire.html" title="">Before You Hire A Contractor</a></li>
+</ul></li>
+<li class="expanded menu-li-agency" aria-label="Agency"><a href="agency.html" title="">Agency</a><ul class="menu nav"><li class="first leaf menu-li-about-az-roc" aria-label="About AZ ROC"><a href="about-roc.html" title="">About AZ ROC</a></li>
+<li class="leaf menu-li-administrative-team" aria-label="Administrative Team"><a href="administrative-team.html" title="">Administrative Team</a></li>
+<li class="leaf menu-li-news-&amp;-media" aria-label="News &amp; Media"><a href="news.html" title="">News &amp; Media</a></li>
+<li class="leaf menu-li-strategic-plan-/-budget-request" aria-label="Strategic Plan / Budget Request"><a href="strategic-plan.html" title="">Strategic Plan / Budget Request</a></li>
+<li class="leaf menu-li-rules-and-policies" aria-label="Rules and Policies"><a href="rules.html" title="">Rules and Policies</a></li>
+<li class="leaf menu-li-office-locations-/-contact-us" aria-label="Office Locations / Contact Us"><a href="node/office-locations.html" title="">Office Locations / Contact Us</a></li>
+<li class="leaf menu-li-employment-opportunities" aria-label="Employment Opportunities"><a href="employment.html" title="">Employment Opportunities</a></li>
+<li class="last leaf menu-li-agency-success-stories" aria-label="Agency Success Stories"><a href="agency-success-stories.html" title="ROC Agency Success Stories">Agency Success Stories</a></li>
+</ul></li>
+<li class="last leaf menu-li-contractor-search" aria-label="Contractor Search"><a href="contractor-search.html" title="">Contractor Search</a></li>
+</ul>
+  </div>
+</div>
+</section>
+  </div>
+    </div>
+<div id="zone-content" class="zone" role="main">
+  <a name="main-content"></a>
+
+
+  <div id="preface-group" class="clearfix">
+              </div>
+
+  
+  <div id="content-wrapper" class="clearfix">
+
+
+    
+
+    <div id="content" class="col-sm-8 col-md-8 main-region contextual-links-region ">
+      <div id="region-content" class="content">
+
+        <h1 id="page-title"  aria-label="Recovery Fund" >Recovery Fund</h1>
+
+        
+                  <div class="region region-content">
+    
+
+<div id="block-system-main"  class="block block-system" aria-label="block-system-main">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <div id="node-1880" class="node node-regular-page">
+  <div class="node-inner node-content">
+
+    
+    <div class="content">
+                  <div class="field-collection-container clearfix"><div class="field field-name-field-item-collection field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/1509" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Financial Protection</div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1510" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>The State of Arizona requires all licensed residential contractors to provide financial protection to their customers. The protections apply whether you buy a new home, remodel, build a swimming pool or have a new roof put on your home.</p>
+
+<p>In order to obtain a license, a residential contractor must post a cash deposit or surety bond of $4,250.00 to $15,000.00. In addition, a residential contractor must either pay into the recovery fund or post a second bond of $200,000.00. The vast majority of residential contractors have chosen to participate in the fund. Therefore, there are actually two programs offering financial protection. We will explain in some detail how to collect from either one.</p></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/855" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="rf">What is the Recovery Fund?</span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/856" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">The Recovery Fund is a form of financial protection provided by licensed Arizona residential contractors to residential homeowners. The Recovery Fund is governed by statute and available only to persons who own and occupy, or intend to occupy, class three residential property. In some circumstances, the Recovery Fund is also available to lessees of residential real property and homeowners’ or unit owners’ associations as defined by <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01131.htm">A.R.S. § 32-1131.3</a>. The Recovery Fund does not accept claims from suppliers, subcontractors, laborers or other commercial entities.</div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/857" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="eligible">Make Sure You Are Eligible Before You File a Claim</span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/858" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even">In order to be deemed eligible for recovery from the Fund, you must submit documentation to demonstrate that you meet the following requirements:</div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/859" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" />
+The contractor’s residential or dual license must have been suspended or revoked as a direct result of a formal complaint filed by you against the contractor’s license. (This requirement does not apply to civil Recovery Fund claims filed pursuant to <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. § 32-1136</a>.) <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01154.htm">A.R.S. § 32-1154.G</a>.</div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/860" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span>Prior to filing a claim with the Residential Contractors' Recovery Fund, you must first have filed a claim against the contractor’s license bond and received a final determination in regard to that claim. (Information about the contractor’s bond can be found on the Contractor Search page of our website.) <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01154.htm">A.R.S. § 32-1154.G</a>.</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/861" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span>The contractor must be a licensed residential contractor. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01131.htm">A.R.S. § 32-1131.3</a>.</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/862" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span>The claimant must be the owner of a class three residential property and have occupied, or intended to occupy, the residence at the time of the contract (or at the time the injury accrued) to be a “person injured” as defined by statute. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01131.htm">A.R.S. § 32-1131.3</a>.</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/863" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span>The contractor must have been licensed and in good standing with the Registrar of Contractors at the time of the contract. An award from the Recovery Fund shall not be available to persons injured by a residential contractor whose license was in an inactive, expired, cancelled, revoked, suspended or not issued status at the time of the contract. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. § 32-1132.A</a>.</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/864" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span>The claim must be filed within the relevant two-year statute of limitations, as follows:</span><br /><span>In an administrative Recovery Fund claim, the administrative complaint must be filed within two years of close of escrow or actual occupancy (whichever occurred first) of a new structure or completion of remodel/repair. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01155.htm">A.R.S. § 32-1155.A</a>.</span>
+<br /><span>In a civil Recovery Fund claim, the civil complaint must be filed with the court within two years from the date of the commission of the act by the contractor that is the cause of the injury or two years from the date of occupancy. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. § 32-1136.A</a>.</span></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-item-collection clearfix" about="/field-collection/field-item-collection/865" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-header field-type-text field-label-hidden"><div class="field-items"><div class="field-item even"><span id="faq">Recovery Fund FAQ</span><span><a href="#"><img src="sites/default/files/images/anchor-top.png" alt="Return to Top" class="noprint" /></a></span></div></div></div><div class="field-collection-container clearfix"><div class="field field-name-field-content-items field-type-field-collection field-label-hidden"><div class="field-items"><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/1500" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="note noprint">
+Click on questions to see or hide answers.
+<span class="expandall link-text">
+[ <img id="expand-img" src="sites/default/files/images/expand.gif" alt="Expand" /><img id="collapse-img" src="sites/default/files/images/collapse.jpg" class="display-none" alt="Contract" /><span id="expcol-text">Expand all items</span> ]
+</span>
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/866" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-rf" class="question">What is the Recovery Fund and what is its purpose?</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-rf">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+The Recovery Fund is a form of financial protection provided by licensed Arizona residential contractors to residential homeowners. The Recovery Fund is governed by statute and available only to persons who own and occupy, or intend to occupy, class three residential property. In some circumstances, the Recovery Fund is also available to lessees of residential real property and homeowners’ or unit owners’ associations as defined by <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01131.htm">A.R.S. § 32-1131.3</a>. The Recovery Fund does not accept claims from suppliers, subcontractors, laborers or other commercial entities.
+</span>
+</div><div class="field-item odd"><span class="answer answer-question-rf">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+A claim can be filed with the Recovery Fund through either the administrative process authorized by <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01154.htm">A.R.S. § 32-1154.G</a>, or through the civil process authorized by <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. § 32-1136</a>. Under both of these processes, a claimant must show that he/she is eligible and has suffered compensable actual damages as defined by the Recovery Fund statutes.
+</span>
+</div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/867" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-eligible" class="question">Am I eligible to file a Recovery Fund claim? (Please ensure that you are eligible before you file a claim!)</span>
+</div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-eligible">
+In order to be deemed eligible for recovery from the Fund, you must submit documentation to demonstrate that you meet the following requirements:
+</span></div><div class="field-item odd"><span class="answer answer-question-eligible">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+The contractor’s residential or dual license must have been suspended or revoked as a direct result of a formal complaint filed by you against the contractor’s license. (This requirement does not apply to civil Recovery Fund claims filed pursuant to <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. § 32-1136</a>.) <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01154.htm">A.R.S. § 32-1154.G</a>.
+</span>
+</div><div class="field-item even"><span class="answer answer-question-eligible">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+Prior to filing a claim with the Residential Contractors' Recovery Fund, you must first have filed a claim against the contractor’s license bond and received a final determination in regard to that claim. (Information of the contractor’s bond can be found on the Contractor Search page of our website. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01154.htm">A.R.S. § 32-1154.G</a>.
+</span>
+</div><div class="field-item odd"><span class="answer answer-question-eligible">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+The contractor must be a licensed residential contractor. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01131.htm">A.R.S. § 32-1131.3</a>. 
+</span></div><div class="field-item even"><span class="answer answer-question-eligible">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+The claimant must be the owner of a class three residential property and have occupied, or intended to occupy, the residence at the time of the contract (or at the time the injury accrued) to be a “person injured” as defined by statute. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01131.htm">A.R.S. § 32-1131.3</a>. 
+</span></div><div class="field-item odd"><span class="answer answer-question-eligible">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+The contractor must have been licensed and in good standing with the Registrar of Contractors at the time of the contract. An award from the Recovery Fund shall not be available to persons injured by a residential contractor whose license was in an inactive, expired, cancelled, revoked, suspended or not issued status at the time of the contract. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. § 32-1132.A</a>. 
+</span></div><div class="field-item even"><span class="answer answer-question-eligible">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+The claim must be filed within the relevant two-year statute of limitations, as follows:
+<br />
+In an administrative Recovery Fund claim, the administrative complaint must be filed within two years of close of escrow or actual occupancy (whichever occurred first) of a new structure or completion of remodel/repair. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01155.htm">A.R.S. § 32-1155.A</a>.
+<br />
+In a civil Recovery Fund claim, the civil complaint must be filed with the court within two years from the date of the commission of the act by the contractor that is the cause of the injury or two years from the date of occupancy. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. § 32-1136.A</a>. 
+</span>
+</div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/869" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-calculation" class="question">If I am eligible, how is an award from the Fund calculated?</span>
+</div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-calculation">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+The claimant must have incurred “actual damages” defined as those damages suffered as a direct result of a contractor’s violation to qualify for an award from the Fund. The calculation done by the Registrar attempts to make you ‘whole’ on the contract; that is, to put you in the position you would have been in after full payment on, and full performance of, the underlying contract. Alternatively, if you paid the contractor a deposit to do a project and the contractor did not perform any work or deliver any materials, then we may only award you a refund of your deposit paid to the contractor, essentially rescinding the contract. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. § 32-1132.A</a>. 
+</span></div><div class="field-item odd"><span class="answer answer-question-calculation">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+Please be aware that there are limitations to what the Fund will reimburse. Compensable damages shall not exceed an amount necessary to complete or repair the structure and cannot result in a net gain to the claimant. As with eligibility, you bear the burden to establish that you have suffered damages that are compensable from the Fund. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. § 32-1132.A</a>. 
+</span></div><div class="field-item even"><span class="answer answer-question-calculation">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+In a civil claim, though you may obtain a civil judgment against a contractor for damages, not all those damages may be compensable from the Fund. The limitations above will guide what portion of the judgment damages may be compensable from the Fund. 
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/870" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-procedure" class="question">I think I’m eligible and would like to file a Recovery Fund claim. What is the procedure and what documentation do I need to provide?</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-procedure">
+An eligible homeowner can pursue an award from the Fund civilly or administratively. Claims are paid after a final court order or final administrative order.
+</span></div><div class="field-item odd"><span class="answer answer-question-procedure">
+<p class="text-title">
+Administrative Procedure for Recovery
+</p>
+An administrative claim must be filed on forms prescribed by the Registrar and submitted to our office along with all supporting documentation. A claim may only be filed after the required discipline is obtained by you as the result of a complaint filed against the contractor, and after a claim on the contractor’s bond has been fully processed by the surety pursuant to <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01154.htm">A.R.S. § 32-1154.G</a><a></a> as discussed in number (2)(a) and (b) above.
+</span></div><div class="field-item even"><span class="answer answer-question-procedure">
+Also, required documentation includes:
+<br /><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+a copy of the property deed (<span class="font-italic">If you do not have a copy of the deed, you will need to contact your County Recorder’s Office to obtain one</span>.);
+</span></div><div class="field-item odd"><span class="answer answer-question-procedure">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+a copy of County Assessor parcel information showing the legal classification of the property for the tax year you entered into the contract (<span class="font-italic">If you do not have a copy of this documentation, you will need to contact your County Recorder’s Office to obtain one.);
+</span></span></div><div class="field-item even"><span class="answer answer-question-procedure">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+the original contract; 
+</span></div><div class="field-item odd"><span class="answer answer-question-procedure">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+copies of documents that verify proof of payment on the contract; and,
+</span></div><div class="field-item even"><span class="answer answer-question-procedure">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+copies of documents that verify proof of cost to repair and/or complete the project (<span class="font-italic">If the project has not been repaired and/or completed by someone else, proof of cost may be obtained by receiving and submitting three (3) bids from licensed residential contractors</span>).
+</span></div><div class="field-item odd"><span class="answer answer-question-procedure">
+Recovery Fund staff will then process and analyze the claim to determine whether the claimant is eligible and, if so, to what extent they may qualify for compensation from the Fund, as outlined above.
+</span></div><div class="field-item even"><span class="answer answer-question-procedure">
+After the notice, either party may request a hearing to contest the amount of the award.
+<br /><img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+If a hearing is not requested, the claimant and the respondent will be sent a written final order and award.
+</span>
+</div><div class="field-item odd"><span class="answer answer-question-procedure">
+<img src="sites/default/files/images/arrow-gray.png" alt="Bullet Point" />
+If a timely hearing is requested, a written final order and award will be sent after a hearing.
+</span></div><div class="field-item even"><span class="answer answer-question-procedure">
+<p class="text-title">
+Civil Procedure for Recovery
+</p>
+A civil action against the contractor must be brought in a civil court of competent jurisdiction. The lawsuit must be filed with the court within two years from the date of the commission of the act by the contractor that is the cause of the injury or two years from the date of occupancy. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. § 32-1136.A</a>.</span></div><div class="field-item odd"><span class="answer answer-question-procedure">
+Pursuant to <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. § 32-1136</a>, the homeowner (Plaintiff) must notify the Registrar of the commencement of the lawsuit. The Plaintiff must also submit a copy of the relevant court filings and all required supporting documentation to establish eligibility and damages, as explained above and including proof showing a claim on the contractor’s license bond has been fully processed.
+</span></div><div class="field-item even"><span class="answer answer-question-procedure">
+Once a judgment against the contractor is obtained, a claimant must provide that document to the Registrar along with at least twenty days written notice of the claimant’s intent to apply to the court for an order directing payment from the Fund. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. § 32-1136.B</a>.</span></div><div class="field-item odd"><span class="answer answer-question-procedure">
+Failure to comply with these requirements may necessitate that the Registrar intervene into the lawsuit in order to obtain the necessary documentation to determine the merits of a claim. Intervention is a right afforded the Registrar in order to protect the Fund. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. § 32-1136.B</a>.</span></div><div class="field-item even"><span class="answer answer-question-procedure">
+The Plaintiff must file a claim against all available bonds and follow the requirements of <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">A.R.S. §§ 32-1136.D</a> and <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01136.htm">32-1136.E</a>.</span></div><div class="field-item odd"><span class="answer answer-question-procedure">
+If the claim is determined eligible for a payment from the Fund, the court will issue an Order Directing Payment from the Fund. The homeowner then needs to file a certified copy of this Order with the Registrar. Please be aware that the Fund does not pay a claimant’s court costs and/or attorney’s fees in civil claims. These expenses are not recoverable from the Fund, except in contested cases appealed to the Superior Court (which means administrative claims that are appealed to the Superior Court). <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. § 32-1132.A</a>.
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/871" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-document" class="question">What documentation do I need to provide to show proof of cost to repair and/or complete the project?
+</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-document">
+<p class="text-title">
+If work has not begun to correct or complete the project:
+</p>
+</span></div><div class="field-item odd"><span class="answer answer-question-document">
+In either an administrative or a civil claim, you will need to provide itemized bids (at least three), from licensed residential contractors, that document how much money it 
+will take to repair or complete the project. In the matter of an administrative claim, these bids must match the corrective work ordered to be completed in your underlying disciplinary case to be accepted as a valid basis to estimate your “actual damages.” <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. §32-1132.A</a>.
+</span></div><div class="field-item even"><span class="answer answer-question-document">
+<p class="text-title">
+If work to repair or complete the project is in progress or has been completed:
+</p>
+</span></div><div class="field-item odd"><span class="answer answer-question-document">
+In either an administrative or a civil claim, you will need to submit all accompanying documentation which demonstrates what money you have spent to repair / complete the project, including: a copy of the new contract(s), invoices, receipts, and proof of payment on the new contract. Only costs incurred that complete or repair the corrective work ordered in your underlying disciplinary case are compensable as “actual damages.” <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. §32-1132.A</a>.
+</span></div><div class="field-item even"><span class="answer answer-question-document">
+<span class="font-11-bold-italic">Note</span>: Proof of cost to complete or repair cannot be based on bids supplied by, or work performed by, an unlicensed person or business. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. §32-1132.A</a>.
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/872" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-supporting-documentation" class="question">Why do I need to provide so much supporting documentation?</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-supporting-documentation">
+The Registrar has a fiduciary responsibility to administer the monies in the Fund. The Fund is audited every three years and must obtain sufficient evidence to document that the correct decision on each claim was made. This responsibility requires that the Fund have evidence to demonstrate that only those claims that are eligible and that qualify for a monetary payout within the limitations of the statutes were paid.
+</span></div><div class="field-item odd"><span class="answer answer-question-supporting-documentation">
+There is no entitlement to a payout from the Fund. As with any applicant to such a program, the burden of proof lies on the claimant to establish eligibility and what damages, if any, the applicant can receive within the statutory limitations. As such, the required documentation is the minimal evidence the Fund needs (in most cases) from a claimant to determine whether the claimant has carried that burden of proof. A failure to provide the requested documentation may result in a rejection of your claim until the requested documentation is provided (if an administrative claim) or the Registrar’s intervention (if a civil claim) in your lawsuit to obtain the information.
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/873" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-recommend" class="question">I am having trouble obtaining bids. When I mention the Registrar of Contractors’ Recovery Fund nobody wants to bid the job. Will you recommend licensed contractors for me to call?</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-recommend">
+We cannot recommend a contractor to you. Since the Registrar licenses and regulates contractors, this could be perceived as a conflict of interest. You may use our website to perform searches of contractors in your area by license class to ensure their license is in good standing.
+</span></div><div class="field-item odd"><span class="answer answer-question-recommend">
+<span class="font-11-bold-italic">Note</span>: Proof of cost to complete or repair cannot be based on bids supplied by, or work performed by, an unlicensed person or business. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. §32-1132.A</a>.
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/874" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-reimbursement" class="question">I have damages that I need to repair now. I cannot wait for reimbursement from the Recovery Fund. What do I do?</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-reimbursement">
+If you feel that you need to move forward with repairs prior to possible reimbursement from the Fund, the decision must be made by you, the homeowner. If you proceed with repairs, it will not prevent you from receiving money in your claim for recovery against the Fund. You should fully document the condition of the home with photos, etc. so that you are prepared to support your claim if a hearing is requested. You will need to submit to the Fund all accompanying documentation which supports the cost of the repairs.
+</span></div><div class="field-item odd"><span class="answer answer-question-reimbursement">
+In any case, the Recovery Fund cannot guarantee payment, nor can it guarantee that you will receive full reimbursement for the amounts you spend to repair or complete the project.
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/875" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-hearing" class="question">Why is the contractor afforded another opportunity in the Recovery Fund process to request a hearing? I already had a hearing and the Registrar ruled in my favor!</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-hearing">
+The contractor is guaranteed the right to due process under the statutes and Constitution in any legal proceeding. If a hearing took place in the underlying complaint process, it was for disciplinary purposes. Please keep in mind that the disciplinary legal process is wholly separate and apart from any proceedings necessary to resolve a Recovery Fund claim.
+</span></div><div class="field-item odd"><span class="answer answer-question-hearing">
+A Recovery Fund hearing would address different issues than were addressed in your disciplinary complaint case, such as eligibility requirements or the appropriateness of the proposed monetary award. In the Recovery Fund process, a hearing may be requested by the contractor, homeowner or the Registrar of Contractors.
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/876" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-bankruptcy" class="question">What do I do if the contractor files for bankruptcy?</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-bankruptcy">
+As a general proposition, a contractor’s bankruptcy filing cannot divest the Registrar from authorizing a payout to an eligible homeowner. There can always be exceptions, however, so you may want to consult a bankruptcy attorney for guidance as to what effect, if any, this may have on the processing of your claim.
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/877" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-paid" class="question">How much will I be paid from the Recovery Fund?</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-paid">
+The Recovery Fund does not guarantee payment to anyone. If you are found to be eligible for a payment from the Fund, you can recover a maximum of $30,000.00 per residence. An award shall not exceed an amount necessary to complete or repair the project. The maximum payout per residential contractor’s license is $200,000.00. Once $200,000.00 in claims has been dispersed, no further payments from the Fund against that contractor’s license shall be allowed. <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01132.htm">A.R.S. §§ 32-1132.A</a> and <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01139.htm">32-1139.A</a>
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item even"><div class="field-collection-view clearfix view-mode-full"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/878" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-hire" class="question">After an award is made from the Recovery Fund, does the Fund select/hire the contractor, or do I make that decision?</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-hire">
+The Recovery Fund does not select/hire the contractor to complete the necessary repairs. The check is issued to you, the homeowner. You contract directly with the contractor and are responsible for paying the contractor.
+</span></div></div></div>  </div>
+</div>
+</div></div><div class="field-item odd"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-content-items clearfix" about="/field-collection/field-content-items/879" typeof="">
+  <div class="content">
+    <div class="field field-name-field-item-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><img src="sites/default/files/images/arrow-red.png" alt="Bullet Point" /><span id="question-collect" class="question">How would I collect from a Contractor's License Bond?</span></div></div></div><div class="field field-name-field-subitem-content field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><span class="answer answer-question-collect">
+When a contractor becomes licensed by the State of Arizona, the licensee must post a license bond ranging from $4,250 to $100,000. This money may be posted in the form of cash, a certificate of deposit or a surety bond. The first thing to do is to find out the type of bond held by the contractor and to make sure it has not already been exhausted.
+</span></div><div class="field-item odd"><span class="answer answer-question-collect">
+If the contractor has posted a surety bond, the surety company has the right to pay a written claim prior to court action, but some will require you to get a judgment against the contractor and the surety company. To collect from a surety bond you must file a written claim with the surety company. If the surety company will not pay the claim, you will have to bring a lawsuit against both the contractor and the surety company. You may need to seek legal counsel for assistance in filing a lawsuit. The Registrar of Contractors does not participate in the preparation of your civil action to collect from a surety bond. We recommend that you review the statutes governing bonds and the recovery fund beginning with <a href="http://www.azleg.gov/viewdocument/?docName=http://www.azleg.gov/ars/32/01131.htm">A.R.S. §32-1131</a>. Copies of the <a href="sites/default/files/files/statute_publication.pdf">ROC statutes</a> are available at any of our offices or on this website.
+</span></div><div class="field-item even"><span class="answer answer-question-collect">
+If the contractor has posted a cash bond or a certificate of deposit, only the contractor has to be sued. You must send written notice to the Registrar of Contractors of any lawsuit you may file to collect from a contractor's cash bond or certificate of deposit. This will prevent the bond from being refunded to the contractor pending resolution of the claim. Civil judgments must specify that claim can be paid from the cash bond or certificate of deposit assigned to the Registrar of Contractors. If multiple judgments are received, cash bonds are disbursed in the order the judgments are received. It is possible that a contractor's bond could be depleted before you make recovery. It is always advisable to act promptly if a problem occurs.
+</span></div><div class="field-item odd"><span class="answer answer-question-collect">
+Lawsuits against license bonds must be started within two years after the commission of the act on which the claim is based. If payment is made from a license bond, the contractor's license is automatically suspended by the operation of law until the full bond amount is replaced.
+</span></div><div class="field-item even"><a href="#" class="back-to-top">Back to Top</a></div></div></div>  </div>
+</div>
+</div></div></div></div></div>  </div>
+</div>
+</div></div></div></div></div>          </div>
+
+    
+  </div>
+</div>
+
+  </div>
+</div>
+</div>
+  </div>
+
+      </div>
+    </div>
+
+
+          <aside id="sidebar-second" class="col-sm-4 col-md-4 main-region">
+          <div class="region region-sidebar-second">
+    
+
+<section id="block-views-featured-item-block-22"  class="block block-views" aria-label="Recovery Fund">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Recovery Fund</h2>
+    
+  <div class="content" >
+    <div class="view view-featured-item view-id-featured_item view-display-id-block_22 view-dom-id-2327efc583401e727d1fcaeda929cd57 total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-field-featured-item-link-collect">        <div class="field-content"><div class="field-collection-view clearfix view-mode-full field-collection-view-final"><div class="entity entity-field-collection-item field-collection-item-field-featured-item-link-collect clearfix" about="/field-collection/field-featured-item-link-collect/460" typeof="">
+  <div class="content">
+    <div class="field field-name-field-featured-item-link field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="sites/default/files/files/rf_claim_form.pdf">Recovery Fund Form</a></div><div class="field-item odd"><a href="recovery-fund.html#question-rf">What is the Recovery Fund and what is its purpose?</a></div><div class="field-item even"><a href="recovery-fund.html#question-eligible">Am I eligible to file a Recovery Fund claim?</a></div><div class="field-item odd"><a href="recovery-fund.html#question-calculation">How is an award from the Fund calculated?</a></div><div class="field-item even"><a href="recovery-fund.html#question-procedure">What is the procedure and what documentation do I need to provide?</a></div><div class="field-item odd"><a href="recovery-fund.html#question-document">What documentation do I need to provide to show proof of cost?</a></div><div class="field-item even"><a href="recovery-fund.html#question-supporting-documentation">Why do I need to provide so much supporting documentation?</a></div><div class="field-item odd"><a href="recovery-fund.html#question-recommend">Will ROC recommend licensed contractors?</a></div><div class="field-item even"><a href="recovery-fund.html#question-reimbursement">Need repairs now and don’t want to wait for a reimbursement?</a></div><div class="field-item odd"><a href="recovery-fund.html#question-hearing">Why is the contractor afforded to request another hearing?</a></div><div class="field-item even"><a href="recovery-fund.html#question-bankruptcy">What do I do if the contractor files for bankruptcy?</a></div><div class="field-item odd"><a href="recovery-fund.html#question-paid">How much will I be paid from the Recovery Fund?</a></div><div class="field-item even"><a href="recovery-fund.html#question-hire">Does the Fund select/hire the contractor after rewarded?</a></div><div class="field-item odd"><a href="recovery-fund.html#question-collect">How would I collect from a Contractor's License Bond?</a></div></div></div>  </div>
+</div>
+</div></div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+
+
+<section id="block-views-featured-item-block-7"  class="block block-views" aria-label="Office Hours">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Office Hours</h2>
+    
+  <div class="content" >
+    <div class="view view-featured-item view-id-featured_item view-display-id-block_7 view-dom-id-ba0e12d78ba4f14955ee44fb38ae3c0d total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <div class="views-field views-field-body">        <div class="field-content"><p class="color-gray-333">
+<span>Monday - Friday:   8:00 am - 5:00 pm</span>
+<br /><span class="font-bold">Closed on Saturday, Sunday and State Holidays</span>
+<br /><span><a href="office-locations.html">Office Locations</a></span>
+</p></div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+
+
+<section id="block-views-featured-item-block-9"  class="block block-views" aria-label="Contact Us">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Contact Us</h2>
+    
+  <div class="content" >
+    <div class="view view-featured-item view-id-featured_item view-display-id-block_9 view-dom-id-8e813e5c3854154f685b4493f6acb92a total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-body">        <span class="field-content"><p>
+<span class="font-12 color-gray-333">
+      <span>Phoenix Office: </span>
+      <span>(602) 542-1525</span>
+      <br /><span>Tucson Office: </span>
+       <span>(520) 628-6345</span>
+       <br /><span>Flagstaff Office: </span>
+       <span>(877) 692-9762</span>
+       <br /><!--<a class="no-underline" href="mailto:webmaster@roc.az.gov">Email</a>--><br /><strong>Email:</strong><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#86f1e3e4ebe7f5f2e3f4c6f4e9e5a8e7fca8e1e9f0">Webmaster</a><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#6804010b0d061b01060f281a070b460912460f071e">Licensing</a><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#385b575548545159565b5d5c5d48594a4c555d564c54515b784a575b165942165f574e">Compliance (Licensed)</a><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#e1828e8c918d88808f82848584918093958c848f95948d84a1938e82cf809bcf868e97">Compliance (Unlicensed)</a><br /><a class="no-underline" href="cdn-cgi/l/email-protection.html#a7cbc2c0c6cbc9c2d0c2cac6cecbe7d5c8c489c6dd89c0c8d1">Legal</a>
+       
+</span>
+</p></span>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+
+
+<div id="block-views-featured-item-block-8"  class="block block-views" aria-label="block-views-featured-item-block-8">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <div class="view view-featured-item view-id-featured_item view-display-id-block_8 view-dom-id-eb567356e700d627debfd98081fb1648 total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-1">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-body">        <span class="field-content"><p>
+<span class="font-bold">Social Media</span>
+<span class="height-5"></span>
+<span>
+      <a href="https://www.facebook.com/ArizonaROC">
+            <img src="sites/default/files/images/facebook.png" style="display:inline" alt="Find us on Facebook" /></a>
+       
+      <a href="https://twitter.com/az_ROC">
+            <img src="sites/default/files/images/twitter.png" style="display:inline" alt="Follow us on Twitter" /></a>
+</span>
+</p><p></p></span>  </span>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</div>
+  </div>
+      </aside>
+      </div>
+
+  <div id="postscript-group" class="two-postscript clearfix">
+          <div id="region-postscript-first" class="col-sm-6 postscript">
+          <div class="region region-postscript-first menu-block-placement-doesnt-exist">
+    
+
+<section id="block-views-news-releases-block-2"  class="block block-views" aria-label="ROC News">
+<div class="block-inner clearfix">
+        <h2 class="block-title">ROC News</h2>
+    
+  <div class="content" >
+    <div class="view view-news-releases view-id-news_releases view-display-id-block_2 view-dom-id-e31731f1ddc81b269ddfe59ef7ef6844 total-results-1">
+        
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid cols-4">
+  
+  <tbody>
+          <tr class="row-1 row-first row-last">
+                  <td class="col-1 col-first">
+              
+  <span class="views-field views-field-field-news-article-date">        <span class="field-content"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2018-11-19T00:00:00-07:00">11/19/2018</span></span>  </span>  
+  <span class="views-field views-field-title">        <span class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html">AZ ROC Announces New Chief Counsel/Chief of Legal &amp; Recovery Fund to Agency</a></span>  </span>  
+  <div class="views-field views-field-field-picture">        <div class="field-content"><a href="newsarticle/az-roc-announces-new-chief-counselchief-legal-recovery-fund-agency.html"><img typeof="foaf:Image" class="img-responsive" src="sites/default/files/styles/thumbnail80__80x80_/public/news/images/Untitled%20design%20(10)7484.png?itok=BKxVdRQI" width="50" height="50" alt="a" /></a></div>  </div>  
+  <div class="views-field views-field-field-article-content">        <div class="field-content"><p><span style="font-size:14px"><span style="font-family:georgia,serif">FOR IMMEDIATE RELEASE</span></span><br /><span style="font-size:14px"><span style="font-family:georgia,serif">Monday, November 19, 2018</span></span></p><p><span style="font-size:14px"><span style="font-family:georgia,serif">CONTACT</span></span><br />...</div>  </div>          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>
+  </div>
+</div>
+</section>
+  </div>
+      </div>
+                  <div id="region-postscript-third" class="col-sm-6 postscript">
+          <div class="region region-postscript-third menu-block-placement-doesnt-exist">
+    
+
+<div id="block-block-4"  class="block block-block" aria-label="block-block-4">
+<div class="block-inner clearfix">
+      
+  <div class="content" >
+    <script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script language="javascript">
+<!--//--><![CDATA[// ><!--
+
+// I don't think I need this now.
+
+//--><!]]>
+</script>
+  </div>
+</div>
+</div>
+
+
+<section id="block-views-tweets-block"  class="block block-views" aria-label="Twitter">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Twitter</h2>
+    
+  <div class="content" >
+    <div class="view view-tweets view-id-tweets view-display-id-block view-dom-id-4530be89281acb6d0c292b5140cbc614 total-results-3">
+        
+  
+  
+      <div class="view-content">
+      <div class="item-list">    <ul>          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span>        <span><img class="tweet-image img-responsive" typeof="foaf:Image" src="https://pbs.twimg.com/media/DtF22S8WsAI9lAg.jpg:thumb" alt="" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23WisdomWednesday" class="twitter-hashtag">#WisdomWednesday</a> If opportunity doesn't knock, build a door. <a href="https://t.co/zwVHG1NqdL">https://t.co/zwVHG1NqdL</a></span>  </span></li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span>        <span><img class="tweet-image img-responsive" typeof="foaf:Image" src="https://pbs.twimg.com/media/DtBNQCAU8AA37jr.jpg:thumb" alt="" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content"><a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23TriviaTuesday" class="twitter-hashtag">#TriviaTuesday</a> To whom is the license issued? <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23AZROC" class="twitter-hashtag">#AZROC</a> <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com//search?q=%23ArizonaContractor" class="twitter-hashtag">#ArizonaContractor</a> <a href="https://t.co/I6bUZBP3KQ">https://t.co/I6bUZBP3KQ</a></span>  </span></li>
+          <li class="views-row views-row-3 views-row-odd views-row-last">  
+  <span>        <span><img src="sites/default/files/rocseal.png" alt="A Tweet from az_ROC" class="tweet-image img-responsive" /></span>  </span>  
+  <span class="views-field views-field-text">        <span class="field-content">Green Valley News &amp; Sun reports on a local impact of the labor shortage. 
+
+"The lack of workers means projects that… <a href="https://t.co/NqoMr1D3R3">https://t.co/NqoMr1D3R3</a></span>  </span></li>
+      </ul></div>    </div>
+  
+  
+  
+  
+      <div class="view-footer">
+      <div class="more-link"><a href="https://twitter.com/az_ROC" target="_blank" aria-label="See More ROC Tweets">More  </a></div>    </div>
+  
+  
+</div>
+  </div>
+</div>
+</section>
+  </div>
+      </div>
+          </div>
+
+</div>
+<div id="zone-footer" class="zone" role="contentinfo" aria-labelledby="footer-first">
+    
+    <div id="footer-first-contact" class="clearfix " role="contentinfo" aria-labelledby="footer-contact">
+    <div id="footer-state-seal" class="content clearfix">
+        <div class="footer-wrapper">
+                            <img src="sites/all/themes/az_gov/img/ArizonaOfficialSeal.png" alt="Arizona State Seal" id="state-seal" />
+                    </div>
+    </div>
+
+    <!--  <div id="footer-spacer"></div>-->
+            <div id="footer-contact">
+
+                            <div class="footer-title footer-field">
+                    <a href="office-locations.html">
+                        Contact Us                    </a>
+                </div>
+            
+
+            <div class="footer-info clearfix">
+                <div class="footer-address clearfix">
+                    <div class="footer-address-group footer-group">
+
+                                                    <div class="footer-agency footer-field">
+                                AZ ROC                            </div>
+                        
+                                                    <div class="footer-address-1 footer-field">
+                                1700 W. Washington St. Suite 105                            </div>
+                        
+                                                    <div class="footer-address-2 footer-field">
+                                Phoenix, Arizona 85007-2812                             </div>
+                        
+                                                    <div class="footer-map-link footer-field">
+                                <a href="https://www.google.com/maps/place/1700+W+Washington+St,+Phoenix,+AZ+85007/@33.448295,-112.0978899,17z/data=!3m1!4b1!4m2!3m1!1s0x">
+                                    Find in Google Maps
+                                </a>
+                            </div>
+                        
+                    </div>
+                    <div class="footer-phone-group footer-group">
+
+                                                    <div class="footer-phone footer-field">
+                                <strong>Phone: </strong>(602) 542-1525                            </div>
+                        
+                                                    <div class="footer-fax footer-field">
+                                <strong>Fax: </strong>(602) 542-1599                            </div>
+                        
+                    </div>
+                </div>
+
+                                    <div class="footer-map  footer-group">
+                        <a href="https://www.google.com/maps/place/1700+W+Washington+St,+Phoenix,+AZ+85007/@33.448295,-112.0978899,17z/data=!3m1!4b1!4m2!3m1!1s0x">
+                            <img src="sites/default/files/theme-settings/AZ-Exe-Tower.jpg" alt="Map Image">
+                        </a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+
+            <div id="region-footer-second">
+              <div class="region region-footer-second">
+    
+
+<section id="block-menu-menu-footer-nav"  class="block block-menu" aria-label="Footer Nav">
+<div class="block-inner clearfix">
+        <h2 class="block-title">Footer Nav</h2>
+    
+  <div class="content" >
+    <ul class="menu nav"><li class="first leaf menu-li-agency-policies" aria-label="Agency Policies"><a href="agency-policies.html" title="">Agency Policies</a></li>
+<li class="leaf menu-li-terms-of-use" aria-label="Terms of Use"><a href="terms.html" title="">Terms of Use</a></li>
+<li class="leaf menu-li-electronic-update" aria-label="Electronic Update"><a href="electronic-update.html" title="">Electronic Update</a></li>
+<li class="leaf menu-li-statewide-policies" aria-label="Statewide Policies"><a href="http://az.gov/policies" title="">Statewide Policies</a></li>
+<li class="last leaf menu-li-©arizona-registrar-of-contractors" aria-label="©Arizona Registrar of Contractors"><a href="home.html" title="">©Arizona Registrar of Contractors</a></li>
+</ul>
+  </div>
+</div>
+</section>
+  </div>
+        </div>
+    </div>
+</div>  <script src="sites/default/files/js/js_L50O_PWoAuMOxVjnzZCkNSSmI0kFwhZsO1_KS8WnGKw.js"></script>
+<script src="sites/default/files/js_injector/js_injector_141d4b.js?pixf2w"></script>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"392a26dc1c","applicationID":"19996584","transactionName":"MVRbYUECXEZUWxUPDAgebEdaTB1cW1wEHk0WWUk=","queueTime":0,"applicationTime":13,"atts":"HRNYFwkYT0g=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+
+<!-- Mirrored from roc.az.gov/recovery-fund by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Nov 2018 00:40:19 GMT -->
+</html>
